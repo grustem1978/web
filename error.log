@@ -1733,3 +1733,1122 @@ Connection: keep-alive
 2020/11/22 17:05:35 [debug] 672#0: *1 free: 0000000000E90780, unused: 0
 2020/11/22 17:05:35 [debug] 672#0: *1 free: 0000000000E90A60, unused: 128
 2020/11/25 07:13:36 [debug] 82#0: epoll add event: fd:8 op:1 ev:00000001
+2020/11/25 11:06:30 [debug] 64#0: epoll add event: fd:8 op:1 ev:00000001
+2020/11/25 11:07:08 [debug] 64#0: post event 00000000010D9790
+2020/11/25 11:07:08 [debug] 64#0: delete posted event 00000000010D9790
+2020/11/25 11:07:08 [debug] 64#0: accept on 0.0.0.0:80, ready: 0
+2020/11/25 11:07:08 [debug] 64#0: posix_memalign: 0000000000FEF780:256 @16
+2020/11/25 11:07:08 [debug] 64#0: *1 accept: 127.0.0.1 fd:21
+2020/11/25 11:07:08 [debug] 64#0: *1 event timer add: 21: 60000:1606302488290
+2020/11/25 11:07:08 [debug] 64#0: *1 reusable connection: 1
+2020/11/25 11:07:08 [debug] 64#0: *1 epoll add event: fd:21 op:1 ev:80000001
+2020/11/25 11:07:08 [debug] 64#0: *1 post event 00000000010D98C8
+2020/11/25 11:07:08 [debug] 64#0: *1 delete posted event 00000000010D98C8
+2020/11/25 11:07:08 [debug] 64#0: *1 http wait request handler
+2020/11/25 11:07:08 [debug] 64#0: *1 posix_memalign: 0000000000FEFA60:256 @16
+2020/11/25 11:07:08 [debug] 64#0: *1 malloc: 00000000010CF890:1024
+2020/11/25 11:07:08 [debug] 64#0: *1 recv: fd:21 77 of 1024
+2020/11/25 11:07:08 [debug] 64#0: *1 reusable connection: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 posix_memalign: 0000000000FFD280:4096 @16
+2020/11/25 11:07:08 [debug] 64#0: *1 http process request line
+2020/11/25 11:07:08 [debug] 64#0: *1 http request line: "GET /?a=1 HTTP/1.1"
+2020/11/25 11:07:08 [debug] 64#0: *1 http uri: "/"
+2020/11/25 11:07:08 [debug] 64#0: *1 http args: "a=1"
+2020/11/25 11:07:08 [debug] 64#0: *1 http exten: ""
+2020/11/25 11:07:08 [debug] 64#0: *1 http process request header line
+2020/11/25 11:07:08 [debug] 64#0: *1 posix_memalign: 0000000000FF3DA0:4096 @16
+2020/11/25 11:07:08 [debug] 64#0: *1 http header: "User-Agent: curl/7.35.0"
+2020/11/25 11:07:08 [debug] 64#0: *1 http header: "Host: 127.0.0.1"
+2020/11/25 11:07:08 [debug] 64#0: *1 http header: "Accept: */*"
+2020/11/25 11:07:08 [debug] 64#0: *1 http header done
+2020/11/25 11:07:08 [debug] 64#0: *1 event timer del: 21: 1606302488290
+2020/11/25 11:07:08 [debug] 64#0: *1 generic phase: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 rewrite phase: 1
+2020/11/25 11:07:08 [debug] 64#0: *1 test location: "/uploads/"
+2020/11/25 11:07:08 [debug] 64#0: *1 test location: "/hello/"
+2020/11/25 11:07:08 [debug] 64#0: *1 test location: ~ "\w+\.\w+$"
+2020/11/25 11:07:08 [debug] 64#0: *1 using configuration ""
+2020/11/25 11:07:08 [debug] 64#0: *1 http cl:-1 max:1048576
+2020/11/25 11:07:08 [debug] 64#0: *1 rewrite phase: 3
+2020/11/25 11:07:08 [debug] 64#0: *1 rewrite phase: 4
+2020/11/25 11:07:08 [debug] 64#0: *1 post rewrite phase: 5
+2020/11/25 11:07:08 [debug] 64#0: *1 generic phase: 6
+2020/11/25 11:07:08 [debug] 64#0: *1 generic phase: 7
+2020/11/25 11:07:08 [debug] 64#0: *1 generic phase: 8
+2020/11/25 11:07:08 [debug] 64#0: *1 access phase: 9
+2020/11/25 11:07:08 [debug] 64#0: *1 access phase: 10
+2020/11/25 11:07:08 [debug] 64#0: *1 access phase: 11
+2020/11/25 11:07:08 [debug] 64#0: *1 post access phase: 12
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 13
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 14
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 15
+2020/11/25 11:07:08 [debug] 64#0: *1 open index "/usr/share/nginx/html/index.html"
+2020/11/25 11:07:08 [debug] 64#0: *1 internal redirect: "/index.html?a=1"
+2020/11/25 11:07:08 [debug] 64#0: *1 rewrite phase: 1
+2020/11/25 11:07:08 [debug] 64#0: *1 test location: "/uploads/"
+2020/11/25 11:07:08 [debug] 64#0: *1 test location: "/hello/"
+2020/11/25 11:07:08 [debug] 64#0: *1 test location: ~ "\w+\.\w+$"
+2020/11/25 11:07:08 [debug] 64#0: *1 using configuration "\w+\.\w+$"
+2020/11/25 11:07:08 [debug] 64#0: *1 http cl:-1 max:1048576
+2020/11/25 11:07:08 [debug] 64#0: *1 rewrite phase: 3
+2020/11/25 11:07:08 [debug] 64#0: *1 rewrite phase: 4
+2020/11/25 11:07:08 [debug] 64#0: *1 post rewrite phase: 5
+2020/11/25 11:07:08 [debug] 64#0: *1 generic phase: 6
+2020/11/25 11:07:08 [debug] 64#0: *1 generic phase: 7
+2020/11/25 11:07:08 [debug] 64#0: *1 generic phase: 8
+2020/11/25 11:07:08 [debug] 64#0: *1 access phase: 9
+2020/11/25 11:07:08 [debug] 64#0: *1 access phase: 10
+2020/11/25 11:07:08 [debug] 64#0: *1 access phase: 11
+2020/11/25 11:07:08 [debug] 64#0: *1 post access phase: 12
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 13
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 14
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 15
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 16
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 17
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 18
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 19
+2020/11/25 11:07:08 [debug] 64#0: *1 content phase: 20
+2020/11/25 11:07:08 [debug] 64#0: *1 http filename: "/home/box/web/public/index.html"
+2020/11/25 11:07:08 [debug] 64#0: *1 add cleanup: 0000000000FF3E18
+2020/11/25 11:07:08 [error] 64#0: *1 open() "/home/box/web/public/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /?a=1 HTTP/1.1", host: "127.0.0.1"
+2020/11/25 11:07:08 [debug] 64#0: *1 http finalize request: 404, "/index.html?a=1" a:1, c:2
+2020/11/25 11:07:08 [debug] 64#0: *1 http special response: 404, "/index.html?a=1"
+2020/11/25 11:07:08 [debug] 64#0: *1 http set discard body
+2020/11/25 11:07:08 [debug] 64#0: *1 uploadprogress error-tracker error: 404
+2020/11/25 11:07:08 [debug] 64#0: *1 uploadprogress error-tracker not tracking in this location
+2020/11/25 11:07:08 [debug] 64#0: *1 xslt filter header
+2020/11/25 11:07:08 [debug] 64#0: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 25 Nov 2020 11:07:08 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/11/25 11:07:08 [debug] 64#0: *1 write new buf t:1 f:0 0000000000FF3EA8, pos 0000000000FF3EA8, size: 163 file: 0, size: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 http write filter: l:0 f:0 s:163
+2020/11/25 11:07:08 [debug] 64#0: *1 http output filter "/index.html?a=1"
+2020/11/25 11:07:08 [debug] 64#0: *1 http copy filter: "/index.html?a=1"
+2020/11/25 11:07:08 [debug] 64#0: *1 image filter
+2020/11/25 11:07:08 [debug] 64#0: *1 xslt filter body
+2020/11/25 11:07:08 [debug] 64#0: *1 http postpone filter "/index.html?a=1" 0000000000FF4078
+2020/11/25 11:07:08 [debug] 64#0: *1 write old buf t:1 f:0 0000000000FF3EA8, pos 0000000000FF3EA8, size: 163 file: 0, size: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 http write filter: l:1 f:0 s:340
+2020/11/25 11:07:08 [debug] 64#0: *1 http write filter limit 0
+2020/11/25 11:07:08 [debug] 64#0: *1 writev: 340
+2020/11/25 11:07:08 [debug] 64#0: *1 http write filter 0000000000000000
+2020/11/25 11:07:08 [debug] 64#0: *1 http copy filter: 0 "/index.html?a=1"
+2020/11/25 11:07:08 [debug] 64#0: *1 http finalize request: 0, "/index.html?a=1" a:1, c:2
+2020/11/25 11:07:08 [debug] 64#0: *1 http request count:2 blk:0
+2020/11/25 11:07:08 [debug] 64#0: *1 http finalize request: -4, "/index.html?a=1" a:1, c:1
+2020/11/25 11:07:08 [debug] 64#0: *1 set http keepalive handler
+2020/11/25 11:07:08 [debug] 64#0: *1 http close request
+2020/11/25 11:07:08 [debug] 64#0: *1 http log handler
+2020/11/25 11:07:08 [debug] 64#0: *1 free: 0000000000FFD280, unused: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 free: 0000000000FF3DA0, unused: 3180
+2020/11/25 11:07:08 [debug] 64#0: *1 free: 00000000010CF890
+2020/11/25 11:07:08 [debug] 64#0: *1 hc free: 0000000000000000 0
+2020/11/25 11:07:08 [debug] 64#0: *1 hc busy: 0000000000000000 0
+2020/11/25 11:07:08 [debug] 64#0: *1 tcp_nodelay
+2020/11/25 11:07:08 [debug] 64#0: *1 reusable connection: 1
+2020/11/25 11:07:08 [debug] 64#0: *1 event timer add: 21: 65000:1606302493292
+2020/11/25 11:07:08 [debug] 64#0: *1 post event 00000000010D98C8
+2020/11/25 11:07:08 [debug] 64#0: *1 delete posted event 00000000010D98C8
+2020/11/25 11:07:08 [debug] 64#0: *1 http keepalive handler
+2020/11/25 11:07:08 [debug] 64#0: *1 malloc: 00000000010CF890:1024
+2020/11/25 11:07:08 [debug] 64#0: *1 recv: fd:21 -1 of 1024
+2020/11/25 11:07:08 [debug] 64#0: *1 recv() not ready (11: Resource temporarily unavailable)
+2020/11/25 11:07:08 [debug] 64#0: *1 free: 00000000010CF890
+2020/11/25 11:07:08 [debug] 64#0: *1 post event 00000000010D98C8
+2020/11/25 11:07:08 [debug] 64#0: *1 delete posted event 00000000010D98C8
+2020/11/25 11:07:08 [debug] 64#0: *1 http keepalive handler
+2020/11/25 11:07:08 [debug] 64#0: *1 malloc: 00000000010CF890:1024
+2020/11/25 11:07:08 [debug] 64#0: *1 recv: fd:21 0 of 1024
+2020/11/25 11:07:08 [info] 64#0: *1 client 127.0.0.1 closed keepalive connection
+2020/11/25 11:07:08 [debug] 64#0: *1 close http connection: 21
+2020/11/25 11:07:08 [debug] 64#0: *1 event timer del: 21: 1606302493292
+2020/11/25 11:07:08 [debug] 64#0: *1 reusable connection: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 free: 00000000010CF890
+2020/11/25 11:07:08 [debug] 64#0: *1 free: 0000000000FEF780, unused: 0
+2020/11/25 11:07:08 [debug] 64#0: *1 free: 0000000000FEFA60, unused: 128
+2020/11/25 11:09:33 [debug] 178#0: epoll add event: fd:8 op:1 ev:00000001
+2020/11/25 11:09:47 [debug] 178#0: post event 0000000001015760
+2020/11/25 11:09:47 [debug] 178#0: delete posted event 0000000001015760
+2020/11/25 11:09:47 [debug] 178#0: accept on 0.0.0.0:80, ready: 0
+2020/11/25 11:09:47 [debug] 178#0: posix_memalign: 0000000000F2B780:256 @16
+2020/11/25 11:09:47 [debug] 178#0: *1 accept: 10.42.164.45 fd:21
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer add: 21: 60000:1606302647588
+2020/11/25 11:09:47 [debug] 178#0: *1 reusable connection: 1
+2020/11/25 11:09:47 [debug] 178#0: *1 epoll add event: fd:21 op:1 ev:80000001
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 0000000001015898
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 0000000001015898
+2020/11/25 11:09:47 [debug] 178#0: *1 http wait request handler
+2020/11/25 11:09:47 [debug] 178#0: *1 posix_memalign: 0000000000F2BA60:256 @16
+2020/11/25 11:09:47 [debug] 178#0: *1 malloc: 000000000100B860:1024
+2020/11/25 11:09:47 [debug] 178#0: *1 recv: fd:21 134 of 1024
+2020/11/25 11:09:47 [debug] 178#0: *1 reusable connection: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 posix_memalign: 0000000000F39280:4096 @16
+2020/11/25 11:09:47 [debug] 178#0: *1 http process request line
+2020/11/25 11:09:47 [debug] 178#0: *1 http request line: "GET /hello/?x=1&x=2&y=3&y= HTTP/1.1"
+2020/11/25 11:09:47 [debug] 178#0: *1 http uri: "/hello/"
+2020/11/25 11:09:47 [debug] 178#0: *1 http args: "x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 http exten: ""
+2020/11/25 11:09:47 [debug] 178#0: *1 http process request header line
+2020/11/25 11:09:47 [debug] 178#0: *1 posix_memalign: 0000000000F2FDA0:4096 @16
+2020/11/25 11:09:47 [debug] 178#0: *1 http header: "Accept-Encoding: identity"
+2020/11/25 11:09:47 [debug] 178#0: *1 http header: "Host: 10.42.13.5"
+2020/11/25 11:09:47 [debug] 178#0: *1 http header: "Connection: close"
+2020/11/25 11:09:47 [debug] 178#0: *1 http header: "User-Agent: Python-urllib/2.7"
+2020/11/25 11:09:47 [debug] 178#0: *1 http header done
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer del: 21: 1606302647588
+2020/11/25 11:09:47 [debug] 178#0: *1 generic phase: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 rewrite phase: 1
+2020/11/25 11:09:47 [debug] 178#0: *1 test location: "/uploads/"
+2020/11/25 11:09:47 [debug] 178#0: *1 test location: "/hello/"
+2020/11/25 11:09:47 [debug] 178#0: *1 using configuration "/hello/"
+2020/11/25 11:09:47 [debug] 178#0: *1 http cl:-1 max:1048576
+2020/11/25 11:09:47 [debug] 178#0: *1 rewrite phase: 3
+2020/11/25 11:09:47 [debug] 178#0: *1 rewrite phase: 4
+2020/11/25 11:09:47 [debug] 178#0: *1 post rewrite phase: 5
+2020/11/25 11:09:47 [debug] 178#0: *1 generic phase: 6
+2020/11/25 11:09:47 [debug] 178#0: *1 generic phase: 7
+2020/11/25 11:09:47 [debug] 178#0: *1 generic phase: 8
+2020/11/25 11:09:47 [debug] 178#0: *1 access phase: 9
+2020/11/25 11:09:47 [debug] 178#0: *1 access phase: 10
+2020/11/25 11:09:47 [debug] 178#0: *1 access phase: 11
+2020/11/25 11:09:47 [debug] 178#0: *1 post access phase: 12
+2020/11/25 11:09:47 [debug] 178#0: *1 http init upstream, client timer: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 epoll add event: fd:21 op:3 ev:80000005
+2020/11/25 11:09:47 [debug] 178#0: *1 http script copy: "Host: "
+2020/11/25 11:09:47 [debug] 178#0: *1 http script var: "127.0.0.1:8080"
+2020/11/25 11:09:47 [debug] 178#0: *1 http script copy: "
+"
+2020/11/25 11:09:47 [debug] 178#0: *1 http script copy: "Connection: close
+"
+2020/11/25 11:09:47 [debug] 178#0: *1 http script copy: ""
+2020/11/25 11:09:47 [debug] 178#0: *1 http script copy: ""
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header: "Accept-Encoding: identity"
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header: "User-Agent: Python-urllib/2.7"
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header:
+"GET /?x=1&x=2&y=3&y= HTTP/1.0
+Host: 127.0.0.1:8080
+Connection: close
+Accept-Encoding: identity
+User-Agent: Python-urllib/2.7
+
+"
+2020/11/25 11:09:47 [debug] 178#0: *1 http cleanup add: 0000000000F304C8
+2020/11/25 11:09:47 [debug] 178#0: *1 get rr peer, try: 1
+2020/11/25 11:09:47 [debug] 178#0: *1 socket 22
+2020/11/25 11:09:47 [debug] 178#0: *1 epoll add connection: fd:22 ev:80000005
+2020/11/25 11:09:47 [debug] 178#0: *1 connect to 127.0.0.1:8080, fd:22 #2
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream connect: -2
+2020/11/25 11:09:47 [debug] 178#0: *1 posix_memalign: 0000000000F3A290:128 @16
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer add: 22: 60000:1606302647588
+2020/11/25 11:09:47 [debug] 178#0: *1 http finalize request: -4, "/hello/?x=1&x=2&y=3&y=" a:1, c:2
+2020/11/25 11:09:47 [debug] 178#0: *1 http request count:2 blk:0
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 00000000010290A8
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 0000000001029110
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 0000000001029110
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream request: "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream send request handler
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream send request
+2020/11/25 11:09:47 [debug] 178#0: *1 chain writer buf fl:1 s:132
+2020/11/25 11:09:47 [debug] 178#0: *1 chain writer in: 0000000000F30500
+2020/11/25 11:09:47 [debug] 178#0: *1 writev: 132
+2020/11/25 11:09:47 [debug] 178#0: *1 chain writer out: 0000000000000000
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer del: 22: 1606302647588
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer add: 22: 60000:1606302647589
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 00000000010290A8
+2020/11/25 11:09:47 [debug] 178#0: *1 http run request: "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream check client, write event:1, "/hello/"
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 0000000001015900
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 0000000001029110
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 0000000001029110
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream request: "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream dummy handler
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 0000000001015900
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream request: "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream process header
+2020/11/25 11:09:47 [debug] 178#0: *1 malloc: 0000000000F30DB0:4096
+2020/11/25 11:09:47 [debug] 178#0: *1 recv: fd:22 158 of 4096
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy status 200 "200 OK"
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header: "Server: gunicorn/17.5"
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header: "Date: Wed, 25 Nov 2020 11:09:47 GMT"
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header: "Connection: close"
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header: "Content-type: text/plain"
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header: "Content-Length: 14"
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy header done
+2020/11/25 11:09:47 [debug] 178#0: *1 uploadprogress error-tracker error: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 xslt filter header
+2020/11/25 11:09:47 [debug] 178#0: *1 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 25 Nov 2020 11:09:47 GMT
+Content-Type: text/plain
+Content-Length: 14
+Connection: close
+
+2020/11/25 11:09:47 [debug] 178#0: *1 write new buf t:1 f:0 0000000000F30798, pos 0000000000F30798, size: 151 file: 0, size: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 http write filter: l:0 f:0 s:151
+2020/11/25 11:09:47 [debug] 178#0: *1 http cacheable: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 http proxy filter init s:200 h:0 c:0 l:14
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream process upstream
+2020/11/25 11:09:47 [debug] 178#0: *1 pipe read upstream: 1
+2020/11/25 11:09:47 [debug] 178#0: *1 pipe preread: 14
+2020/11/25 11:09:47 [debug] 178#0: *1 readv: 1:3938
+2020/11/25 11:09:47 [debug] 178#0: *1 pipe recv chain: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 pipe buf free s:0 t:1 f:0 0000000000F30DB0, pos 0000000000F30E40, size: 14 file: 0, size: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 pipe length: 14
+2020/11/25 11:09:47 [debug] 178#0: *1 input buf #0
+2020/11/25 11:09:47 [debug] 178#0: *1 pipe write downstream: 1
+2020/11/25 11:09:47 [debug] 178#0: *1 pipe write downstream flush in
+2020/11/25 11:09:47 [debug] 178#0: *1 http output filter "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 http copy filter: "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 image filter
+2020/11/25 11:09:47 [debug] 178#0: *1 xslt filter body
+2020/11/25 11:09:47 [debug] 178#0: *1 http postpone filter "/hello/?x=1&x=2&y=3&y=" 0000000000F309B0
+2020/11/25 11:09:47 [debug] 178#0: *1 write old buf t:1 f:0 0000000000F30798, pos 0000000000F30798, size: 151 file: 0, size: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 write new buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E40, size: 14 file: 0, size: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 http write filter: l:0 f:0 s:165
+2020/11/25 11:09:47 [debug] 178#0: *1 http copy filter: 0 "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 pipe write downstream done
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer: 22, old: 1606302647589, new: 1606302647590
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream exit: 0000000000000000
+2020/11/25 11:09:47 [debug] 178#0: *1 finalize http upstream request: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 finalize http proxy request
+2020/11/25 11:09:47 [debug] 178#0: *1 free rr peer 1 0
+2020/11/25 11:09:47 [debug] 178#0: *1 close http upstream connection: 22
+2020/11/25 11:09:47 [debug] 178#0: *1 free: 0000000000F3A290, unused: 48
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer del: 22: 1606302647589
+2020/11/25 11:09:47 [debug] 178#0: *1 reusable connection: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 http upstream temp fd: -1
+2020/11/25 11:09:47 [debug] 178#0: *1 http output filter "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 http copy filter: "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 image filter
+2020/11/25 11:09:47 [debug] 178#0: *1 xslt filter body
+2020/11/25 11:09:47 [debug] 178#0: *1 http postpone filter "/hello/?x=1&x=2&y=3&y=" 00007FFDF28BC850
+2020/11/25 11:09:47 [debug] 178#0: *1 write old buf t:1 f:0 0000000000F30798, pos 0000000000F30798, size: 151 file: 0, size: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 write old buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E40, size: 14 file: 0, size: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 http write filter: l:1 f:0 s:165
+2020/11/25 11:09:47 [debug] 178#0: *1 http write filter limit 0
+2020/11/25 11:09:47 [debug] 178#0: *1 writev: 165
+2020/11/25 11:09:47 [debug] 178#0: *1 http write filter 0000000000000000
+2020/11/25 11:09:47 [debug] 178#0: *1 http copy filter: 0 "/hello/?x=1&x=2&y=3&y="
+2020/11/25 11:09:47 [debug] 178#0: *1 http finalize request: 0, "/hello/?x=1&x=2&y=3&y=" a:1, c:1
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer add: 21: 5000:1606302592590
+2020/11/25 11:09:47 [debug] 178#0: *1 http lingering close handler
+2020/11/25 11:09:47 [debug] 178#0: *1 recv: fd:21 -1 of 4096
+2020/11/25 11:09:47 [debug] 178#0: *1 recv() not ready (11: Resource temporarily unavailable)
+2020/11/25 11:09:47 [debug] 178#0: *1 lingering read: -2
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer: 21, old: 1606302592590, new: 1606302592590
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 00000000010290A8
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 00000000010290A8
+2020/11/25 11:09:47 [debug] 178#0: *1 http empty handler
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 00000000010290A8
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 00000000010290A8
+2020/11/25 11:09:47 [debug] 178#0: *1 http empty handler
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 0000000001015898
+2020/11/25 11:09:47 [debug] 178#0: *1 post event 00000000010290A8
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 00000000010290A8
+2020/11/25 11:09:47 [debug] 178#0: *1 http empty handler
+2020/11/25 11:09:47 [debug] 178#0: *1 delete posted event 0000000001015898
+2020/11/25 11:09:47 [debug] 178#0: *1 http lingering close handler
+2020/11/25 11:09:47 [debug] 178#0: *1 recv: fd:21 0 of 4096
+2020/11/25 11:09:47 [debug] 178#0: *1 lingering read: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 http request count:1 blk:0
+2020/11/25 11:09:47 [debug] 178#0: *1 http close request
+2020/11/25 11:09:47 [debug] 178#0: *1 http log handler
+2020/11/25 11:09:47 [debug] 178#0: *1 free: 0000000000F30DB0
+2020/11/25 11:09:47 [debug] 178#0: *1 free: 0000000000F39280, unused: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 free: 0000000000F2FDA0, unused: 642
+2020/11/25 11:09:47 [debug] 178#0: *1 close http connection: 21
+2020/11/25 11:09:47 [debug] 178#0: *1 event timer del: 21: 1606302592590
+2020/11/25 11:09:47 [debug] 178#0: *1 reusable connection: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 free: 000000000100B860
+2020/11/25 11:09:47 [debug] 178#0: *1 free: 0000000000F2B780, unused: 0
+2020/11/25 11:09:47 [debug] 178#0: *1 free: 0000000000F2BA60, unused: 128
+2020/11/25 11:10:35 [debug] 178#0: post event 0000000001015760
+2020/11/25 11:10:35 [debug] 178#0: delete posted event 0000000001015760
+2020/11/25 11:10:35 [debug] 178#0: accept on 0.0.0.0:80, ready: 0
+2020/11/25 11:10:35 [debug] 178#0: posix_memalign: 0000000000F2B780:256 @16
+2020/11/25 11:10:35 [debug] 178#0: *3 accept: 127.0.0.1 fd:21
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer add: 21: 60000:1606302695821
+2020/11/25 11:10:35 [debug] 178#0: *3 reusable connection: 1
+2020/11/25 11:10:35 [debug] 178#0: *3 epoll add event: fd:21 op:1 ev:80000001
+2020/11/25 11:10:35 [debug] 178#0: *3 post event 0000000001015898
+2020/11/25 11:10:35 [debug] 178#0: *3 delete posted event 0000000001015898
+2020/11/25 11:10:35 [debug] 178#0: *3 http wait request handler
+2020/11/25 11:10:35 [debug] 178#0: *3 posix_memalign: 0000000000F2BA60:256 @16
+2020/11/25 11:10:35 [debug] 178#0: *3 malloc: 000000000100B860:1024
+2020/11/25 11:10:35 [debug] 178#0: *3 recv: fd:21 83 of 1024
+2020/11/25 11:10:35 [debug] 178#0: *3 reusable connection: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 posix_memalign: 0000000000F39280:4096 @16
+2020/11/25 11:10:35 [debug] 178#0: *3 http process request line
+2020/11/25 11:10:35 [debug] 178#0: *3 http request line: "GET /hello/?a=1 HTTP/1.1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http uri: "/hello/"
+2020/11/25 11:10:35 [debug] 178#0: *3 http args: "a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http exten: ""
+2020/11/25 11:10:35 [debug] 178#0: *3 http process request header line
+2020/11/25 11:10:35 [debug] 178#0: *3 posix_memalign: 0000000000F2FDA0:4096 @16
+2020/11/25 11:10:35 [debug] 178#0: *3 http header: "User-Agent: curl/7.35.0"
+2020/11/25 11:10:35 [debug] 178#0: *3 http header: "Host: 127.0.0.1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http header: "Accept: */*"
+2020/11/25 11:10:35 [debug] 178#0: *3 http header done
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer del: 21: 1606302695821
+2020/11/25 11:10:35 [debug] 178#0: *3 generic phase: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 rewrite phase: 1
+2020/11/25 11:10:35 [debug] 178#0: *3 test location: "/uploads/"
+2020/11/25 11:10:35 [debug] 178#0: *3 test location: "/hello/"
+2020/11/25 11:10:35 [debug] 178#0: *3 using configuration "/hello/"
+2020/11/25 11:10:35 [debug] 178#0: *3 http cl:-1 max:1048576
+2020/11/25 11:10:35 [debug] 178#0: *3 rewrite phase: 3
+2020/11/25 11:10:35 [debug] 178#0: *3 rewrite phase: 4
+2020/11/25 11:10:35 [debug] 178#0: *3 post rewrite phase: 5
+2020/11/25 11:10:35 [debug] 178#0: *3 generic phase: 6
+2020/11/25 11:10:35 [debug] 178#0: *3 generic phase: 7
+2020/11/25 11:10:35 [debug] 178#0: *3 generic phase: 8
+2020/11/25 11:10:35 [debug] 178#0: *3 access phase: 9
+2020/11/25 11:10:35 [debug] 178#0: *3 access phase: 10
+2020/11/25 11:10:35 [debug] 178#0: *3 access phase: 11
+2020/11/25 11:10:35 [debug] 178#0: *3 post access phase: 12
+2020/11/25 11:10:35 [debug] 178#0: *3 http init upstream, client timer: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 epoll add event: fd:21 op:3 ev:80000005
+2020/11/25 11:10:35 [debug] 178#0: *3 http script copy: "Host: "
+2020/11/25 11:10:35 [debug] 178#0: *3 http script var: "127.0.0.1:8080"
+2020/11/25 11:10:35 [debug] 178#0: *3 http script copy: "
+"
+2020/11/25 11:10:35 [debug] 178#0: *3 http script copy: "Connection: close
+"
+2020/11/25 11:10:35 [debug] 178#0: *3 http script copy: ""
+2020/11/25 11:10:35 [debug] 178#0: *3 http script copy: ""
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header: "User-Agent: curl/7.35.0"
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header: "Accept: */*"
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header:
+"GET /?a=1 HTTP/1.0
+Host: 127.0.0.1:8080
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/11/25 11:10:35 [debug] 178#0: *3 http cleanup add: 0000000000F30498
+2020/11/25 11:10:35 [debug] 178#0: *3 get rr peer, try: 1
+2020/11/25 11:10:35 [debug] 178#0: *3 socket 22
+2020/11/25 11:10:35 [debug] 178#0: *3 epoll add connection: fd:22 ev:80000005
+2020/11/25 11:10:35 [debug] 178#0: *3 connect to 127.0.0.1:8080, fd:22 #4
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream connect: -2
+2020/11/25 11:10:35 [debug] 178#0: *3 posix_memalign: 0000000000F3A290:128 @16
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer add: 22: 60000:1606302695821
+2020/11/25 11:10:35 [debug] 178#0: *3 http finalize request: -4, "/hello/?a=1" a:1, c:2
+2020/11/25 11:10:35 [debug] 178#0: *3 http request count:2 blk:0
+2020/11/25 11:10:35 [debug] 178#0: *3 post event 00000000010290A8
+2020/11/25 11:10:35 [debug] 178#0: *3 post event 0000000001029110
+2020/11/25 11:10:35 [debug] 178#0: *3 delete posted event 0000000001029110
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream request: "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream send request handler
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream send request
+2020/11/25 11:10:35 [debug] 178#0: *3 chain writer buf fl:1 s:101
+2020/11/25 11:10:35 [debug] 178#0: *3 chain writer in: 0000000000F304D0
+2020/11/25 11:10:35 [debug] 178#0: *3 writev: 101
+2020/11/25 11:10:35 [debug] 178#0: *3 chain writer out: 0000000000000000
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer del: 22: 1606302695821
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer add: 22: 60000:1606302695822
+2020/11/25 11:10:35 [debug] 178#0: *3 delete posted event 00000000010290A8
+2020/11/25 11:10:35 [debug] 178#0: *3 http run request: "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream check client, write event:1, "/hello/"
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/11/25 11:10:35 [debug] 178#0: *3 post event 0000000001015900
+2020/11/25 11:10:35 [debug] 178#0: *3 post event 0000000001029110
+2020/11/25 11:10:35 [debug] 178#0: *3 delete posted event 0000000001029110
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream request: "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream dummy handler
+2020/11/25 11:10:35 [debug] 178#0: *3 delete posted event 0000000001015900
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream request: "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream process header
+2020/11/25 11:10:35 [debug] 178#0: *3 malloc: 0000000000F30DB0:4096
+2020/11/25 11:10:35 [debug] 178#0: *3 recv: fd:22 146 of 4096
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy status 200 "200 OK"
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header: "Server: gunicorn/17.5"
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header: "Date: Wed, 25 Nov 2020 11:10:35 GMT"
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header: "Connection: close"
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header: "Content-type: text/plain"
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header: "Content-Length: 3"
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy header done
+2020/11/25 11:10:35 [debug] 178#0: *3 uploadprogress error-tracker error: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 xslt filter header
+2020/11/25 11:10:35 [debug] 178#0: *3 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 25 Nov 2020 11:10:35 GMT
+Content-Type: text/plain
+Content-Length: 3
+Connection: keep-alive
+
+2020/11/25 11:10:35 [debug] 178#0: *3 write new buf t:1 f:0 0000000000F30768, pos 0000000000F30768, size: 155 file: 0, size: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 http write filter: l:0 f:0 s:155
+2020/11/25 11:10:35 [debug] 178#0: *3 http cacheable: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 http proxy filter init s:200 h:0 c:0 l:3
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream process upstream
+2020/11/25 11:10:35 [debug] 178#0: *3 pipe read upstream: 1
+2020/11/25 11:10:35 [debug] 178#0: *3 pipe preread: 3
+2020/11/25 11:10:35 [debug] 178#0: *3 readv: 1:3950
+2020/11/25 11:10:35 [debug] 178#0: *3 pipe recv chain: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 pipe buf free s:0 t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 3 file: 0, size: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 pipe length: 3
+2020/11/25 11:10:35 [debug] 178#0: *3 input buf #0
+2020/11/25 11:10:35 [debug] 178#0: *3 pipe write downstream: 1
+2020/11/25 11:10:35 [debug] 178#0: *3 pipe write downstream flush in
+2020/11/25 11:10:35 [debug] 178#0: *3 http output filter "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http copy filter: "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 image filter
+2020/11/25 11:10:35 [debug] 178#0: *3 xslt filter body
+2020/11/25 11:10:35 [debug] 178#0: *3 http postpone filter "/hello/?a=1" 0000000000F30980
+2020/11/25 11:10:35 [debug] 178#0: *3 write old buf t:1 f:0 0000000000F30768, pos 0000000000F30768, size: 155 file: 0, size: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 write new buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 3 file: 0, size: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 http write filter: l:0 f:0 s:158
+2020/11/25 11:10:35 [debug] 178#0: *3 http copy filter: 0 "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 pipe write downstream done
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer: 22, old: 1606302695822, new: 1606302695824
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream exit: 0000000000000000
+2020/11/25 11:10:35 [debug] 178#0: *3 finalize http upstream request: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 finalize http proxy request
+2020/11/25 11:10:35 [debug] 178#0: *3 free rr peer 1 0
+2020/11/25 11:10:35 [debug] 178#0: *3 close http upstream connection: 22
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 0000000000F3A290, unused: 48
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer del: 22: 1606302695822
+2020/11/25 11:10:35 [debug] 178#0: *3 reusable connection: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 http upstream temp fd: -1
+2020/11/25 11:10:35 [debug] 178#0: *3 http output filter "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http copy filter: "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 image filter
+2020/11/25 11:10:35 [debug] 178#0: *3 xslt filter body
+2020/11/25 11:10:35 [debug] 178#0: *3 http postpone filter "/hello/?a=1" 00007FFDF28BC850
+2020/11/25 11:10:35 [debug] 178#0: *3 write old buf t:1 f:0 0000000000F30768, pos 0000000000F30768, size: 155 file: 0, size: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 write old buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 3 file: 0, size: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 http write filter: l:1 f:0 s:158
+2020/11/25 11:10:35 [debug] 178#0: *3 http write filter limit 0
+2020/11/25 11:10:35 [debug] 178#0: *3 writev: 158
+2020/11/25 11:10:35 [debug] 178#0: *3 http write filter 0000000000000000
+2020/11/25 11:10:35 [debug] 178#0: *3 http copy filter: 0 "/hello/?a=1"
+2020/11/25 11:10:35 [debug] 178#0: *3 http finalize request: 0, "/hello/?a=1" a:1, c:1
+2020/11/25 11:10:35 [debug] 178#0: *3 set http keepalive handler
+2020/11/25 11:10:35 [debug] 178#0: *3 http close request
+2020/11/25 11:10:35 [debug] 178#0: *3 http log handler
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 0000000000F30DB0
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 0000000000F39280, unused: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 0000000000F2FDA0, unused: 710
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 000000000100B860
+2020/11/25 11:10:35 [debug] 178#0: *3 hc free: 0000000000000000 0
+2020/11/25 11:10:35 [debug] 178#0: *3 hc busy: 0000000000000000 0
+2020/11/25 11:10:35 [debug] 178#0: *3 tcp_nodelay
+2020/11/25 11:10:35 [debug] 178#0: *3 reusable connection: 1
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer add: 21: 65000:1606302700824
+2020/11/25 11:10:35 [debug] 178#0: *3 post event 0000000001015898
+2020/11/25 11:10:35 [debug] 178#0: *3 delete posted event 0000000001015898
+2020/11/25 11:10:35 [debug] 178#0: *3 http keepalive handler
+2020/11/25 11:10:35 [debug] 178#0: *3 malloc: 000000000100B860:1024
+2020/11/25 11:10:35 [debug] 178#0: *3 recv: fd:21 -1 of 1024
+2020/11/25 11:10:35 [debug] 178#0: *3 recv() not ready (11: Resource temporarily unavailable)
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 000000000100B860
+2020/11/25 11:10:35 [debug] 178#0: *3 post event 0000000001015898
+2020/11/25 11:10:35 [debug] 178#0: *3 post event 00000000010290A8
+2020/11/25 11:10:35 [debug] 178#0: *3 delete posted event 00000000010290A8
+2020/11/25 11:10:35 [debug] 178#0: *3 http empty handler
+2020/11/25 11:10:35 [debug] 178#0: *3 delete posted event 0000000001015898
+2020/11/25 11:10:35 [debug] 178#0: *3 http keepalive handler
+2020/11/25 11:10:35 [debug] 178#0: *3 malloc: 000000000100B860:1024
+2020/11/25 11:10:35 [debug] 178#0: *3 recv: fd:21 0 of 1024
+2020/11/25 11:10:35 [info] 178#0: *3 client 127.0.0.1 closed keepalive connection
+2020/11/25 11:10:35 [debug] 178#0: *3 close http connection: 21
+2020/11/25 11:10:35 [debug] 178#0: *3 event timer del: 21: 1606302700824
+2020/11/25 11:10:35 [debug] 178#0: *3 reusable connection: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 000000000100B860
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 0000000000F2B780, unused: 0
+2020/11/25 11:10:35 [debug] 178#0: *3 free: 0000000000F2BA60, unused: 128
+2020/11/25 11:10:40 [debug] 178#0: post event 0000000001015760
+2020/11/25 11:10:40 [debug] 178#0: delete posted event 0000000001015760
+2020/11/25 11:10:40 [debug] 178#0: accept on 0.0.0.0:80, ready: 0
+2020/11/25 11:10:40 [debug] 178#0: posix_memalign: 0000000000F2B780:256 @16
+2020/11/25 11:10:40 [debug] 178#0: *5 accept: 127.0.0.1 fd:21
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer add: 21: 60000:1606302700942
+2020/11/25 11:10:40 [debug] 178#0: *5 reusable connection: 1
+2020/11/25 11:10:40 [debug] 178#0: *5 epoll add event: fd:21 op:1 ev:80000001
+2020/11/25 11:10:40 [debug] 178#0: *5 post event 0000000001015898
+2020/11/25 11:10:40 [debug] 178#0: *5 delete posted event 0000000001015898
+2020/11/25 11:10:40 [debug] 178#0: *5 http wait request handler
+2020/11/25 11:10:40 [debug] 178#0: *5 posix_memalign: 0000000000F2BA60:256 @16
+2020/11/25 11:10:40 [debug] 178#0: *5 malloc: 000000000100B860:1024
+2020/11/25 11:10:40 [debug] 178#0: *5 recv: fd:21 87 of 1024
+2020/11/25 11:10:40 [debug] 178#0: *5 reusable connection: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 posix_memalign: 0000000000F39280:4096 @16
+2020/11/25 11:10:40 [debug] 178#0: *5 http process request line
+2020/11/25 11:10:40 [debug] 178#0: *5 http request line: "GET /hello/?fgdfgdf HTTP/1.1"
+2020/11/25 11:10:40 [debug] 178#0: *5 http uri: "/hello/"
+2020/11/25 11:10:40 [debug] 178#0: *5 http args: "fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 http exten: ""
+2020/11/25 11:10:40 [debug] 178#0: *5 http process request header line
+2020/11/25 11:10:40 [debug] 178#0: *5 posix_memalign: 0000000000F2FDA0:4096 @16
+2020/11/25 11:10:40 [debug] 178#0: *5 http header: "User-Agent: curl/7.35.0"
+2020/11/25 11:10:40 [debug] 178#0: *5 http header: "Host: 127.0.0.1"
+2020/11/25 11:10:40 [debug] 178#0: *5 http header: "Accept: */*"
+2020/11/25 11:10:40 [debug] 178#0: *5 http header done
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer del: 21: 1606302700942
+2020/11/25 11:10:40 [debug] 178#0: *5 generic phase: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 rewrite phase: 1
+2020/11/25 11:10:40 [debug] 178#0: *5 test location: "/uploads/"
+2020/11/25 11:10:40 [debug] 178#0: *5 test location: "/hello/"
+2020/11/25 11:10:40 [debug] 178#0: *5 using configuration "/hello/"
+2020/11/25 11:10:40 [debug] 178#0: *5 http cl:-1 max:1048576
+2020/11/25 11:10:40 [debug] 178#0: *5 rewrite phase: 3
+2020/11/25 11:10:40 [debug] 178#0: *5 rewrite phase: 4
+2020/11/25 11:10:40 [debug] 178#0: *5 post rewrite phase: 5
+2020/11/25 11:10:40 [debug] 178#0: *5 generic phase: 6
+2020/11/25 11:10:40 [debug] 178#0: *5 generic phase: 7
+2020/11/25 11:10:40 [debug] 178#0: *5 generic phase: 8
+2020/11/25 11:10:40 [debug] 178#0: *5 access phase: 9
+2020/11/25 11:10:40 [debug] 178#0: *5 access phase: 10
+2020/11/25 11:10:40 [debug] 178#0: *5 access phase: 11
+2020/11/25 11:10:40 [debug] 178#0: *5 post access phase: 12
+2020/11/25 11:10:40 [debug] 178#0: *5 http init upstream, client timer: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 epoll add event: fd:21 op:3 ev:80000005
+2020/11/25 11:10:40 [debug] 178#0: *5 http script copy: "Host: "
+2020/11/25 11:10:40 [debug] 178#0: *5 http script var: "127.0.0.1:8080"
+2020/11/25 11:10:40 [debug] 178#0: *5 http script copy: "
+"
+2020/11/25 11:10:40 [debug] 178#0: *5 http script copy: "Connection: close
+"
+2020/11/25 11:10:40 [debug] 178#0: *5 http script copy: ""
+2020/11/25 11:10:40 [debug] 178#0: *5 http script copy: ""
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header: "User-Agent: curl/7.35.0"
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header: "Accept: */*"
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header:
+"GET /?fgdfgdf HTTP/1.0
+Host: 127.0.0.1:8080
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/11/25 11:10:40 [debug] 178#0: *5 http cleanup add: 0000000000F304A0
+2020/11/25 11:10:40 [debug] 178#0: *5 get rr peer, try: 1
+2020/11/25 11:10:40 [debug] 178#0: *5 socket 22
+2020/11/25 11:10:40 [debug] 178#0: *5 epoll add connection: fd:22 ev:80000005
+2020/11/25 11:10:40 [debug] 178#0: *5 connect to 127.0.0.1:8080, fd:22 #6
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream connect: -2
+2020/11/25 11:10:40 [debug] 178#0: *5 posix_memalign: 0000000000F3A290:128 @16
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer add: 22: 60000:1606302700942
+2020/11/25 11:10:40 [debug] 178#0: *5 http finalize request: -4, "/hello/?fgdfgdf" a:1, c:2
+2020/11/25 11:10:40 [debug] 178#0: *5 http request count:2 blk:0
+2020/11/25 11:10:40 [debug] 178#0: *5 post event 00000000010290A8
+2020/11/25 11:10:40 [debug] 178#0: *5 post event 0000000001029110
+2020/11/25 11:10:40 [debug] 178#0: *5 delete posted event 0000000001029110
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream request: "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream send request handler
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream send request
+2020/11/25 11:10:40 [debug] 178#0: *5 chain writer buf fl:1 s:105
+2020/11/25 11:10:40 [debug] 178#0: *5 chain writer in: 0000000000F304D8
+2020/11/25 11:10:40 [debug] 178#0: *5 writev: 105
+2020/11/25 11:10:40 [debug] 178#0: *5 chain writer out: 0000000000000000
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer del: 22: 1606302700942
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer add: 22: 60000:1606302700943
+2020/11/25 11:10:40 [debug] 178#0: *5 delete posted event 00000000010290A8
+2020/11/25 11:10:40 [debug] 178#0: *5 http run request: "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream check client, write event:1, "/hello/"
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/11/25 11:10:40 [debug] 178#0: *5 post event 0000000001015900
+2020/11/25 11:10:40 [debug] 178#0: *5 post event 0000000001029110
+2020/11/25 11:10:40 [debug] 178#0: *5 delete posted event 0000000001029110
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream request: "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream dummy handler
+2020/11/25 11:10:40 [debug] 178#0: *5 delete posted event 0000000001015900
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream request: "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream process header
+2020/11/25 11:10:40 [debug] 178#0: *5 malloc: 0000000000F30DB0:4096
+2020/11/25 11:10:40 [debug] 178#0: *5 recv: fd:22 150 of 4096
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy status 200 "200 OK"
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header: "Server: gunicorn/17.5"
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header: "Date: Wed, 25 Nov 2020 11:10:40 GMT"
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header: "Connection: close"
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header: "Content-type: text/plain"
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header: "Content-Length: 7"
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy header done
+2020/11/25 11:10:40 [debug] 178#0: *5 uploadprogress error-tracker error: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 xslt filter header
+2020/11/25 11:10:40 [debug] 178#0: *5 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 25 Nov 2020 11:10:40 GMT
+Content-Type: text/plain
+Content-Length: 7
+Connection: keep-alive
+
+2020/11/25 11:10:40 [debug] 178#0: *5 write new buf t:1 f:0 0000000000F30770, pos 0000000000F30770, size: 155 file: 0, size: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 http write filter: l:0 f:0 s:155
+2020/11/25 11:10:40 [debug] 178#0: *5 http cacheable: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 http proxy filter init s:200 h:0 c:0 l:7
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream process upstream
+2020/11/25 11:10:40 [debug] 178#0: *5 pipe read upstream: 1
+2020/11/25 11:10:40 [debug] 178#0: *5 pipe preread: 7
+2020/11/25 11:10:40 [debug] 178#0: *5 readv: 1:3946
+2020/11/25 11:10:40 [debug] 178#0: *5 pipe recv chain: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 pipe buf free s:0 t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 7 file: 0, size: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 pipe length: 7
+2020/11/25 11:10:40 [debug] 178#0: *5 input buf #0
+2020/11/25 11:10:40 [debug] 178#0: *5 pipe write downstream: 1
+2020/11/25 11:10:40 [debug] 178#0: *5 pipe write downstream flush in
+2020/11/25 11:10:40 [debug] 178#0: *5 http output filter "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 http copy filter: "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 image filter
+2020/11/25 11:10:40 [debug] 178#0: *5 xslt filter body
+2020/11/25 11:10:40 [debug] 178#0: *5 http postpone filter "/hello/?fgdfgdf" 0000000000F30988
+2020/11/25 11:10:40 [debug] 178#0: *5 write old buf t:1 f:0 0000000000F30770, pos 0000000000F30770, size: 155 file: 0, size: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 write new buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 7 file: 0, size: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 http write filter: l:0 f:0 s:162
+2020/11/25 11:10:40 [debug] 178#0: *5 http copy filter: 0 "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 pipe write downstream done
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer: 22, old: 1606302700943, new: 1606302700943
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream exit: 0000000000000000
+2020/11/25 11:10:40 [debug] 178#0: *5 finalize http upstream request: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 finalize http proxy request
+2020/11/25 11:10:40 [debug] 178#0: *5 free rr peer 1 0
+2020/11/25 11:10:40 [debug] 178#0: *5 close http upstream connection: 22
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 0000000000F3A290, unused: 48
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer del: 22: 1606302700943
+2020/11/25 11:10:40 [debug] 178#0: *5 reusable connection: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 http upstream temp fd: -1
+2020/11/25 11:10:40 [debug] 178#0: *5 http output filter "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 http copy filter: "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 image filter
+2020/11/25 11:10:40 [debug] 178#0: *5 xslt filter body
+2020/11/25 11:10:40 [debug] 178#0: *5 http postpone filter "/hello/?fgdfgdf" 00007FFDF28BC850
+2020/11/25 11:10:40 [debug] 178#0: *5 write old buf t:1 f:0 0000000000F30770, pos 0000000000F30770, size: 155 file: 0, size: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 write old buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 7 file: 0, size: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 http write filter: l:1 f:0 s:162
+2020/11/25 11:10:40 [debug] 178#0: *5 http write filter limit 0
+2020/11/25 11:10:40 [debug] 178#0: *5 writev: 162
+2020/11/25 11:10:40 [debug] 178#0: *5 http write filter 0000000000000000
+2020/11/25 11:10:40 [debug] 178#0: *5 http copy filter: 0 "/hello/?fgdfgdf"
+2020/11/25 11:10:40 [debug] 178#0: *5 http finalize request: 0, "/hello/?fgdfgdf" a:1, c:1
+2020/11/25 11:10:40 [debug] 178#0: *5 set http keepalive handler
+2020/11/25 11:10:40 [debug] 178#0: *5 http close request
+2020/11/25 11:10:40 [debug] 178#0: *5 http log handler
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 0000000000F30DB0
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 0000000000F39280, unused: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 0000000000F2FDA0, unused: 698
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 000000000100B860
+2020/11/25 11:10:40 [debug] 178#0: *5 hc free: 0000000000000000 0
+2020/11/25 11:10:40 [debug] 178#0: *5 hc busy: 0000000000000000 0
+2020/11/25 11:10:40 [debug] 178#0: *5 tcp_nodelay
+2020/11/25 11:10:40 [debug] 178#0: *5 reusable connection: 1
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer add: 21: 65000:1606302705943
+2020/11/25 11:10:40 [debug] 178#0: *5 post event 0000000001015898
+2020/11/25 11:10:40 [debug] 178#0: *5 delete posted event 0000000001015898
+2020/11/25 11:10:40 [debug] 178#0: *5 http keepalive handler
+2020/11/25 11:10:40 [debug] 178#0: *5 malloc: 000000000100B860:1024
+2020/11/25 11:10:40 [debug] 178#0: *5 recv: fd:21 -1 of 1024
+2020/11/25 11:10:40 [debug] 178#0: *5 recv() not ready (11: Resource temporarily unavailable)
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 000000000100B860
+2020/11/25 11:10:40 [debug] 178#0: *5 post event 0000000001015898
+2020/11/25 11:10:40 [debug] 178#0: *5 post event 00000000010290A8
+2020/11/25 11:10:40 [debug] 178#0: *5 delete posted event 00000000010290A8
+2020/11/25 11:10:40 [debug] 178#0: *5 http empty handler
+2020/11/25 11:10:40 [debug] 178#0: *5 delete posted event 0000000001015898
+2020/11/25 11:10:40 [debug] 178#0: *5 http keepalive handler
+2020/11/25 11:10:40 [debug] 178#0: *5 malloc: 000000000100B860:1024
+2020/11/25 11:10:40 [debug] 178#0: *5 recv: fd:21 0 of 1024
+2020/11/25 11:10:40 [info] 178#0: *5 client 127.0.0.1 closed keepalive connection
+2020/11/25 11:10:40 [debug] 178#0: *5 close http connection: 21
+2020/11/25 11:10:40 [debug] 178#0: *5 event timer del: 21: 1606302705943
+2020/11/25 11:10:40 [debug] 178#0: *5 reusable connection: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 000000000100B860
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 0000000000F2B780, unused: 0
+2020/11/25 11:10:40 [debug] 178#0: *5 free: 0000000000F2BA60, unused: 128
+2020/11/25 11:10:46 [debug] 178#0: post event 0000000001015760
+2020/11/25 11:10:46 [debug] 178#0: delete posted event 0000000001015760
+2020/11/25 11:10:46 [debug] 178#0: accept on 0.0.0.0:80, ready: 0
+2020/11/25 11:10:46 [debug] 178#0: posix_memalign: 0000000000F2B780:256 @16
+2020/11/25 11:10:46 [debug] 178#0: *7 accept: 127.0.0.1 fd:21
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer add: 21: 60000:1606302706900
+2020/11/25 11:10:46 [debug] 178#0: *7 reusable connection: 1
+2020/11/25 11:10:46 [debug] 178#0: *7 epoll add event: fd:21 op:1 ev:80000001
+2020/11/25 11:10:46 [debug] 178#0: *7 post event 0000000001015898
+2020/11/25 11:10:46 [debug] 178#0: *7 delete posted event 0000000001015898
+2020/11/25 11:10:46 [debug] 178#0: *7 http wait request handler
+2020/11/25 11:10:46 [debug] 178#0: *7 posix_memalign: 0000000000F2BA60:256 @16
+2020/11/25 11:10:46 [debug] 178#0: *7 malloc: 000000000100B860:1024
+2020/11/25 11:10:46 [debug] 178#0: *7 recv: fd:21 92 of 1024
+2020/11/25 11:10:46 [debug] 178#0: *7 reusable connection: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 posix_memalign: 0000000000F39280:4096 @16
+2020/11/25 11:10:46 [debug] 178#0: *7 http process request line
+2020/11/25 11:10:46 [debug] 178#0: *7 http request line: "GET /hello/1.txt?fgdfgdf HTTP/1.1"
+2020/11/25 11:10:46 [debug] 178#0: *7 http uri: "/hello/1.txt"
+2020/11/25 11:10:46 [debug] 178#0: *7 http args: "fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 http exten: "txt"
+2020/11/25 11:10:46 [debug] 178#0: *7 http process request header line
+2020/11/25 11:10:46 [debug] 178#0: *7 posix_memalign: 0000000000F2FDA0:4096 @16
+2020/11/25 11:10:46 [debug] 178#0: *7 http header: "User-Agent: curl/7.35.0"
+2020/11/25 11:10:46 [debug] 178#0: *7 http header: "Host: 127.0.0.1"
+2020/11/25 11:10:46 [debug] 178#0: *7 http header: "Accept: */*"
+2020/11/25 11:10:46 [debug] 178#0: *7 http header done
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer del: 21: 1606302706900
+2020/11/25 11:10:46 [debug] 178#0: *7 generic phase: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 rewrite phase: 1
+2020/11/25 11:10:46 [debug] 178#0: *7 test location: "/uploads/"
+2020/11/25 11:10:46 [debug] 178#0: *7 test location: "/hello/"
+2020/11/25 11:10:46 [debug] 178#0: *7 using configuration "/hello/"
+2020/11/25 11:10:46 [debug] 178#0: *7 http cl:-1 max:1048576
+2020/11/25 11:10:46 [debug] 178#0: *7 rewrite phase: 3
+2020/11/25 11:10:46 [debug] 178#0: *7 rewrite phase: 4
+2020/11/25 11:10:46 [debug] 178#0: *7 post rewrite phase: 5
+2020/11/25 11:10:46 [debug] 178#0: *7 generic phase: 6
+2020/11/25 11:10:46 [debug] 178#0: *7 generic phase: 7
+2020/11/25 11:10:46 [debug] 178#0: *7 generic phase: 8
+2020/11/25 11:10:46 [debug] 178#0: *7 access phase: 9
+2020/11/25 11:10:46 [debug] 178#0: *7 access phase: 10
+2020/11/25 11:10:46 [debug] 178#0: *7 access phase: 11
+2020/11/25 11:10:46 [debug] 178#0: *7 post access phase: 12
+2020/11/25 11:10:46 [debug] 178#0: *7 http init upstream, client timer: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 epoll add event: fd:21 op:3 ev:80000005
+2020/11/25 11:10:46 [debug] 178#0: *7 http script copy: "Host: "
+2020/11/25 11:10:46 [debug] 178#0: *7 http script var: "127.0.0.1:8080"
+2020/11/25 11:10:46 [debug] 178#0: *7 http script copy: "
+"
+2020/11/25 11:10:46 [debug] 178#0: *7 http script copy: "Connection: close
+"
+2020/11/25 11:10:46 [debug] 178#0: *7 http script copy: ""
+2020/11/25 11:10:46 [debug] 178#0: *7 http script copy: ""
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header: "User-Agent: curl/7.35.0"
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header: "Accept: */*"
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header:
+"GET /1.txt?fgdfgdf HTTP/1.0
+Host: 127.0.0.1:8080
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/11/25 11:10:46 [debug] 178#0: *7 http cleanup add: 0000000000F304A0
+2020/11/25 11:10:46 [debug] 178#0: *7 get rr peer, try: 1
+2020/11/25 11:10:46 [debug] 178#0: *7 socket 22
+2020/11/25 11:10:46 [debug] 178#0: *7 epoll add connection: fd:22 ev:80000005
+2020/11/25 11:10:46 [debug] 178#0: *7 connect to 127.0.0.1:8080, fd:22 #8
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream connect: -2
+2020/11/25 11:10:46 [debug] 178#0: *7 posix_memalign: 0000000000F3A290:128 @16
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer add: 22: 60000:1606302706900
+2020/11/25 11:10:46 [debug] 178#0: *7 http finalize request: -4, "/hello/1.txt?fgdfgdf" a:1, c:2
+2020/11/25 11:10:46 [debug] 178#0: *7 http request count:2 blk:0
+2020/11/25 11:10:46 [debug] 178#0: *7 post event 00000000010290A8
+2020/11/25 11:10:46 [debug] 178#0: *7 post event 0000000001029110
+2020/11/25 11:10:46 [debug] 178#0: *7 delete posted event 0000000001029110
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream request: "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream send request handler
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream send request
+2020/11/25 11:10:46 [debug] 178#0: *7 chain writer buf fl:1 s:110
+2020/11/25 11:10:46 [debug] 178#0: *7 chain writer in: 0000000000F304D8
+2020/11/25 11:10:46 [debug] 178#0: *7 writev: 110
+2020/11/25 11:10:46 [debug] 178#0: *7 chain writer out: 0000000000000000
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer del: 22: 1606302706900
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer add: 22: 60000:1606302706900
+2020/11/25 11:10:46 [debug] 178#0: *7 delete posted event 00000000010290A8
+2020/11/25 11:10:46 [debug] 178#0: *7 http run request: "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream check client, write event:1, "/hello/1.txt"
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/11/25 11:10:46 [debug] 178#0: *7 post event 0000000001015900
+2020/11/25 11:10:46 [debug] 178#0: *7 post event 0000000001029110
+2020/11/25 11:10:46 [debug] 178#0: *7 delete posted event 0000000001029110
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream request: "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream dummy handler
+2020/11/25 11:10:46 [debug] 178#0: *7 delete posted event 0000000001015900
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream request: "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream process header
+2020/11/25 11:10:46 [debug] 178#0: *7 malloc: 0000000000F30DB0:4096
+2020/11/25 11:10:46 [debug] 178#0: *7 recv: fd:22 150 of 4096
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy status 200 "200 OK"
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header: "Server: gunicorn/17.5"
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header: "Date: Wed, 25 Nov 2020 11:10:46 GMT"
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header: "Connection: close"
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header: "Content-type: text/plain"
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header: "Content-Length: 7"
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy header done
+2020/11/25 11:10:46 [debug] 178#0: *7 uploadprogress error-tracker error: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 xslt filter header
+2020/11/25 11:10:46 [debug] 178#0: *7 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 25 Nov 2020 11:10:46 GMT
+Content-Type: text/plain
+Content-Length: 7
+Connection: keep-alive
+
+2020/11/25 11:10:46 [debug] 178#0: *7 write new buf t:1 f:0 0000000000F30770, pos 0000000000F30770, size: 155 file: 0, size: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 http write filter: l:0 f:0 s:155
+2020/11/25 11:10:46 [debug] 178#0: *7 http cacheable: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 http proxy filter init s:200 h:0 c:0 l:7
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream process upstream
+2020/11/25 11:10:46 [debug] 178#0: *7 pipe read upstream: 1
+2020/11/25 11:10:46 [debug] 178#0: *7 pipe preread: 7
+2020/11/25 11:10:46 [debug] 178#0: *7 readv: 1:3946
+2020/11/25 11:10:46 [debug] 178#0: *7 pipe recv chain: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 pipe buf free s:0 t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 7 file: 0, size: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 pipe length: 7
+2020/11/25 11:10:46 [debug] 178#0: *7 input buf #0
+2020/11/25 11:10:46 [debug] 178#0: *7 pipe write downstream: 1
+2020/11/25 11:10:46 [debug] 178#0: *7 pipe write downstream flush in
+2020/11/25 11:10:46 [debug] 178#0: *7 http output filter "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 http copy filter: "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 image filter
+2020/11/25 11:10:46 [debug] 178#0: *7 xslt filter body
+2020/11/25 11:10:46 [debug] 178#0: *7 http postpone filter "/hello/1.txt?fgdfgdf" 0000000000F30988
+2020/11/25 11:10:46 [debug] 178#0: *7 write old buf t:1 f:0 0000000000F30770, pos 0000000000F30770, size: 155 file: 0, size: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 write new buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 7 file: 0, size: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 http write filter: l:0 f:0 s:162
+2020/11/25 11:10:46 [debug] 178#0: *7 http copy filter: 0 "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 pipe write downstream done
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer: 22, old: 1606302706900, new: 1606302706902
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream exit: 0000000000000000
+2020/11/25 11:10:46 [debug] 178#0: *7 finalize http upstream request: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 finalize http proxy request
+2020/11/25 11:10:46 [debug] 178#0: *7 free rr peer 1 0
+2020/11/25 11:10:46 [debug] 178#0: *7 close http upstream connection: 22
+2020/11/25 11:10:46 [debug] 178#0: *7 free: 0000000000F3A290, unused: 48
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer del: 22: 1606302706900
+2020/11/25 11:10:46 [debug] 178#0: *7 reusable connection: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 http upstream temp fd: -1
+2020/11/25 11:10:46 [debug] 178#0: *7 http output filter "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 http copy filter: "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 image filter
+2020/11/25 11:10:46 [debug] 178#0: *7 xslt filter body
+2020/11/25 11:10:46 [debug] 178#0: *7 http postpone filter "/hello/1.txt?fgdfgdf" 00007FFDF28BC850
+2020/11/25 11:10:46 [debug] 178#0: *7 write old buf t:1 f:0 0000000000F30770, pos 0000000000F30770, size: 155 file: 0, size: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 write old buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E3F, size: 7 file: 0, size: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 http write filter: l:1 f:0 s:162
+2020/11/25 11:10:46 [debug] 178#0: *7 http write filter limit 0
+2020/11/25 11:10:46 [debug] 178#0: *7 writev: 162
+2020/11/25 11:10:46 [debug] 178#0: *7 http write filter 0000000000000000
+2020/11/25 11:10:46 [debug] 178#0: *7 http copy filter: 0 "/hello/1.txt?fgdfgdf"
+2020/11/25 11:10:46 [debug] 178#0: *7 http finalize request: 0, "/hello/1.txt?fgdfgdf" a:1, c:1
+2020/11/25 11:10:46 [debug] 178#0: *7 set http keepalive handler
+2020/11/25 11:10:46 [debug] 178#0: *7 http close request
+2020/11/25 11:10:46 [debug] 178#0: *7 http log handler
+2020/11/25 11:10:46 [debug] 178#0: *7 free: 0000000000F30DB0
+2020/11/25 11:10:46 [debug] 178#0: *7 free: 0000000000F39280, unused: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 free: 0000000000F2FDA0, unused: 693
+2020/11/25 11:10:46 [debug] 178#0: *7 free: 000000000100B860
+2020/11/25 11:10:46 [debug] 178#0: *7 hc free: 0000000000000000 0
+2020/11/25 11:10:46 [debug] 178#0: *7 hc busy: 0000000000000000 0
+2020/11/25 11:10:46 [debug] 178#0: *7 tcp_nodelay
+2020/11/25 11:10:46 [debug] 178#0: *7 reusable connection: 1
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer add: 21: 65000:1606302711902
+2020/11/25 11:10:46 [debug] 178#0: *7 post event 0000000001015898
+2020/11/25 11:10:46 [debug] 178#0: *7 delete posted event 0000000001015898
+2020/11/25 11:10:46 [debug] 178#0: *7 http keepalive handler
+2020/11/25 11:10:46 [debug] 178#0: *7 malloc: 000000000100B860:1024
+2020/11/25 11:10:46 [debug] 178#0: *7 recv: fd:21 0 of 1024
+2020/11/25 11:10:46 [info] 178#0: *7 client 127.0.0.1 closed keepalive connection
+2020/11/25 11:10:46 [debug] 178#0: *7 close http connection: 21
+2020/11/25 11:10:46 [debug] 178#0: *7 event timer del: 21: 1606302711902
+2020/11/25 11:10:46 [debug] 178#0: *7 reusable connection: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 free: 000000000100B860
+2020/11/25 11:10:46 [debug] 178#0: *7 free: 0000000000F2B780, unused: 0
+2020/11/25 11:10:46 [debug] 178#0: *7 free: 0000000000F2BA60, unused: 128
+2020/11/25 11:10:49 [debug] 178#0: post event 0000000001015760
+2020/11/25 11:10:49 [debug] 178#0: delete posted event 0000000001015760
+2020/11/25 11:10:49 [debug] 178#0: accept on 0.0.0.0:80, ready: 0
+2020/11/25 11:10:49 [debug] 178#0: posix_memalign: 0000000000F2B780:256 @16
+2020/11/25 11:10:49 [debug] 178#0: *9 accept: 127.0.0.1 fd:21
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer add: 21: 60000:1606302709862
+2020/11/25 11:10:49 [debug] 178#0: *9 reusable connection: 1
+2020/11/25 11:10:49 [debug] 178#0: *9 epoll add event: fd:21 op:1 ev:80000001
+2020/11/25 11:10:49 [debug] 178#0: *9 post event 0000000001015898
+2020/11/25 11:10:49 [debug] 178#0: *9 delete posted event 0000000001015898
+2020/11/25 11:10:49 [debug] 178#0: *9 http wait request handler
+2020/11/25 11:10:49 [debug] 178#0: *9 posix_memalign: 0000000000F2BA60:256 @16
+2020/11/25 11:10:49 [debug] 178#0: *9 malloc: 000000000100B860:1024
+2020/11/25 11:10:49 [debug] 178#0: *9 recv: fd:21 97 of 1024
+2020/11/25 11:10:49 [debug] 178#0: *9 reusable connection: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 posix_memalign: 0000000000F39280:4096 @16
+2020/11/25 11:10:49 [debug] 178#0: *9 http process request line
+2020/11/25 11:10:49 [debug] 178#0: *9 http request line: "GET /hello/1.txt?fgdfgdfsgdsd HTTP/1.1"
+2020/11/25 11:10:49 [debug] 178#0: *9 http uri: "/hello/1.txt"
+2020/11/25 11:10:49 [debug] 178#0: *9 http args: "fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 http exten: "txt"
+2020/11/25 11:10:49 [debug] 178#0: *9 http process request header line
+2020/11/25 11:10:49 [debug] 178#0: *9 posix_memalign: 0000000000F2FDA0:4096 @16
+2020/11/25 11:10:49 [debug] 178#0: *9 http header: "User-Agent: curl/7.35.0"
+2020/11/25 11:10:49 [debug] 178#0: *9 http header: "Host: 127.0.0.1"
+2020/11/25 11:10:49 [debug] 178#0: *9 http header: "Accept: */*"
+2020/11/25 11:10:49 [debug] 178#0: *9 http header done
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer del: 21: 1606302709862
+2020/11/25 11:10:49 [debug] 178#0: *9 generic phase: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 rewrite phase: 1
+2020/11/25 11:10:49 [debug] 178#0: *9 test location: "/uploads/"
+2020/11/25 11:10:49 [debug] 178#0: *9 test location: "/hello/"
+2020/11/25 11:10:49 [debug] 178#0: *9 using configuration "/hello/"
+2020/11/25 11:10:49 [debug] 178#0: *9 http cl:-1 max:1048576
+2020/11/25 11:10:49 [debug] 178#0: *9 rewrite phase: 3
+2020/11/25 11:10:49 [debug] 178#0: *9 rewrite phase: 4
+2020/11/25 11:10:49 [debug] 178#0: *9 post rewrite phase: 5
+2020/11/25 11:10:49 [debug] 178#0: *9 generic phase: 6
+2020/11/25 11:10:49 [debug] 178#0: *9 generic phase: 7
+2020/11/25 11:10:49 [debug] 178#0: *9 generic phase: 8
+2020/11/25 11:10:49 [debug] 178#0: *9 access phase: 9
+2020/11/25 11:10:49 [debug] 178#0: *9 access phase: 10
+2020/11/25 11:10:49 [debug] 178#0: *9 access phase: 11
+2020/11/25 11:10:49 [debug] 178#0: *9 post access phase: 12
+2020/11/25 11:10:49 [debug] 178#0: *9 http init upstream, client timer: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 epoll add event: fd:21 op:3 ev:80000005
+2020/11/25 11:10:49 [debug] 178#0: *9 http script copy: "Host: "
+2020/11/25 11:10:49 [debug] 178#0: *9 http script var: "127.0.0.1:8080"
+2020/11/25 11:10:49 [debug] 178#0: *9 http script copy: "
+"
+2020/11/25 11:10:49 [debug] 178#0: *9 http script copy: "Connection: close
+"
+2020/11/25 11:10:49 [debug] 178#0: *9 http script copy: ""
+2020/11/25 11:10:49 [debug] 178#0: *9 http script copy: ""
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header: "User-Agent: curl/7.35.0"
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header: "Accept: */*"
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header:
+"GET /1.txt?fgdfgdfsgdsd HTTP/1.0
+Host: 127.0.0.1:8080
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/11/25 11:10:49 [debug] 178#0: *9 http cleanup add: 0000000000F304A8
+2020/11/25 11:10:49 [debug] 178#0: *9 get rr peer, try: 1
+2020/11/25 11:10:49 [debug] 178#0: *9 socket 22
+2020/11/25 11:10:49 [debug] 178#0: *9 epoll add connection: fd:22 ev:80000005
+2020/11/25 11:10:49 [debug] 178#0: *9 connect to 127.0.0.1:8080, fd:22 #10
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream connect: -2
+2020/11/25 11:10:49 [debug] 178#0: *9 posix_memalign: 0000000000F3A290:128 @16
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer add: 22: 60000:1606302709862
+2020/11/25 11:10:49 [debug] 178#0: *9 http finalize request: -4, "/hello/1.txt?fgdfgdfsgdsd" a:1, c:2
+2020/11/25 11:10:49 [debug] 178#0: *9 http request count:2 blk:0
+2020/11/25 11:10:49 [debug] 178#0: *9 post event 00000000010290A8
+2020/11/25 11:10:49 [debug] 178#0: *9 post event 0000000001029110
+2020/11/25 11:10:49 [debug] 178#0: *9 delete posted event 0000000001029110
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream request: "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream send request handler
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream send request
+2020/11/25 11:10:49 [debug] 178#0: *9 chain writer buf fl:1 s:115
+2020/11/25 11:10:49 [debug] 178#0: *9 chain writer in: 0000000000F304E0
+2020/11/25 11:10:49 [debug] 178#0: *9 writev: 115
+2020/11/25 11:10:49 [debug] 178#0: *9 chain writer out: 0000000000000000
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer del: 22: 1606302709862
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer add: 22: 60000:1606302709862
+2020/11/25 11:10:49 [debug] 178#0: *9 delete posted event 00000000010290A8
+2020/11/25 11:10:49 [debug] 178#0: *9 http run request: "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream check client, write event:1, "/hello/1.txt"
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/11/25 11:10:49 [debug] 178#0: *9 post event 0000000001015900
+2020/11/25 11:10:49 [debug] 178#0: *9 post event 0000000001029110
+2020/11/25 11:10:49 [debug] 178#0: *9 delete posted event 0000000001029110
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream request: "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream dummy handler
+2020/11/25 11:10:49 [debug] 178#0: *9 delete posted event 0000000001015900
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream request: "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream process header
+2020/11/25 11:10:49 [debug] 178#0: *9 malloc: 0000000000F30DB0:4096
+2020/11/25 11:10:49 [debug] 178#0: *9 recv: fd:22 156 of 4096
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy status 200 "200 OK"
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header: "Server: gunicorn/17.5"
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header: "Date: Wed, 25 Nov 2020 11:10:49 GMT"
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header: "Connection: close"
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header: "Content-type: text/plain"
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header: "Content-Length: 12"
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy header done
+2020/11/25 11:10:49 [debug] 178#0: *9 uploadprogress error-tracker error: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 xslt filter header
+2020/11/25 11:10:49 [debug] 178#0: *9 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 25 Nov 2020 11:10:49 GMT
+Content-Type: text/plain
+Content-Length: 12
+Connection: keep-alive
+
+2020/11/25 11:10:49 [debug] 178#0: *9 write new buf t:1 f:0 0000000000F30778, pos 0000000000F30778, size: 156 file: 0, size: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 http write filter: l:0 f:0 s:156
+2020/11/25 11:10:49 [debug] 178#0: *9 http cacheable: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 http proxy filter init s:200 h:0 c:0 l:12
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream process upstream
+2020/11/25 11:10:49 [debug] 178#0: *9 pipe read upstream: 1
+2020/11/25 11:10:49 [debug] 178#0: *9 pipe preread: 12
+2020/11/25 11:10:49 [debug] 178#0: *9 readv: 1:3940
+2020/11/25 11:10:49 [debug] 178#0: *9 pipe recv chain: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 pipe buf free s:0 t:1 f:0 0000000000F30DB0, pos 0000000000F30E40, size: 12 file: 0, size: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 pipe length: 12
+2020/11/25 11:10:49 [debug] 178#0: *9 input buf #0
+2020/11/25 11:10:49 [debug] 178#0: *9 pipe write downstream: 1
+2020/11/25 11:10:49 [debug] 178#0: *9 pipe write downstream flush in
+2020/11/25 11:10:49 [debug] 178#0: *9 http output filter "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 http copy filter: "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 image filter
+2020/11/25 11:10:49 [debug] 178#0: *9 xslt filter body
+2020/11/25 11:10:49 [debug] 178#0: *9 http postpone filter "/hello/1.txt?fgdfgdfsgdsd" 0000000000F30990
+2020/11/25 11:10:49 [debug] 178#0: *9 write old buf t:1 f:0 0000000000F30778, pos 0000000000F30778, size: 156 file: 0, size: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 write new buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E40, size: 12 file: 0, size: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 http write filter: l:0 f:0 s:168
+2020/11/25 11:10:49 [debug] 178#0: *9 http copy filter: 0 "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 pipe write downstream done
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer: 22, old: 1606302709862, new: 1606302709863
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream exit: 0000000000000000
+2020/11/25 11:10:49 [debug] 178#0: *9 finalize http upstream request: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 finalize http proxy request
+2020/11/25 11:10:49 [debug] 178#0: *9 free rr peer 1 0
+2020/11/25 11:10:49 [debug] 178#0: *9 close http upstream connection: 22
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 0000000000F3A290, unused: 48
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer del: 22: 1606302709862
+2020/11/25 11:10:49 [debug] 178#0: *9 reusable connection: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 http upstream temp fd: -1
+2020/11/25 11:10:49 [debug] 178#0: *9 http output filter "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 http copy filter: "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 image filter
+2020/11/25 11:10:49 [debug] 178#0: *9 xslt filter body
+2020/11/25 11:10:49 [debug] 178#0: *9 http postpone filter "/hello/1.txt?fgdfgdfsgdsd" 00007FFDF28BC850
+2020/11/25 11:10:49 [debug] 178#0: *9 write old buf t:1 f:0 0000000000F30778, pos 0000000000F30778, size: 156 file: 0, size: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 write old buf t:1 f:0 0000000000F30DB0, pos 0000000000F30E40, size: 12 file: 0, size: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 http write filter: l:1 f:0 s:168
+2020/11/25 11:10:49 [debug] 178#0: *9 http write filter limit 0
+2020/11/25 11:10:49 [debug] 178#0: *9 writev: 168
+2020/11/25 11:10:49 [debug] 178#0: *9 http write filter 0000000000000000
+2020/11/25 11:10:49 [debug] 178#0: *9 http copy filter: 0 "/hello/1.txt?fgdfgdfsgdsd"
+2020/11/25 11:10:49 [debug] 178#0: *9 http finalize request: 0, "/hello/1.txt?fgdfgdfsgdsd" a:1, c:1
+2020/11/25 11:10:49 [debug] 178#0: *9 set http keepalive handler
+2020/11/25 11:10:49 [debug] 178#0: *9 http close request
+2020/11/25 11:10:49 [debug] 178#0: *9 http log handler
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 0000000000F30DB0
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 0000000000F39280, unused: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 0000000000F2FDA0, unused: 680
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 000000000100B860
+2020/11/25 11:10:49 [debug] 178#0: *9 hc free: 0000000000000000 0
+2020/11/25 11:10:49 [debug] 178#0: *9 hc busy: 0000000000000000 0
+2020/11/25 11:10:49 [debug] 178#0: *9 tcp_nodelay
+2020/11/25 11:10:49 [debug] 178#0: *9 reusable connection: 1
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer add: 21: 65000:1606302714863
+2020/11/25 11:10:49 [debug] 178#0: *9 post event 0000000001015898
+2020/11/25 11:10:49 [debug] 178#0: *9 delete posted event 0000000001015898
+2020/11/25 11:10:49 [debug] 178#0: *9 http keepalive handler
+2020/11/25 11:10:49 [debug] 178#0: *9 malloc: 000000000100B860:1024
+2020/11/25 11:10:49 [debug] 178#0: *9 recv: fd:21 -1 of 1024
+2020/11/25 11:10:49 [debug] 178#0: *9 recv() not ready (11: Resource temporarily unavailable)
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 000000000100B860
+2020/11/25 11:10:49 [debug] 178#0: *9 post event 0000000001015898
+2020/11/25 11:10:49 [debug] 178#0: *9 post event 00000000010290A8
+2020/11/25 11:10:49 [debug] 178#0: *9 delete posted event 00000000010290A8
+2020/11/25 11:10:49 [debug] 178#0: *9 http empty handler
+2020/11/25 11:10:49 [debug] 178#0: *9 delete posted event 0000000001015898
+2020/11/25 11:10:49 [debug] 178#0: *9 http keepalive handler
+2020/11/25 11:10:49 [debug] 178#0: *9 malloc: 000000000100B860:1024
+2020/11/25 11:10:49 [debug] 178#0: *9 recv: fd:21 0 of 1024
+2020/11/25 11:10:49 [info] 178#0: *9 client 127.0.0.1 closed keepalive connection
+2020/11/25 11:10:49 [debug] 178#0: *9 close http connection: 21
+2020/11/25 11:10:49 [debug] 178#0: *9 event timer del: 21: 1606302714863
+2020/11/25 11:10:49 [debug] 178#0: *9 reusable connection: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 000000000100B860
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 0000000000F2B780, unused: 0
+2020/11/25 11:10:49 [debug] 178#0: *9 free: 0000000000F2BA60, unused: 128
