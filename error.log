@@ -3524,3 +3524,2309 @@ Connection: keep-alive
 2020/12/01 06:50:46 [debug] 450#0: *1 free: 000000000239C780, unused: 0
 2020/12/01 06:50:46 [debug] 450#0: *1 free: 000000000239CA60, unused: 128
 2020/12/01 06:51:12 [debug] 606#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 07:56:37 [debug] 64#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:06:38 [debug] 611#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:08:16 [debug] 768#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:13:04 [debug] 927#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:14:51 [debug] 1090#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:17:05 [debug] 1246#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:18:12 [debug] 1246#0: post event 0000000000B43700
+2020/12/04 08:18:12 [debug] 1246#0: delete posted event 0000000000B43700
+2020/12/04 08:18:12 [debug] 1246#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:18:12 [debug] 1246#0: posix_memalign: 0000000000A59780:256 @16
+2020/12/04 08:18:12 [debug] 1246#0: *1 accept: 127.0.0.1 fd:21
+2020/12/04 08:18:12 [debug] 1246#0: *1 event timer add: 21: 60000:1607069952502
+2020/12/04 08:18:12 [debug] 1246#0: *1 reusable connection: 1
+2020/12/04 08:18:12 [debug] 1246#0: *1 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:18:12 [debug] 1246#0: *1 post event 0000000000B43838
+2020/12/04 08:18:12 [debug] 1246#0: *1 delete posted event 0000000000B43838
+2020/12/04 08:18:12 [debug] 1246#0: *1 http wait request handler
+2020/12/04 08:18:12 [debug] 1246#0: *1 posix_memalign: 0000000000A59A60:256 @16
+2020/12/04 08:18:12 [debug] 1246#0: *1 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:12 [debug] 1246#0: *1 recv: fd:21 80 of 1024
+2020/12/04 08:18:12 [debug] 1246#0: *1 reusable connection: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 posix_memalign: 0000000000A67280:4096 @16
+2020/12/04 08:18:12 [debug] 1246#0: *1 http process request line
+2020/12/04 08:18:12 [debug] 1246#0: *1 http request line: "GET /sdfsdf/ HTTP/1.1"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http uri: "/sdfsdf/"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http args: ""
+2020/12/04 08:18:12 [debug] 1246#0: *1 http exten: ""
+2020/12/04 08:18:12 [debug] 1246#0: *1 http process request header line
+2020/12/04 08:18:12 [debug] 1246#0: *1 posix_memalign: 0000000000A5DDA0:4096 @16
+2020/12/04 08:18:12 [debug] 1246#0: *1 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http header: "Host: 127.0.0.1"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http header: "Accept: */*"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http header done
+2020/12/04 08:18:12 [debug] 1246#0: *1 event timer del: 21: 1607069952502
+2020/12/04 08:18:12 [debug] 1246#0: *1 generic phase: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 rewrite phase: 1
+2020/12/04 08:18:12 [debug] 1246#0: *1 test location: "/uploads/"
+2020/12/04 08:18:12 [debug] 1246#0: *1 test location: "/hello/"
+2020/12/04 08:18:12 [debug] 1246#0: *1 test location: ~ "\w+\.\w+$"
+2020/12/04 08:18:12 [debug] 1246#0: *1 using configuration ""
+2020/12/04 08:18:12 [debug] 1246#0: *1 http cl:-1 max:1048576
+2020/12/04 08:18:12 [debug] 1246#0: *1 rewrite phase: 3
+2020/12/04 08:18:12 [debug] 1246#0: *1 rewrite phase: 4
+2020/12/04 08:18:12 [debug] 1246#0: *1 post rewrite phase: 5
+2020/12/04 08:18:12 [debug] 1246#0: *1 generic phase: 6
+2020/12/04 08:18:12 [debug] 1246#0: *1 generic phase: 7
+2020/12/04 08:18:12 [debug] 1246#0: *1 generic phase: 8
+2020/12/04 08:18:12 [debug] 1246#0: *1 access phase: 9
+2020/12/04 08:18:12 [debug] 1246#0: *1 access phase: 10
+2020/12/04 08:18:12 [debug] 1246#0: *1 access phase: 11
+2020/12/04 08:18:12 [debug] 1246#0: *1 post access phase: 12
+2020/12/04 08:18:12 [debug] 1246#0: *1 content phase: 13
+2020/12/04 08:18:12 [debug] 1246#0: *1 content phase: 14
+2020/12/04 08:18:12 [debug] 1246#0: *1 content phase: 15
+2020/12/04 08:18:12 [debug] 1246#0: *1 open index "/usr/share/nginx/html/sdfsdf/index.html"
+2020/12/04 08:18:12 [debug] 1246#0: *1 stat() "/usr/share/nginx/html/sdfsdf/index.html" failed (2: No such file or directory)
+2020/12/04 08:18:12 [debug] 1246#0: *1 http index check dir: "/usr/share/nginx/html/sdfsdf"
+2020/12/04 08:18:12 [error] 1246#0: *1 "/usr/share/nginx/html/sdfsdf/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /sdfsdf/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http finalize request: 404, "/sdfsdf/?" a:1, c:1
+2020/12/04 08:18:12 [debug] 1246#0: *1 http special response: 404, "/sdfsdf/?"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http set discard body
+2020/12/04 08:18:12 [debug] 1246#0: *1 uploadprogress error-tracker error: 404
+2020/12/04 08:18:12 [debug] 1246#0: *1 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:18:12 [debug] 1246#0: *1 xslt filter header
+2020/12/04 08:18:12 [debug] 1246#0: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:18:12 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:18:12 [debug] 1246#0: *1 write new buf t:1 f:0 0000000000A5DE58, pos 0000000000A5DE58, size: 163 file: 0, size: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 http write filter: l:0 f:0 s:163
+2020/12/04 08:18:12 [debug] 1246#0: *1 http output filter "/sdfsdf/?"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http copy filter: "/sdfsdf/?"
+2020/12/04 08:18:12 [debug] 1246#0: *1 image filter
+2020/12/04 08:18:12 [debug] 1246#0: *1 xslt filter body
+2020/12/04 08:18:12 [debug] 1246#0: *1 http postpone filter "/sdfsdf/?" 0000000000A5E028
+2020/12/04 08:18:12 [debug] 1246#0: *1 write old buf t:1 f:0 0000000000A5DE58, pos 0000000000A5DE58, size: 163 file: 0, size: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 http write filter: l:1 f:0 s:340
+2020/12/04 08:18:12 [debug] 1246#0: *1 http write filter limit 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 writev: 340
+2020/12/04 08:18:12 [debug] 1246#0: *1 http write filter 0000000000000000
+2020/12/04 08:18:12 [debug] 1246#0: *1 http copy filter: 0 "/sdfsdf/?"
+2020/12/04 08:18:12 [debug] 1246#0: *1 http finalize request: 0, "/sdfsdf/?" a:1, c:1
+2020/12/04 08:18:12 [debug] 1246#0: *1 set http keepalive handler
+2020/12/04 08:18:12 [debug] 1246#0: *1 http close request
+2020/12/04 08:18:12 [debug] 1246#0: *1 http log handler
+2020/12/04 08:18:12 [debug] 1246#0: *1 free: 0000000000A67280, unused: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 free: 0000000000A5DDA0, unused: 3257
+2020/12/04 08:18:12 [debug] 1246#0: *1 free: 0000000000B3D810
+2020/12/04 08:18:12 [debug] 1246#0: *1 hc free: 0000000000000000 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 hc busy: 0000000000000000 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 tcp_nodelay
+2020/12/04 08:18:12 [debug] 1246#0: *1 reusable connection: 1
+2020/12/04 08:18:12 [debug] 1246#0: *1 event timer add: 21: 65000:1607069957731
+2020/12/04 08:18:12 [debug] 1246#0: *1 post event 0000000000B43838
+2020/12/04 08:18:12 [debug] 1246#0: *1 delete posted event 0000000000B43838
+2020/12/04 08:18:12 [debug] 1246#0: *1 http keepalive handler
+2020/12/04 08:18:12 [debug] 1246#0: *1 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:12 [debug] 1246#0: *1 recv: fd:21 -1 of 1024
+2020/12/04 08:18:12 [debug] 1246#0: *1 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:18:12 [debug] 1246#0: *1 free: 0000000000B3D810
+2020/12/04 08:18:12 [debug] 1246#0: *1 post event 0000000000B43838
+2020/12/04 08:18:12 [debug] 1246#0: *1 delete posted event 0000000000B43838
+2020/12/04 08:18:12 [debug] 1246#0: *1 http keepalive handler
+2020/12/04 08:18:12 [debug] 1246#0: *1 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:12 [debug] 1246#0: *1 recv: fd:21 0 of 1024
+2020/12/04 08:18:12 [info] 1246#0: *1 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:18:12 [debug] 1246#0: *1 close http connection: 21
+2020/12/04 08:18:12 [debug] 1246#0: *1 event timer del: 21: 1607069957731
+2020/12/04 08:18:12 [debug] 1246#0: *1 reusable connection: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 free: 0000000000B3D810
+2020/12/04 08:18:12 [debug] 1246#0: *1 free: 0000000000A59780, unused: 0
+2020/12/04 08:18:12 [debug] 1246#0: *1 free: 0000000000A59A60, unused: 128
+2020/12/04 08:18:46 [debug] 1246#0: post event 0000000000B43700
+2020/12/04 08:18:46 [debug] 1246#0: delete posted event 0000000000B43700
+2020/12/04 08:18:46 [debug] 1246#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:18:46 [debug] 1246#0: posix_memalign: 0000000000A59780:256 @16
+2020/12/04 08:18:46 [debug] 1246#0: *2 accept: 127.0.0.1 fd:21
+2020/12/04 08:18:46 [debug] 1246#0: *2 event timer add: 21: 60000:1607069986786
+2020/12/04 08:18:46 [debug] 1246#0: *2 reusable connection: 1
+2020/12/04 08:18:46 [debug] 1246#0: *2 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:18:46 [debug] 1246#0: *2 post event 0000000000B43838
+2020/12/04 08:18:46 [debug] 1246#0: *2 delete posted event 0000000000B43838
+2020/12/04 08:18:46 [debug] 1246#0: *2 http wait request handler
+2020/12/04 08:18:46 [debug] 1246#0: *2 posix_memalign: 0000000000A59A60:256 @16
+2020/12/04 08:18:46 [debug] 1246#0: *2 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:46 [debug] 1246#0: *2 recv: fd:21 86 of 1024
+2020/12/04 08:18:46 [debug] 1246#0: *2 reusable connection: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 posix_memalign: 0000000000A67280:4096 @16
+2020/12/04 08:18:46 [debug] 1246#0: *2 http process request line
+2020/12/04 08:18:46 [debug] 1246#0: *2 http request line: "GET /question/123/ HTTP/1.1"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http uri: "/question/123/"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http args: ""
+2020/12/04 08:18:46 [debug] 1246#0: *2 http exten: ""
+2020/12/04 08:18:46 [debug] 1246#0: *2 http process request header line
+2020/12/04 08:18:46 [debug] 1246#0: *2 posix_memalign: 0000000000A5DDA0:4096 @16
+2020/12/04 08:18:46 [debug] 1246#0: *2 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http header: "Host: 127.0.0.1"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http header: "Accept: */*"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http header done
+2020/12/04 08:18:46 [debug] 1246#0: *2 event timer del: 21: 1607069986786
+2020/12/04 08:18:46 [debug] 1246#0: *2 generic phase: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 rewrite phase: 1
+2020/12/04 08:18:46 [debug] 1246#0: *2 test location: "/uploads/"
+2020/12/04 08:18:46 [debug] 1246#0: *2 test location: "/hello/"
+2020/12/04 08:18:46 [debug] 1246#0: *2 test location: ~ "\w+\.\w+$"
+2020/12/04 08:18:46 [debug] 1246#0: *2 using configuration ""
+2020/12/04 08:18:46 [debug] 1246#0: *2 http cl:-1 max:1048576
+2020/12/04 08:18:46 [debug] 1246#0: *2 rewrite phase: 3
+2020/12/04 08:18:46 [debug] 1246#0: *2 rewrite phase: 4
+2020/12/04 08:18:46 [debug] 1246#0: *2 post rewrite phase: 5
+2020/12/04 08:18:46 [debug] 1246#0: *2 generic phase: 6
+2020/12/04 08:18:46 [debug] 1246#0: *2 generic phase: 7
+2020/12/04 08:18:46 [debug] 1246#0: *2 generic phase: 8
+2020/12/04 08:18:46 [debug] 1246#0: *2 access phase: 9
+2020/12/04 08:18:46 [debug] 1246#0: *2 access phase: 10
+2020/12/04 08:18:46 [debug] 1246#0: *2 access phase: 11
+2020/12/04 08:18:46 [debug] 1246#0: *2 post access phase: 12
+2020/12/04 08:18:46 [debug] 1246#0: *2 content phase: 13
+2020/12/04 08:18:46 [debug] 1246#0: *2 content phase: 14
+2020/12/04 08:18:46 [debug] 1246#0: *2 content phase: 15
+2020/12/04 08:18:46 [debug] 1246#0: *2 open index "/usr/share/nginx/html/question/123/index.html"
+2020/12/04 08:18:46 [debug] 1246#0: *2 stat() "/usr/share/nginx/html/question/123/index.html" failed (2: No such file or directory)
+2020/12/04 08:18:46 [debug] 1246#0: *2 http index check dir: "/usr/share/nginx/html/question/123"
+2020/12/04 08:18:46 [error] 1246#0: *2 "/usr/share/nginx/html/question/123/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /question/123/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http finalize request: 404, "/question/123/?" a:1, c:1
+2020/12/04 08:18:46 [debug] 1246#0: *2 http special response: 404, "/question/123/?"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http set discard body
+2020/12/04 08:18:46 [debug] 1246#0: *2 uploadprogress error-tracker error: 404
+2020/12/04 08:18:46 [debug] 1246#0: *2 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:18:46 [debug] 1246#0: *2 xslt filter header
+2020/12/04 08:18:46 [debug] 1246#0: *2 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:18:46 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:18:46 [debug] 1246#0: *2 write new buf t:1 f:0 0000000000A5DE60, pos 0000000000A5DE60, size: 163 file: 0, size: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 http write filter: l:0 f:0 s:163
+2020/12/04 08:18:46 [debug] 1246#0: *2 http output filter "/question/123/?"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http copy filter: "/question/123/?"
+2020/12/04 08:18:46 [debug] 1246#0: *2 image filter
+2020/12/04 08:18:46 [debug] 1246#0: *2 xslt filter body
+2020/12/04 08:18:46 [debug] 1246#0: *2 http postpone filter "/question/123/?" 0000000000A5E030
+2020/12/04 08:18:46 [debug] 1246#0: *2 write old buf t:1 f:0 0000000000A5DE60, pos 0000000000A5DE60, size: 163 file: 0, size: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 http write filter: l:1 f:0 s:340
+2020/12/04 08:18:46 [debug] 1246#0: *2 http write filter limit 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 writev: 340
+2020/12/04 08:18:46 [debug] 1246#0: *2 http write filter 0000000000000000
+2020/12/04 08:18:46 [debug] 1246#0: *2 http copy filter: 0 "/question/123/?"
+2020/12/04 08:18:46 [debug] 1246#0: *2 http finalize request: 0, "/question/123/?" a:1, c:1
+2020/12/04 08:18:46 [debug] 1246#0: *2 set http keepalive handler
+2020/12/04 08:18:46 [debug] 1246#0: *2 http close request
+2020/12/04 08:18:46 [debug] 1246#0: *2 http log handler
+2020/12/04 08:18:46 [debug] 1246#0: *2 free: 0000000000A67280, unused: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 free: 0000000000A5DDA0, unused: 3243
+2020/12/04 08:18:46 [debug] 1246#0: *2 free: 0000000000B3D810
+2020/12/04 08:18:46 [debug] 1246#0: *2 hc free: 0000000000000000 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 hc busy: 0000000000000000 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 tcp_nodelay
+2020/12/04 08:18:46 [debug] 1246#0: *2 reusable connection: 1
+2020/12/04 08:18:46 [debug] 1246#0: *2 event timer add: 21: 65000:1607069991816
+2020/12/04 08:18:46 [debug] 1246#0: *2 post event 0000000000B43838
+2020/12/04 08:18:46 [debug] 1246#0: *2 delete posted event 0000000000B43838
+2020/12/04 08:18:46 [debug] 1246#0: *2 http keepalive handler
+2020/12/04 08:18:46 [debug] 1246#0: *2 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:46 [debug] 1246#0: *2 recv: fd:21 -1 of 1024
+2020/12/04 08:18:46 [debug] 1246#0: *2 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:18:46 [debug] 1246#0: *2 free: 0000000000B3D810
+2020/12/04 08:18:46 [debug] 1246#0: *2 post event 0000000000B43838
+2020/12/04 08:18:46 [debug] 1246#0: *2 delete posted event 0000000000B43838
+2020/12/04 08:18:46 [debug] 1246#0: *2 http keepalive handler
+2020/12/04 08:18:46 [debug] 1246#0: *2 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:46 [debug] 1246#0: *2 recv: fd:21 0 of 1024
+2020/12/04 08:18:46 [info] 1246#0: *2 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:18:46 [debug] 1246#0: *2 close http connection: 21
+2020/12/04 08:18:46 [debug] 1246#0: *2 event timer del: 21: 1607069991816
+2020/12/04 08:18:46 [debug] 1246#0: *2 reusable connection: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 free: 0000000000B3D810
+2020/12/04 08:18:46 [debug] 1246#0: *2 free: 0000000000A59780, unused: 0
+2020/12/04 08:18:46 [debug] 1246#0: *2 free: 0000000000A59A60, unused: 128
+2020/12/04 08:18:54 [debug] 1246#0: post event 0000000000B43700
+2020/12/04 08:18:54 [debug] 1246#0: delete posted event 0000000000B43700
+2020/12/04 08:18:54 [debug] 1246#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:18:54 [debug] 1246#0: posix_memalign: 0000000000A59780:256 @16
+2020/12/04 08:18:54 [debug] 1246#0: *3 accept: 127.0.0.1 fd:21
+2020/12/04 08:18:54 [debug] 1246#0: *3 event timer add: 21: 60000:1607069994386
+2020/12/04 08:18:54 [debug] 1246#0: *3 reusable connection: 1
+2020/12/04 08:18:54 [debug] 1246#0: *3 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:18:54 [debug] 1246#0: *3 post event 0000000000B43838
+2020/12/04 08:18:54 [debug] 1246#0: *3 delete posted event 0000000000B43838
+2020/12/04 08:18:54 [debug] 1246#0: *3 http wait request handler
+2020/12/04 08:18:54 [debug] 1246#0: *3 posix_memalign: 0000000000A59A60:256 @16
+2020/12/04 08:18:54 [debug] 1246#0: *3 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:54 [debug] 1246#0: *3 recv: fd:21 87 of 1024
+2020/12/04 08:18:54 [debug] 1246#0: *3 reusable connection: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 posix_memalign: 0000000000A67280:4096 @16
+2020/12/04 08:18:54 [debug] 1246#0: *3 http process request line
+2020/12/04 08:18:54 [debug] 1246#0: *3 http request line: "GET /question/a123/ HTTP/1.1"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http uri: "/question/a123/"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http args: ""
+2020/12/04 08:18:54 [debug] 1246#0: *3 http exten: ""
+2020/12/04 08:18:54 [debug] 1246#0: *3 http process request header line
+2020/12/04 08:18:54 [debug] 1246#0: *3 posix_memalign: 0000000000A5DDA0:4096 @16
+2020/12/04 08:18:54 [debug] 1246#0: *3 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http header: "Host: 127.0.0.1"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http header: "Accept: */*"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http header done
+2020/12/04 08:18:54 [debug] 1246#0: *3 event timer del: 21: 1607069994386
+2020/12/04 08:18:54 [debug] 1246#0: *3 generic phase: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 rewrite phase: 1
+2020/12/04 08:18:54 [debug] 1246#0: *3 test location: "/uploads/"
+2020/12/04 08:18:54 [debug] 1246#0: *3 test location: "/hello/"
+2020/12/04 08:18:54 [debug] 1246#0: *3 test location: ~ "\w+\.\w+$"
+2020/12/04 08:18:54 [debug] 1246#0: *3 using configuration ""
+2020/12/04 08:18:54 [debug] 1246#0: *3 http cl:-1 max:1048576
+2020/12/04 08:18:54 [debug] 1246#0: *3 rewrite phase: 3
+2020/12/04 08:18:54 [debug] 1246#0: *3 rewrite phase: 4
+2020/12/04 08:18:54 [debug] 1246#0: *3 post rewrite phase: 5
+2020/12/04 08:18:54 [debug] 1246#0: *3 generic phase: 6
+2020/12/04 08:18:54 [debug] 1246#0: *3 generic phase: 7
+2020/12/04 08:18:54 [debug] 1246#0: *3 generic phase: 8
+2020/12/04 08:18:54 [debug] 1246#0: *3 access phase: 9
+2020/12/04 08:18:54 [debug] 1246#0: *3 access phase: 10
+2020/12/04 08:18:54 [debug] 1246#0: *3 access phase: 11
+2020/12/04 08:18:54 [debug] 1246#0: *3 post access phase: 12
+2020/12/04 08:18:54 [debug] 1246#0: *3 content phase: 13
+2020/12/04 08:18:54 [debug] 1246#0: *3 content phase: 14
+2020/12/04 08:18:54 [debug] 1246#0: *3 content phase: 15
+2020/12/04 08:18:54 [debug] 1246#0: *3 open index "/usr/share/nginx/html/question/a123/index.html"
+2020/12/04 08:18:54 [debug] 1246#0: *3 stat() "/usr/share/nginx/html/question/a123/index.html" failed (2: No such file or directory)
+2020/12/04 08:18:54 [debug] 1246#0: *3 http index check dir: "/usr/share/nginx/html/question/a123"
+2020/12/04 08:18:54 [error] 1246#0: *3 "/usr/share/nginx/html/question/a123/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /question/a123/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http finalize request: 404, "/question/a123/?" a:1, c:1
+2020/12/04 08:18:54 [debug] 1246#0: *3 http special response: 404, "/question/a123/?"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http set discard body
+2020/12/04 08:18:54 [debug] 1246#0: *3 uploadprogress error-tracker error: 404
+2020/12/04 08:18:54 [debug] 1246#0: *3 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:18:54 [debug] 1246#0: *3 xslt filter header
+2020/12/04 08:18:54 [debug] 1246#0: *3 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:18:54 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:18:54 [debug] 1246#0: *3 write new buf t:1 f:0 0000000000A5DE60, pos 0000000000A5DE60, size: 163 file: 0, size: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 http write filter: l:0 f:0 s:163
+2020/12/04 08:18:54 [debug] 1246#0: *3 http output filter "/question/a123/?"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http copy filter: "/question/a123/?"
+2020/12/04 08:18:54 [debug] 1246#0: *3 image filter
+2020/12/04 08:18:54 [debug] 1246#0: *3 xslt filter body
+2020/12/04 08:18:54 [debug] 1246#0: *3 http postpone filter "/question/a123/?" 0000000000A5E030
+2020/12/04 08:18:54 [debug] 1246#0: *3 write old buf t:1 f:0 0000000000A5DE60, pos 0000000000A5DE60, size: 163 file: 0, size: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 http write filter: l:1 f:0 s:340
+2020/12/04 08:18:54 [debug] 1246#0: *3 http write filter limit 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 writev: 340
+2020/12/04 08:18:54 [debug] 1246#0: *3 http write filter 0000000000000000
+2020/12/04 08:18:54 [debug] 1246#0: *3 http copy filter: 0 "/question/a123/?"
+2020/12/04 08:18:54 [debug] 1246#0: *3 http finalize request: 0, "/question/a123/?" a:1, c:1
+2020/12/04 08:18:54 [debug] 1246#0: *3 set http keepalive handler
+2020/12/04 08:18:54 [debug] 1246#0: *3 http close request
+2020/12/04 08:18:54 [debug] 1246#0: *3 http log handler
+2020/12/04 08:18:54 [debug] 1246#0: *3 free: 0000000000A67280, unused: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 free: 0000000000A5DDA0, unused: 3242
+2020/12/04 08:18:54 [debug] 1246#0: *3 free: 0000000000B3D810
+2020/12/04 08:18:54 [debug] 1246#0: *3 hc free: 0000000000000000 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 hc busy: 0000000000000000 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 tcp_nodelay
+2020/12/04 08:18:54 [debug] 1246#0: *3 reusable connection: 1
+2020/12/04 08:18:54 [debug] 1246#0: *3 event timer add: 21: 65000:1607069999386
+2020/12/04 08:18:54 [debug] 1246#0: *3 post event 0000000000B43838
+2020/12/04 08:18:54 [debug] 1246#0: *3 delete posted event 0000000000B43838
+2020/12/04 08:18:54 [debug] 1246#0: *3 http keepalive handler
+2020/12/04 08:18:54 [debug] 1246#0: *3 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:54 [debug] 1246#0: *3 recv: fd:21 -1 of 1024
+2020/12/04 08:18:54 [debug] 1246#0: *3 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:18:54 [debug] 1246#0: *3 free: 0000000000B3D810
+2020/12/04 08:18:54 [debug] 1246#0: *3 post event 0000000000B43838
+2020/12/04 08:18:54 [debug] 1246#0: *3 delete posted event 0000000000B43838
+2020/12/04 08:18:54 [debug] 1246#0: *3 http keepalive handler
+2020/12/04 08:18:54 [debug] 1246#0: *3 malloc: 0000000000B3D810:1024
+2020/12/04 08:18:54 [debug] 1246#0: *3 recv: fd:21 0 of 1024
+2020/12/04 08:18:54 [info] 1246#0: *3 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:18:54 [debug] 1246#0: *3 close http connection: 21
+2020/12/04 08:18:54 [debug] 1246#0: *3 event timer del: 21: 1607069999386
+2020/12/04 08:18:54 [debug] 1246#0: *3 reusable connection: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 free: 0000000000B3D810
+2020/12/04 08:18:54 [debug] 1246#0: *3 free: 0000000000A59780, unused: 0
+2020/12/04 08:18:54 [debug] 1246#0: *3 free: 0000000000A59A60, unused: 128
+2020/12/04 08:19:00 [debug] 1246#0: post event 0000000000B43700
+2020/12/04 08:19:00 [debug] 1246#0: delete posted event 0000000000B43700
+2020/12/04 08:19:00 [debug] 1246#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:19:00 [debug] 1246#0: posix_memalign: 0000000000A59780:256 @16
+2020/12/04 08:19:00 [debug] 1246#0: *4 accept: 127.0.0.1 fd:21
+2020/12/04 08:19:00 [debug] 1246#0: *4 event timer add: 21: 60000:1607070000393
+2020/12/04 08:19:00 [debug] 1246#0: *4 reusable connection: 1
+2020/12/04 08:19:00 [debug] 1246#0: *4 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:19:00 [debug] 1246#0: *4 post event 0000000000B43838
+2020/12/04 08:19:00 [debug] 1246#0: *4 delete posted event 0000000000B43838
+2020/12/04 08:19:00 [debug] 1246#0: *4 http wait request handler
+2020/12/04 08:19:00 [debug] 1246#0: *4 posix_memalign: 0000000000A59A60:256 @16
+2020/12/04 08:19:00 [debug] 1246#0: *4 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:00 [debug] 1246#0: *4 recv: fd:21 82 of 1024
+2020/12/04 08:19:00 [debug] 1246#0: *4 reusable connection: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 posix_memalign: 0000000000A67280:4096 @16
+2020/12/04 08:19:00 [debug] 1246#0: *4 http process request line
+2020/12/04 08:19:00 [debug] 1246#0: *4 http request line: "GET /question/ HTTP/1.1"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http uri: "/question/"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http args: ""
+2020/12/04 08:19:00 [debug] 1246#0: *4 http exten: ""
+2020/12/04 08:19:00 [debug] 1246#0: *4 http process request header line
+2020/12/04 08:19:00 [debug] 1246#0: *4 posix_memalign: 0000000000A5DDA0:4096 @16
+2020/12/04 08:19:00 [debug] 1246#0: *4 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http header: "Host: 127.0.0.1"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http header: "Accept: */*"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http header done
+2020/12/04 08:19:00 [debug] 1246#0: *4 event timer del: 21: 1607070000393
+2020/12/04 08:19:00 [debug] 1246#0: *4 generic phase: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 rewrite phase: 1
+2020/12/04 08:19:00 [debug] 1246#0: *4 test location: "/uploads/"
+2020/12/04 08:19:00 [debug] 1246#0: *4 test location: "/hello/"
+2020/12/04 08:19:00 [debug] 1246#0: *4 test location: ~ "\w+\.\w+$"
+2020/12/04 08:19:00 [debug] 1246#0: *4 using configuration ""
+2020/12/04 08:19:00 [debug] 1246#0: *4 http cl:-1 max:1048576
+2020/12/04 08:19:00 [debug] 1246#0: *4 rewrite phase: 3
+2020/12/04 08:19:00 [debug] 1246#0: *4 rewrite phase: 4
+2020/12/04 08:19:00 [debug] 1246#0: *4 post rewrite phase: 5
+2020/12/04 08:19:00 [debug] 1246#0: *4 generic phase: 6
+2020/12/04 08:19:00 [debug] 1246#0: *4 generic phase: 7
+2020/12/04 08:19:00 [debug] 1246#0: *4 generic phase: 8
+2020/12/04 08:19:00 [debug] 1246#0: *4 access phase: 9
+2020/12/04 08:19:00 [debug] 1246#0: *4 access phase: 10
+2020/12/04 08:19:00 [debug] 1246#0: *4 access phase: 11
+2020/12/04 08:19:00 [debug] 1246#0: *4 post access phase: 12
+2020/12/04 08:19:00 [debug] 1246#0: *4 content phase: 13
+2020/12/04 08:19:00 [debug] 1246#0: *4 content phase: 14
+2020/12/04 08:19:00 [debug] 1246#0: *4 content phase: 15
+2020/12/04 08:19:00 [debug] 1246#0: *4 open index "/usr/share/nginx/html/question/index.html"
+2020/12/04 08:19:00 [debug] 1246#0: *4 stat() "/usr/share/nginx/html/question/index.html" failed (2: No such file or directory)
+2020/12/04 08:19:00 [debug] 1246#0: *4 http index check dir: "/usr/share/nginx/html/question"
+2020/12/04 08:19:00 [error] 1246#0: *4 "/usr/share/nginx/html/question/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /question/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http finalize request: 404, "/question/?" a:1, c:1
+2020/12/04 08:19:00 [debug] 1246#0: *4 http special response: 404, "/question/?"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http set discard body
+2020/12/04 08:19:00 [debug] 1246#0: *4 uploadprogress error-tracker error: 404
+2020/12/04 08:19:00 [debug] 1246#0: *4 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:19:00 [debug] 1246#0: *4 xslt filter header
+2020/12/04 08:19:00 [debug] 1246#0: *4 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:19:00 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:19:00 [debug] 1246#0: *4 write new buf t:1 f:0 0000000000A5DE58, pos 0000000000A5DE58, size: 163 file: 0, size: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 http write filter: l:0 f:0 s:163
+2020/12/04 08:19:00 [debug] 1246#0: *4 http output filter "/question/?"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http copy filter: "/question/?"
+2020/12/04 08:19:00 [debug] 1246#0: *4 image filter
+2020/12/04 08:19:00 [debug] 1246#0: *4 xslt filter body
+2020/12/04 08:19:00 [debug] 1246#0: *4 http postpone filter "/question/?" 0000000000A5E028
+2020/12/04 08:19:00 [debug] 1246#0: *4 write old buf t:1 f:0 0000000000A5DE58, pos 0000000000A5DE58, size: 163 file: 0, size: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 http write filter: l:1 f:0 s:340
+2020/12/04 08:19:00 [debug] 1246#0: *4 http write filter limit 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 writev: 340
+2020/12/04 08:19:00 [debug] 1246#0: *4 http write filter 0000000000000000
+2020/12/04 08:19:00 [debug] 1246#0: *4 http copy filter: 0 "/question/?"
+2020/12/04 08:19:00 [debug] 1246#0: *4 http finalize request: 0, "/question/?" a:1, c:1
+2020/12/04 08:19:00 [debug] 1246#0: *4 set http keepalive handler
+2020/12/04 08:19:00 [debug] 1246#0: *4 http close request
+2020/12/04 08:19:00 [debug] 1246#0: *4 http log handler
+2020/12/04 08:19:00 [debug] 1246#0: *4 free: 0000000000A67280, unused: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 free: 0000000000A5DDA0, unused: 3255
+2020/12/04 08:19:00 [debug] 1246#0: *4 free: 0000000000B3D810
+2020/12/04 08:19:00 [debug] 1246#0: *4 hc free: 0000000000000000 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 hc busy: 0000000000000000 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 tcp_nodelay
+2020/12/04 08:19:00 [debug] 1246#0: *4 reusable connection: 1
+2020/12/04 08:19:00 [debug] 1246#0: *4 event timer add: 21: 65000:1607070005395
+2020/12/04 08:19:00 [debug] 1246#0: *4 post event 0000000000B43838
+2020/12/04 08:19:00 [debug] 1246#0: *4 delete posted event 0000000000B43838
+2020/12/04 08:19:00 [debug] 1246#0: *4 http keepalive handler
+2020/12/04 08:19:00 [debug] 1246#0: *4 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:00 [debug] 1246#0: *4 recv: fd:21 -1 of 1024
+2020/12/04 08:19:00 [debug] 1246#0: *4 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:19:00 [debug] 1246#0: *4 free: 0000000000B3D810
+2020/12/04 08:19:00 [debug] 1246#0: *4 post event 0000000000B43838
+2020/12/04 08:19:00 [debug] 1246#0: *4 delete posted event 0000000000B43838
+2020/12/04 08:19:00 [debug] 1246#0: *4 http keepalive handler
+2020/12/04 08:19:00 [debug] 1246#0: *4 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:00 [debug] 1246#0: *4 recv: fd:21 0 of 1024
+2020/12/04 08:19:00 [info] 1246#0: *4 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:19:00 [debug] 1246#0: *4 close http connection: 21
+2020/12/04 08:19:00 [debug] 1246#0: *4 event timer del: 21: 1607070005395
+2020/12/04 08:19:00 [debug] 1246#0: *4 reusable connection: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 free: 0000000000B3D810
+2020/12/04 08:19:00 [debug] 1246#0: *4 free: 0000000000A59780, unused: 0
+2020/12/04 08:19:00 [debug] 1246#0: *4 free: 0000000000A59A60, unused: 128
+2020/12/04 08:19:09 [debug] 1246#0: post event 0000000000B43700
+2020/12/04 08:19:09 [debug] 1246#0: delete posted event 0000000000B43700
+2020/12/04 08:19:09 [debug] 1246#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:19:09 [debug] 1246#0: posix_memalign: 0000000000A59780:256 @16
+2020/12/04 08:19:09 [debug] 1246#0: *5 accept: 127.0.0.1 fd:21
+2020/12/04 08:19:09 [debug] 1246#0: *5 event timer add: 21: 60000:1607070009180
+2020/12/04 08:19:09 [debug] 1246#0: *5 reusable connection: 1
+2020/12/04 08:19:09 [debug] 1246#0: *5 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:19:09 [debug] 1246#0: *5 post event 0000000000B43838
+2020/12/04 08:19:09 [debug] 1246#0: *5 delete posted event 0000000000B43838
+2020/12/04 08:19:09 [debug] 1246#0: *5 http wait request handler
+2020/12/04 08:19:09 [debug] 1246#0: *5 posix_memalign: 0000000000A59A60:256 @16
+2020/12/04 08:19:09 [debug] 1246#0: *5 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:09 [debug] 1246#0: *5 recv: fd:21 77 of 1024
+2020/12/04 08:19:09 [debug] 1246#0: *5 reusable connection: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 posix_memalign: 0000000000A67280:4096 @16
+2020/12/04 08:19:09 [debug] 1246#0: *5 http process request line
+2020/12/04 08:19:09 [debug] 1246#0: *5 http request line: "GET /new/ HTTP/1.1"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http uri: "/new/"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http args: ""
+2020/12/04 08:19:09 [debug] 1246#0: *5 http exten: ""
+2020/12/04 08:19:09 [debug] 1246#0: *5 http process request header line
+2020/12/04 08:19:09 [debug] 1246#0: *5 posix_memalign: 0000000000A5DDA0:4096 @16
+2020/12/04 08:19:09 [debug] 1246#0: *5 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http header: "Host: 127.0.0.1"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http header: "Accept: */*"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http header done
+2020/12/04 08:19:09 [debug] 1246#0: *5 event timer del: 21: 1607070009180
+2020/12/04 08:19:09 [debug] 1246#0: *5 generic phase: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 rewrite phase: 1
+2020/12/04 08:19:09 [debug] 1246#0: *5 test location: "/uploads/"
+2020/12/04 08:19:09 [debug] 1246#0: *5 test location: "/hello/"
+2020/12/04 08:19:09 [debug] 1246#0: *5 test location: ~ "\w+\.\w+$"
+2020/12/04 08:19:09 [debug] 1246#0: *5 using configuration ""
+2020/12/04 08:19:09 [debug] 1246#0: *5 http cl:-1 max:1048576
+2020/12/04 08:19:09 [debug] 1246#0: *5 rewrite phase: 3
+2020/12/04 08:19:09 [debug] 1246#0: *5 rewrite phase: 4
+2020/12/04 08:19:09 [debug] 1246#0: *5 post rewrite phase: 5
+2020/12/04 08:19:09 [debug] 1246#0: *5 generic phase: 6
+2020/12/04 08:19:09 [debug] 1246#0: *5 generic phase: 7
+2020/12/04 08:19:09 [debug] 1246#0: *5 generic phase: 8
+2020/12/04 08:19:09 [debug] 1246#0: *5 access phase: 9
+2020/12/04 08:19:09 [debug] 1246#0: *5 access phase: 10
+2020/12/04 08:19:09 [debug] 1246#0: *5 access phase: 11
+2020/12/04 08:19:09 [debug] 1246#0: *5 post access phase: 12
+2020/12/04 08:19:09 [debug] 1246#0: *5 content phase: 13
+2020/12/04 08:19:09 [debug] 1246#0: *5 content phase: 14
+2020/12/04 08:19:09 [debug] 1246#0: *5 content phase: 15
+2020/12/04 08:19:09 [debug] 1246#0: *5 open index "/usr/share/nginx/html/new/index.html"
+2020/12/04 08:19:09 [debug] 1246#0: *5 stat() "/usr/share/nginx/html/new/index.html" failed (2: No such file or directory)
+2020/12/04 08:19:09 [debug] 1246#0: *5 http index check dir: "/usr/share/nginx/html/new"
+2020/12/04 08:19:09 [error] 1246#0: *5 "/usr/share/nginx/html/new/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /new/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http finalize request: 404, "/new/?" a:1, c:1
+2020/12/04 08:19:09 [debug] 1246#0: *5 http special response: 404, "/new/?"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http set discard body
+2020/12/04 08:19:09 [debug] 1246#0: *5 uploadprogress error-tracker error: 404
+2020/12/04 08:19:09 [debug] 1246#0: *5 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:19:09 [debug] 1246#0: *5 xslt filter header
+2020/12/04 08:19:09 [debug] 1246#0: *5 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:19:09 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:19:09 [debug] 1246#0: *5 write new buf t:1 f:0 0000000000A5DE58, pos 0000000000A5DE58, size: 163 file: 0, size: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 http write filter: l:0 f:0 s:163
+2020/12/04 08:19:09 [debug] 1246#0: *5 http output filter "/new/?"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http copy filter: "/new/?"
+2020/12/04 08:19:09 [debug] 1246#0: *5 image filter
+2020/12/04 08:19:09 [debug] 1246#0: *5 xslt filter body
+2020/12/04 08:19:09 [debug] 1246#0: *5 http postpone filter "/new/?" 0000000000A5E028
+2020/12/04 08:19:09 [debug] 1246#0: *5 write old buf t:1 f:0 0000000000A5DE58, pos 0000000000A5DE58, size: 163 file: 0, size: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 http write filter: l:1 f:0 s:340
+2020/12/04 08:19:09 [debug] 1246#0: *5 http write filter limit 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 writev: 340
+2020/12/04 08:19:09 [debug] 1246#0: *5 http write filter 0000000000000000
+2020/12/04 08:19:09 [debug] 1246#0: *5 http copy filter: 0 "/new/?"
+2020/12/04 08:19:09 [debug] 1246#0: *5 http finalize request: 0, "/new/?" a:1, c:1
+2020/12/04 08:19:09 [debug] 1246#0: *5 set http keepalive handler
+2020/12/04 08:19:09 [debug] 1246#0: *5 http close request
+2020/12/04 08:19:09 [debug] 1246#0: *5 http log handler
+2020/12/04 08:19:09 [debug] 1246#0: *5 free: 0000000000A67280, unused: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 free: 0000000000A5DDA0, unused: 3260
+2020/12/04 08:19:09 [debug] 1246#0: *5 free: 0000000000B3D810
+2020/12/04 08:19:09 [debug] 1246#0: *5 hc free: 0000000000000000 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 hc busy: 0000000000000000 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 tcp_nodelay
+2020/12/04 08:19:09 [debug] 1246#0: *5 reusable connection: 1
+2020/12/04 08:19:09 [debug] 1246#0: *5 event timer add: 21: 65000:1607070014181
+2020/12/04 08:19:09 [debug] 1246#0: *5 post event 0000000000B43838
+2020/12/04 08:19:09 [debug] 1246#0: *5 delete posted event 0000000000B43838
+2020/12/04 08:19:09 [debug] 1246#0: *5 http keepalive handler
+2020/12/04 08:19:09 [debug] 1246#0: *5 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:09 [debug] 1246#0: *5 recv: fd:21 -1 of 1024
+2020/12/04 08:19:09 [debug] 1246#0: *5 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:19:09 [debug] 1246#0: *5 free: 0000000000B3D810
+2020/12/04 08:19:09 [debug] 1246#0: *5 post event 0000000000B43838
+2020/12/04 08:19:09 [debug] 1246#0: *5 delete posted event 0000000000B43838
+2020/12/04 08:19:09 [debug] 1246#0: *5 http keepalive handler
+2020/12/04 08:19:09 [debug] 1246#0: *5 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:09 [debug] 1246#0: *5 recv: fd:21 0 of 1024
+2020/12/04 08:19:09 [info] 1246#0: *5 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:19:09 [debug] 1246#0: *5 close http connection: 21
+2020/12/04 08:19:09 [debug] 1246#0: *5 event timer del: 21: 1607070014181
+2020/12/04 08:19:09 [debug] 1246#0: *5 reusable connection: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 free: 0000000000B3D810
+2020/12/04 08:19:09 [debug] 1246#0: *5 free: 0000000000A59780, unused: 0
+2020/12/04 08:19:09 [debug] 1246#0: *5 free: 0000000000A59A60, unused: 128
+2020/12/04 08:19:19 [debug] 1246#0: post event 0000000000B43700
+2020/12/04 08:19:19 [debug] 1246#0: delete posted event 0000000000B43700
+2020/12/04 08:19:19 [debug] 1246#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:19:19 [debug] 1246#0: posix_memalign: 0000000000A59780:256 @16
+2020/12/04 08:19:19 [debug] 1246#0: *6 accept: 127.0.0.1 fd:21
+2020/12/04 08:19:19 [debug] 1246#0: *6 event timer add: 21: 60000:1607070019323
+2020/12/04 08:19:19 [debug] 1246#0: *6 reusable connection: 1
+2020/12/04 08:19:19 [debug] 1246#0: *6 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:19:19 [debug] 1246#0: *6 post event 0000000000B43838
+2020/12/04 08:19:19 [debug] 1246#0: *6 delete posted event 0000000000B43838
+2020/12/04 08:19:19 [debug] 1246#0: *6 http wait request handler
+2020/12/04 08:19:19 [debug] 1246#0: *6 posix_memalign: 0000000000A59A60:256 @16
+2020/12/04 08:19:19 [debug] 1246#0: *6 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:19 [debug] 1246#0: *6 recv: fd:21 79 of 1024
+2020/12/04 08:19:19 [debug] 1246#0: *6 reusable connection: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 posix_memalign: 0000000000A67280:4096 @16
+2020/12/04 08:19:19 [debug] 1246#0: *6 http process request line
+2020/12/04 08:19:19 [debug] 1246#0: *6 http request line: "GET /login/ HTTP/1.1"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http uri: "/login/"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http args: ""
+2020/12/04 08:19:19 [debug] 1246#0: *6 http exten: ""
+2020/12/04 08:19:19 [debug] 1246#0: *6 http process request header line
+2020/12/04 08:19:19 [debug] 1246#0: *6 posix_memalign: 0000000000A5DDA0:4096 @16
+2020/12/04 08:19:19 [debug] 1246#0: *6 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http header: "Host: 127.0.0.1"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http header: "Accept: */*"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http header done
+2020/12/04 08:19:19 [debug] 1246#0: *6 event timer del: 21: 1607070019323
+2020/12/04 08:19:19 [debug] 1246#0: *6 generic phase: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 rewrite phase: 1
+2020/12/04 08:19:19 [debug] 1246#0: *6 test location: "/uploads/"
+2020/12/04 08:19:19 [debug] 1246#0: *6 test location: "/hello/"
+2020/12/04 08:19:19 [debug] 1246#0: *6 test location: ~ "\w+\.\w+$"
+2020/12/04 08:19:19 [debug] 1246#0: *6 using configuration ""
+2020/12/04 08:19:19 [debug] 1246#0: *6 http cl:-1 max:1048576
+2020/12/04 08:19:19 [debug] 1246#0: *6 rewrite phase: 3
+2020/12/04 08:19:19 [debug] 1246#0: *6 rewrite phase: 4
+2020/12/04 08:19:19 [debug] 1246#0: *6 post rewrite phase: 5
+2020/12/04 08:19:19 [debug] 1246#0: *6 generic phase: 6
+2020/12/04 08:19:19 [debug] 1246#0: *6 generic phase: 7
+2020/12/04 08:19:19 [debug] 1246#0: *6 generic phase: 8
+2020/12/04 08:19:19 [debug] 1246#0: *6 access phase: 9
+2020/12/04 08:19:19 [debug] 1246#0: *6 access phase: 10
+2020/12/04 08:19:19 [debug] 1246#0: *6 access phase: 11
+2020/12/04 08:19:19 [debug] 1246#0: *6 post access phase: 12
+2020/12/04 08:19:19 [debug] 1246#0: *6 content phase: 13
+2020/12/04 08:19:19 [debug] 1246#0: *6 content phase: 14
+2020/12/04 08:19:19 [debug] 1246#0: *6 content phase: 15
+2020/12/04 08:19:19 [debug] 1246#0: *6 open index "/usr/share/nginx/html/login/index.html"
+2020/12/04 08:19:19 [debug] 1246#0: *6 stat() "/usr/share/nginx/html/login/index.html" failed (2: No such file or directory)
+2020/12/04 08:19:19 [debug] 1246#0: *6 http index check dir: "/usr/share/nginx/html/login"
+2020/12/04 08:19:19 [error] 1246#0: *6 "/usr/share/nginx/html/login/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /login/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http finalize request: 404, "/login/?" a:1, c:1
+2020/12/04 08:19:19 [debug] 1246#0: *6 http special response: 404, "/login/?"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http set discard body
+2020/12/04 08:19:19 [debug] 1246#0: *6 uploadprogress error-tracker error: 404
+2020/12/04 08:19:19 [debug] 1246#0: *6 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:19:19 [debug] 1246#0: *6 xslt filter header
+2020/12/04 08:19:19 [debug] 1246#0: *6 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:19:19 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:19:19 [debug] 1246#0: *6 write new buf t:1 f:0 0000000000A5DE58, pos 0000000000A5DE58, size: 163 file: 0, size: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 http write filter: l:0 f:0 s:163
+2020/12/04 08:19:19 [debug] 1246#0: *6 http output filter "/login/?"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http copy filter: "/login/?"
+2020/12/04 08:19:19 [debug] 1246#0: *6 image filter
+2020/12/04 08:19:19 [debug] 1246#0: *6 xslt filter body
+2020/12/04 08:19:19 [debug] 1246#0: *6 http postpone filter "/login/?" 0000000000A5E028
+2020/12/04 08:19:19 [debug] 1246#0: *6 write old buf t:1 f:0 0000000000A5DE58, pos 0000000000A5DE58, size: 163 file: 0, size: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 http write filter: l:1 f:0 s:340
+2020/12/04 08:19:19 [debug] 1246#0: *6 http write filter limit 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 writev: 340
+2020/12/04 08:19:19 [debug] 1246#0: *6 http write filter 0000000000000000
+2020/12/04 08:19:19 [debug] 1246#0: *6 http copy filter: 0 "/login/?"
+2020/12/04 08:19:19 [debug] 1246#0: *6 http finalize request: 0, "/login/?" a:1, c:1
+2020/12/04 08:19:19 [debug] 1246#0: *6 set http keepalive handler
+2020/12/04 08:19:19 [debug] 1246#0: *6 http close request
+2020/12/04 08:19:19 [debug] 1246#0: *6 http log handler
+2020/12/04 08:19:19 [debug] 1246#0: *6 free: 0000000000A67280, unused: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 free: 0000000000A5DDA0, unused: 3258
+2020/12/04 08:19:19 [debug] 1246#0: *6 free: 0000000000B3D810
+2020/12/04 08:19:19 [debug] 1246#0: *6 hc free: 0000000000000000 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 hc busy: 0000000000000000 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 tcp_nodelay
+2020/12/04 08:19:19 [debug] 1246#0: *6 reusable connection: 1
+2020/12/04 08:19:19 [debug] 1246#0: *6 event timer add: 21: 65000:1607070024323
+2020/12/04 08:19:19 [debug] 1246#0: *6 post event 0000000000B43838
+2020/12/04 08:19:19 [debug] 1246#0: *6 delete posted event 0000000000B43838
+2020/12/04 08:19:19 [debug] 1246#0: *6 http keepalive handler
+2020/12/04 08:19:19 [debug] 1246#0: *6 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:19 [debug] 1246#0: *6 recv: fd:21 -1 of 1024
+2020/12/04 08:19:19 [debug] 1246#0: *6 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:19:19 [debug] 1246#0: *6 free: 0000000000B3D810
+2020/12/04 08:19:19 [debug] 1246#0: *6 post event 0000000000B43838
+2020/12/04 08:19:19 [debug] 1246#0: *6 delete posted event 0000000000B43838
+2020/12/04 08:19:19 [debug] 1246#0: *6 http keepalive handler
+2020/12/04 08:19:19 [debug] 1246#0: *6 malloc: 0000000000B3D810:1024
+2020/12/04 08:19:19 [debug] 1246#0: *6 recv: fd:21 0 of 1024
+2020/12/04 08:19:19 [info] 1246#0: *6 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:19:19 [debug] 1246#0: *6 close http connection: 21
+2020/12/04 08:19:19 [debug] 1246#0: *6 event timer del: 21: 1607070024323
+2020/12/04 08:19:19 [debug] 1246#0: *6 reusable connection: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 free: 0000000000B3D810
+2020/12/04 08:19:19 [debug] 1246#0: *6 free: 0000000000A59780, unused: 0
+2020/12/04 08:19:19 [debug] 1246#0: *6 free: 0000000000A59A60, unused: 128
+2020/12/04 08:20:34 [debug] 1451#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:21:04 [debug] 1451#0: post event 00000000010F7700
+2020/12/04 08:21:04 [debug] 1451#0: delete posted event 00000000010F7700
+2020/12/04 08:21:04 [debug] 1451#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:21:04 [debug] 1451#0: posix_memalign: 000000000100D780:256 @16
+2020/12/04 08:21:04 [debug] 1451#0: *1 accept: 127.0.0.1 fd:21
+2020/12/04 08:21:04 [debug] 1451#0: *1 event timer add: 21: 60000:1607070124246
+2020/12/04 08:21:04 [debug] 1451#0: *1 reusable connection: 1
+2020/12/04 08:21:04 [debug] 1451#0: *1 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:21:04 [debug] 1451#0: *1 post event 00000000010F7838
+2020/12/04 08:21:04 [debug] 1451#0: *1 delete posted event 00000000010F7838
+2020/12/04 08:21:04 [debug] 1451#0: *1 http wait request handler
+2020/12/04 08:21:04 [debug] 1451#0: *1 posix_memalign: 000000000100DA60:256 @16
+2020/12/04 08:21:04 [debug] 1451#0: *1 malloc: 00000000010F1810:1024
+2020/12/04 08:21:04 [debug] 1451#0: *1 recv: fd:21 86 of 1024
+2020/12/04 08:21:04 [debug] 1451#0: *1 reusable connection: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 posix_memalign: 000000000101B280:4096 @16
+2020/12/04 08:21:04 [debug] 1451#0: *1 http process request line
+2020/12/04 08:21:04 [debug] 1451#0: *1 http request line: "GET /question/123/ HTTP/1.1"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http uri: "/question/123/"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http args: ""
+2020/12/04 08:21:04 [debug] 1451#0: *1 http exten: ""
+2020/12/04 08:21:04 [debug] 1451#0: *1 http process request header line
+2020/12/04 08:21:04 [debug] 1451#0: *1 posix_memalign: 0000000001011DA0:4096 @16
+2020/12/04 08:21:04 [debug] 1451#0: *1 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http header: "Host: 127.0.0.1"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http header: "Accept: */*"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http header done
+2020/12/04 08:21:04 [debug] 1451#0: *1 event timer del: 21: 1607070124246
+2020/12/04 08:21:04 [debug] 1451#0: *1 generic phase: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 rewrite phase: 1
+2020/12/04 08:21:04 [debug] 1451#0: *1 test location: "/uploads/"
+2020/12/04 08:21:04 [debug] 1451#0: *1 test location: "/hello/"
+2020/12/04 08:21:04 [debug] 1451#0: *1 test location: ~ "\w+\.\w+$"
+2020/12/04 08:21:04 [debug] 1451#0: *1 using configuration ""
+2020/12/04 08:21:04 [debug] 1451#0: *1 http cl:-1 max:1048576
+2020/12/04 08:21:04 [debug] 1451#0: *1 rewrite phase: 3
+2020/12/04 08:21:04 [debug] 1451#0: *1 rewrite phase: 4
+2020/12/04 08:21:04 [debug] 1451#0: *1 post rewrite phase: 5
+2020/12/04 08:21:04 [debug] 1451#0: *1 generic phase: 6
+2020/12/04 08:21:04 [debug] 1451#0: *1 generic phase: 7
+2020/12/04 08:21:04 [debug] 1451#0: *1 generic phase: 8
+2020/12/04 08:21:04 [debug] 1451#0: *1 access phase: 9
+2020/12/04 08:21:04 [debug] 1451#0: *1 access phase: 10
+2020/12/04 08:21:04 [debug] 1451#0: *1 access phase: 11
+2020/12/04 08:21:04 [debug] 1451#0: *1 post access phase: 12
+2020/12/04 08:21:04 [debug] 1451#0: *1 content phase: 13
+2020/12/04 08:21:04 [debug] 1451#0: *1 content phase: 14
+2020/12/04 08:21:04 [debug] 1451#0: *1 content phase: 15
+2020/12/04 08:21:04 [debug] 1451#0: *1 open index "/usr/share/nginx/html/question/123/index.html"
+2020/12/04 08:21:04 [debug] 1451#0: *1 stat() "/usr/share/nginx/html/question/123/index.html" failed (2: No such file or directory)
+2020/12/04 08:21:04 [debug] 1451#0: *1 http index check dir: "/usr/share/nginx/html/question/123"
+2020/12/04 08:21:04 [error] 1451#0: *1 "/usr/share/nginx/html/question/123/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /question/123/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http finalize request: 404, "/question/123/?" a:1, c:1
+2020/12/04 08:21:04 [debug] 1451#0: *1 http special response: 404, "/question/123/?"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http set discard body
+2020/12/04 08:21:04 [debug] 1451#0: *1 uploadprogress error-tracker error: 404
+2020/12/04 08:21:04 [debug] 1451#0: *1 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:21:04 [debug] 1451#0: *1 xslt filter header
+2020/12/04 08:21:04 [debug] 1451#0: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:21:04 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:21:04 [debug] 1451#0: *1 write new buf t:1 f:0 0000000001011E60, pos 0000000001011E60, size: 163 file: 0, size: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 http write filter: l:0 f:0 s:163
+2020/12/04 08:21:04 [debug] 1451#0: *1 http output filter "/question/123/?"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http copy filter: "/question/123/?"
+2020/12/04 08:21:04 [debug] 1451#0: *1 image filter
+2020/12/04 08:21:04 [debug] 1451#0: *1 xslt filter body
+2020/12/04 08:21:04 [debug] 1451#0: *1 http postpone filter "/question/123/?" 0000000001012030
+2020/12/04 08:21:04 [debug] 1451#0: *1 write old buf t:1 f:0 0000000001011E60, pos 0000000001011E60, size: 163 file: 0, size: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 http write filter: l:1 f:0 s:340
+2020/12/04 08:21:04 [debug] 1451#0: *1 http write filter limit 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 writev: 340
+2020/12/04 08:21:04 [debug] 1451#0: *1 http write filter 0000000000000000
+2020/12/04 08:21:04 [debug] 1451#0: *1 http copy filter: 0 "/question/123/?"
+2020/12/04 08:21:04 [debug] 1451#0: *1 http finalize request: 0, "/question/123/?" a:1, c:1
+2020/12/04 08:21:04 [debug] 1451#0: *1 set http keepalive handler
+2020/12/04 08:21:04 [debug] 1451#0: *1 http close request
+2020/12/04 08:21:04 [debug] 1451#0: *1 http log handler
+2020/12/04 08:21:04 [debug] 1451#0: *1 free: 000000000101B280, unused: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 free: 0000000001011DA0, unused: 3243
+2020/12/04 08:21:04 [debug] 1451#0: *1 free: 00000000010F1810
+2020/12/04 08:21:04 [debug] 1451#0: *1 hc free: 0000000000000000 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 hc busy: 0000000000000000 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 tcp_nodelay
+2020/12/04 08:21:04 [debug] 1451#0: *1 reusable connection: 1
+2020/12/04 08:21:04 [debug] 1451#0: *1 event timer add: 21: 65000:1607070129496
+2020/12/04 08:21:04 [debug] 1451#0: *1 post event 00000000010F7838
+2020/12/04 08:21:04 [debug] 1451#0: *1 delete posted event 00000000010F7838
+2020/12/04 08:21:04 [debug] 1451#0: *1 http keepalive handler
+2020/12/04 08:21:04 [debug] 1451#0: *1 malloc: 00000000010F1810:1024
+2020/12/04 08:21:04 [debug] 1451#0: *1 recv: fd:21 0 of 1024
+2020/12/04 08:21:04 [info] 1451#0: *1 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:21:04 [debug] 1451#0: *1 close http connection: 21
+2020/12/04 08:21:04 [debug] 1451#0: *1 event timer del: 21: 1607070129496
+2020/12/04 08:21:04 [debug] 1451#0: *1 reusable connection: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 free: 00000000010F1810
+2020/12/04 08:21:04 [debug] 1451#0: *1 free: 000000000100D780, unused: 0
+2020/12/04 08:21:04 [debug] 1451#0: *1 free: 000000000100DA60, unused: 128
+2020/12/04 08:21:25 [debug] 1451#0: post event 00000000010F7700
+2020/12/04 08:21:25 [debug] 1451#0: delete posted event 00000000010F7700
+2020/12/04 08:21:25 [debug] 1451#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:21:25 [debug] 1451#0: posix_memalign: 000000000100D780:256 @16
+2020/12/04 08:21:25 [debug] 1451#0: *2 accept: 127.0.0.1 fd:21
+2020/12/04 08:21:25 [debug] 1451#0: *2 event timer add: 21: 60000:1607070145716
+2020/12/04 08:21:25 [debug] 1451#0: *2 reusable connection: 1
+2020/12/04 08:21:25 [debug] 1451#0: *2 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:21:25 [debug] 1451#0: *2 post event 00000000010F7838
+2020/12/04 08:21:25 [debug] 1451#0: *2 delete posted event 00000000010F7838
+2020/12/04 08:21:25 [debug] 1451#0: *2 http wait request handler
+2020/12/04 08:21:25 [debug] 1451#0: *2 posix_memalign: 000000000100DA60:256 @16
+2020/12/04 08:21:25 [debug] 1451#0: *2 malloc: 00000000010F1810:1024
+2020/12/04 08:21:25 [debug] 1451#0: *2 recv: fd:21 77 of 1024
+2020/12/04 08:21:25 [debug] 1451#0: *2 reusable connection: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 posix_memalign: 000000000101B280:4096 @16
+2020/12/04 08:21:25 [debug] 1451#0: *2 http process request line
+2020/12/04 08:21:25 [debug] 1451#0: *2 http request line: "GET /new/ HTTP/1.1"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http uri: "/new/"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http args: ""
+2020/12/04 08:21:25 [debug] 1451#0: *2 http exten: ""
+2020/12/04 08:21:25 [debug] 1451#0: *2 http process request header line
+2020/12/04 08:21:25 [debug] 1451#0: *2 posix_memalign: 0000000001011DA0:4096 @16
+2020/12/04 08:21:25 [debug] 1451#0: *2 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http header: "Host: 127.0.0.1"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http header: "Accept: */*"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http header done
+2020/12/04 08:21:25 [debug] 1451#0: *2 event timer del: 21: 1607070145716
+2020/12/04 08:21:25 [debug] 1451#0: *2 generic phase: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 rewrite phase: 1
+2020/12/04 08:21:25 [debug] 1451#0: *2 test location: "/uploads/"
+2020/12/04 08:21:25 [debug] 1451#0: *2 test location: "/hello/"
+2020/12/04 08:21:25 [debug] 1451#0: *2 test location: ~ "\w+\.\w+$"
+2020/12/04 08:21:25 [debug] 1451#0: *2 using configuration ""
+2020/12/04 08:21:25 [debug] 1451#0: *2 http cl:-1 max:1048576
+2020/12/04 08:21:25 [debug] 1451#0: *2 rewrite phase: 3
+2020/12/04 08:21:25 [debug] 1451#0: *2 rewrite phase: 4
+2020/12/04 08:21:25 [debug] 1451#0: *2 post rewrite phase: 5
+2020/12/04 08:21:25 [debug] 1451#0: *2 generic phase: 6
+2020/12/04 08:21:25 [debug] 1451#0: *2 generic phase: 7
+2020/12/04 08:21:25 [debug] 1451#0: *2 generic phase: 8
+2020/12/04 08:21:25 [debug] 1451#0: *2 access phase: 9
+2020/12/04 08:21:25 [debug] 1451#0: *2 access phase: 10
+2020/12/04 08:21:25 [debug] 1451#0: *2 access phase: 11
+2020/12/04 08:21:25 [debug] 1451#0: *2 post access phase: 12
+2020/12/04 08:21:25 [debug] 1451#0: *2 content phase: 13
+2020/12/04 08:21:25 [debug] 1451#0: *2 content phase: 14
+2020/12/04 08:21:25 [debug] 1451#0: *2 content phase: 15
+2020/12/04 08:21:25 [debug] 1451#0: *2 open index "/usr/share/nginx/html/new/index.html"
+2020/12/04 08:21:25 [debug] 1451#0: *2 stat() "/usr/share/nginx/html/new/index.html" failed (2: No such file or directory)
+2020/12/04 08:21:25 [debug] 1451#0: *2 http index check dir: "/usr/share/nginx/html/new"
+2020/12/04 08:21:25 [error] 1451#0: *2 "/usr/share/nginx/html/new/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /new/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http finalize request: 404, "/new/?" a:1, c:1
+2020/12/04 08:21:25 [debug] 1451#0: *2 http special response: 404, "/new/?"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http set discard body
+2020/12/04 08:21:25 [debug] 1451#0: *2 uploadprogress error-tracker error: 404
+2020/12/04 08:21:25 [debug] 1451#0: *2 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:21:25 [debug] 1451#0: *2 xslt filter header
+2020/12/04 08:21:25 [debug] 1451#0: *2 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:21:25 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:21:25 [debug] 1451#0: *2 write new buf t:1 f:0 0000000001011E58, pos 0000000001011E58, size: 163 file: 0, size: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 http write filter: l:0 f:0 s:163
+2020/12/04 08:21:25 [debug] 1451#0: *2 http output filter "/new/?"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http copy filter: "/new/?"
+2020/12/04 08:21:25 [debug] 1451#0: *2 image filter
+2020/12/04 08:21:25 [debug] 1451#0: *2 xslt filter body
+2020/12/04 08:21:25 [debug] 1451#0: *2 http postpone filter "/new/?" 0000000001012028
+2020/12/04 08:21:25 [debug] 1451#0: *2 write old buf t:1 f:0 0000000001011E58, pos 0000000001011E58, size: 163 file: 0, size: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 http write filter: l:1 f:0 s:340
+2020/12/04 08:21:25 [debug] 1451#0: *2 http write filter limit 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 writev: 340
+2020/12/04 08:21:25 [debug] 1451#0: *2 http write filter 0000000000000000
+2020/12/04 08:21:25 [debug] 1451#0: *2 http copy filter: 0 "/new/?"
+2020/12/04 08:21:25 [debug] 1451#0: *2 http finalize request: 0, "/new/?" a:1, c:1
+2020/12/04 08:21:25 [debug] 1451#0: *2 set http keepalive handler
+2020/12/04 08:21:25 [debug] 1451#0: *2 http close request
+2020/12/04 08:21:25 [debug] 1451#0: *2 http log handler
+2020/12/04 08:21:25 [debug] 1451#0: *2 free: 000000000101B280, unused: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 free: 0000000001011DA0, unused: 3260
+2020/12/04 08:21:25 [debug] 1451#0: *2 free: 00000000010F1810
+2020/12/04 08:21:25 [debug] 1451#0: *2 hc free: 0000000000000000 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 hc busy: 0000000000000000 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 tcp_nodelay
+2020/12/04 08:21:25 [debug] 1451#0: *2 reusable connection: 1
+2020/12/04 08:21:25 [debug] 1451#0: *2 event timer add: 21: 65000:1607070150728
+2020/12/04 08:21:25 [debug] 1451#0: *2 post event 00000000010F7838
+2020/12/04 08:21:25 [debug] 1451#0: *2 delete posted event 00000000010F7838
+2020/12/04 08:21:25 [debug] 1451#0: *2 http keepalive handler
+2020/12/04 08:21:25 [debug] 1451#0: *2 malloc: 00000000010F1810:1024
+2020/12/04 08:21:25 [debug] 1451#0: *2 recv: fd:21 0 of 1024
+2020/12/04 08:21:25 [info] 1451#0: *2 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:21:25 [debug] 1451#0: *2 close http connection: 21
+2020/12/04 08:21:25 [debug] 1451#0: *2 event timer del: 21: 1607070150728
+2020/12/04 08:21:25 [debug] 1451#0: *2 reusable connection: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 free: 00000000010F1810
+2020/12/04 08:21:25 [debug] 1451#0: *2 free: 000000000100D780, unused: 0
+2020/12/04 08:21:25 [debug] 1451#0: *2 free: 000000000100DA60, unused: 128
+2020/12/04 08:21:57 [debug] 1611#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:22:05 [debug] 1611#0: post event 0000000002701700
+2020/12/04 08:22:05 [debug] 1611#0: delete posted event 0000000002701700
+2020/12/04 08:22:05 [debug] 1611#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:22:05 [debug] 1611#0: posix_memalign: 0000000002617780:256 @16
+2020/12/04 08:22:05 [debug] 1611#0: *1 accept: 127.0.0.1 fd:21
+2020/12/04 08:22:05 [debug] 1611#0: *1 event timer add: 21: 60000:1607070185342
+2020/12/04 08:22:05 [debug] 1611#0: *1 reusable connection: 1
+2020/12/04 08:22:05 [debug] 1611#0: *1 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:22:06 [debug] 1611#0: *1 post event 0000000002701838
+2020/12/04 08:22:06 [debug] 1611#0: *1 delete posted event 0000000002701838
+2020/12/04 08:22:06 [debug] 1611#0: *1 http wait request handler
+2020/12/04 08:22:06 [debug] 1611#0: *1 posix_memalign: 0000000002617A60:256 @16
+2020/12/04 08:22:06 [debug] 1611#0: *1 malloc: 00000000026FB810:1024
+2020/12/04 08:22:06 [debug] 1611#0: *1 recv: fd:21 77 of 1024
+2020/12/04 08:22:06 [debug] 1611#0: *1 reusable connection: 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 posix_memalign: 0000000002625280:4096 @16
+2020/12/04 08:22:06 [debug] 1611#0: *1 http process request line
+2020/12/04 08:22:06 [debug] 1611#0: *1 http request line: "GET /new/ HTTP/1.1"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http uri: "/new/"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http args: ""
+2020/12/04 08:22:06 [debug] 1611#0: *1 http exten: ""
+2020/12/04 08:22:06 [debug] 1611#0: *1 http process request header line
+2020/12/04 08:22:06 [debug] 1611#0: *1 posix_memalign: 000000000261BDA0:4096 @16
+2020/12/04 08:22:06 [debug] 1611#0: *1 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http header: "Host: 127.0.0.1"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http header: "Accept: */*"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http header done
+2020/12/04 08:22:06 [debug] 1611#0: *1 event timer del: 21: 1607070185342
+2020/12/04 08:22:06 [debug] 1611#0: *1 generic phase: 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 rewrite phase: 1
+2020/12/04 08:22:06 [debug] 1611#0: *1 test location: "/uploads/"
+2020/12/04 08:22:06 [debug] 1613#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:22:06 [debug] 1611#0: *1 test location: "/hello/"
+2020/12/04 08:22:06 [debug] 1611#0: *1 test location: ~ "\w+\.\w+$"
+2020/12/04 08:22:06 [debug] 1611#0: *1 using configuration ""
+2020/12/04 08:22:06 [debug] 1611#0: *1 http cl:-1 max:1048576
+2020/12/04 08:22:06 [debug] 1611#0: *1 rewrite phase: 3
+2020/12/04 08:22:06 [debug] 1611#0: *1 rewrite phase: 4
+2020/12/04 08:22:06 [debug] 1611#0: *1 post rewrite phase: 5
+2020/12/04 08:22:06 [debug] 1611#0: *1 generic phase: 6
+2020/12/04 08:22:06 [debug] 1611#0: *1 generic phase: 7
+2020/12/04 08:22:06 [debug] 1611#0: *1 generic phase: 8
+2020/12/04 08:22:06 [debug] 1611#0: *1 access phase: 9
+2020/12/04 08:22:06 [debug] 1611#0: *1 access phase: 10
+2020/12/04 08:22:06 [debug] 1611#0: *1 access phase: 11
+2020/12/04 08:22:06 [debug] 1611#0: *1 post access phase: 12
+2020/12/04 08:22:06 [debug] 1611#0: *1 content phase: 13
+2020/12/04 08:22:06 [debug] 1611#0: *1 content phase: 14
+2020/12/04 08:22:06 [debug] 1611#0: *1 content phase: 15
+2020/12/04 08:22:06 [debug] 1611#0: *1 open index "/usr/share/nginx/html/new/index.html"
+2020/12/04 08:22:06 [debug] 1611#0: *1 stat() "/usr/share/nginx/html/new/index.html" failed (2: No such file or directory)
+2020/12/04 08:22:06 [debug] 1611#0: *1 http index check dir: "/usr/share/nginx/html/new"
+2020/12/04 08:22:06 [error] 1611#0: *1 "/usr/share/nginx/html/new/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /new/ HTTP/1.1", host: "127.0.0.1"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http finalize request: 404, "/new/?" a:1, c:1
+2020/12/04 08:22:06 [debug] 1611#0: *1 http special response: 404, "/new/?"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http set discard body
+2020/12/04 08:22:06 [debug] 1611#0: *1 uploadprogress error-tracker error: 404
+2020/12/04 08:22:06 [debug] 1611#0: *1 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:22:06 [debug] 1611#0: *1 xslt filter header
+2020/12/04 08:22:06 [debug] 1611#0: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:22:06 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: keep-alive
+
+2020/12/04 08:22:06 [debug] 1611#0: *1 write new buf t:1 f:0 000000000261BE58, pos 000000000261BE58, size: 163 file: 0, size: 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 http write filter: l:0 f:0 s:163
+2020/12/04 08:22:06 [debug] 1611#0: *1 http output filter "/new/?"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http copy filter: "/new/?"
+2020/12/04 08:22:06 [debug] 1611#0: *1 image filter
+2020/12/04 08:22:06 [debug] 1611#0: *1 xslt filter body
+2020/12/04 08:22:06 [debug] 1611#0: *1 http postpone filter "/new/?" 000000000261C028
+2020/12/04 08:22:06 [debug] 1611#0: *1 write old buf t:1 f:0 000000000261BE58, pos 000000000261BE58, size: 163 file: 0, size: 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737440, size: 116 file: 0, size: 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 http write filter: l:1 f:0 s:340
+2020/12/04 08:22:06 [debug] 1611#0: *1 http write filter limit 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 writev: 340
+2020/12/04 08:22:06 [debug] 1611#0: *1 http write filter 0000000000000000
+2020/12/04 08:22:06 [debug] 1611#0: *1 http copy filter: 0 "/new/?"
+2020/12/04 08:22:06 [debug] 1611#0: *1 http finalize request: 0, "/new/?" a:1, c:1
+2020/12/04 08:22:06 [debug] 1611#0: *1 set http keepalive handler
+2020/12/04 08:22:06 [debug] 1611#0: *1 http close request
+2020/12/04 08:22:06 [debug] 1611#0: *1 http log handler
+2020/12/04 08:22:06 [debug] 1611#0: *1 free: 0000000002625280, unused: 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 free: 000000000261BDA0, unused: 3260
+2020/12/04 08:22:06 [debug] 1611#0: *1 free: 00000000026FB810
+2020/12/04 08:22:06 [debug] 1611#0: *1 hc free: 0000000000000000 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 hc busy: 0000000000000000 0
+2020/12/04 08:22:06 [debug] 1611#0: *1 tcp_nodelay
+2020/12/04 08:22:06 [debug] 1611#0: *1 reusable connection: 1
+2020/12/04 08:22:06 [debug] 1611#0: *1 event timer add: 21: 65000:1607070191244
+2020/12/04 08:22:06 [debug] 1611#0: *1 post event 0000000002701838
+2020/12/04 08:22:06 [debug] 1611#0: *1 delete posted event 0000000002701838
+2020/12/04 08:22:06 [debug] 1611#0: *1 http keepalive handler
+2020/12/04 08:22:06 [debug] 1611#0: *1 malloc: 00000000026FB810:1024
+2020/12/04 08:22:06 [debug] 1611#0: *1 recv: fd:21 -1 of 1024
+2020/12/04 08:22:06 [debug] 1611#0: *1 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:22:06 [debug] 1611#0: *1 free: 00000000026FB810
+2020/12/04 08:22:06 [debug] 1611#0: epoll del event: fd:8 op:2 ev:00000000
+2020/12/04 08:22:07 [debug] 1611#0: *1 http keepalive handler
+2020/12/04 08:22:07 [debug] 1611#0: *1 malloc: 00000000026FB810:1024
+2020/12/04 08:22:07 [debug] 1611#0: *1 recv: fd:21 0 of 1024
+2020/12/04 08:22:07 [info] 1611#0: *1 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:22:07 [debug] 1611#0: *1 close http connection: 21
+2020/12/04 08:22:07 [debug] 1611#0: *1 event timer del: 21: 1607070191244
+2020/12/04 08:22:07 [debug] 1611#0: *1 reusable connection: 0
+2020/12/04 08:22:07 [debug] 1611#0: *1 free: 00000000026FB810
+2020/12/04 08:22:07 [debug] 1611#0: *1 free: 0000000002617780, unused: 0
+2020/12/04 08:22:07 [debug] 1611#0: *1 free: 0000000002617A60, unused: 128
+2020/12/04 08:24:22 [debug] 1775#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:24:35 [debug] 1775#0: post event 0000000001A28700
+2020/12/04 08:24:35 [debug] 1775#0: delete posted event 0000000001A28700
+2020/12/04 08:24:35 [debug] 1775#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:24:35 [debug] 1775#0: posix_memalign: 000000000193E780:256 @16
+2020/12/04 08:24:35 [debug] 1775#0: *1 accept: 127.0.0.1 fd:21
+2020/12/04 08:24:35 [debug] 1775#0: *1 event timer add: 21: 60000:1607070335917
+2020/12/04 08:24:35 [debug] 1775#0: *1 reusable connection: 1
+2020/12/04 08:24:35 [debug] 1775#0: *1 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:24:36 [debug] 1775#0: *1 post event 0000000001A28838
+2020/12/04 08:24:36 [debug] 1775#0: *1 delete posted event 0000000001A28838
+2020/12/04 08:24:36 [debug] 1775#0: *1 http wait request handler
+2020/12/04 08:24:36 [debug] 1775#0: *1 posix_memalign: 000000000193EA60:256 @16
+2020/12/04 08:24:36 [debug] 1775#0: *1 malloc: 0000000001A22810:1024
+2020/12/04 08:24:36 [debug] 1775#0: *1 recv: fd:21 77 of 1024
+2020/12/04 08:24:36 [debug] 1775#0: *1 reusable connection: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 posix_memalign: 000000000194C280:4096 @16
+2020/12/04 08:24:36 [debug] 1775#0: *1 http process request line
+2020/12/04 08:24:36 [debug] 1775#0: *1 http request line: "GET /new/ HTTP/1.1"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http uri: "/new/"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http args: ""
+2020/12/04 08:24:36 [debug] 1775#0: *1 http exten: ""
+2020/12/04 08:24:36 [debug] 1775#0: *1 http process request header line
+2020/12/04 08:24:36 [debug] 1775#0: *1 posix_memalign: 0000000001942DA0:4096 @16
+2020/12/04 08:24:36 [debug] 1775#0: *1 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http header: "Host: 127.0.0.1"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http header: "Accept: */*"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http header done
+2020/12/04 08:24:36 [debug] 1775#0: *1 event timer del: 21: 1607070335917
+2020/12/04 08:24:36 [debug] 1775#0: *1 generic phase: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 rewrite phase: 1
+2020/12/04 08:24:36 [debug] 1775#0: *1 test location: "/"
+2020/12/04 08:24:36 [debug] 1775#0: *1 test location: "uploads/"
+2020/12/04 08:24:36 [debug] 1775#0: *1 test location: "hello/"
+2020/12/04 08:24:36 [debug] 1775#0: *1 test location: ~ "\w+\.\w+$"
+2020/12/04 08:24:36 [debug] 1775#0: *1 using configuration "/"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http cl:-1 max:1048576
+2020/12/04 08:24:36 [debug] 1775#0: *1 rewrite phase: 3
+2020/12/04 08:24:36 [debug] 1775#0: *1 rewrite phase: 4
+2020/12/04 08:24:36 [debug] 1775#0: *1 post rewrite phase: 5
+2020/12/04 08:24:36 [debug] 1775#0: *1 generic phase: 6
+2020/12/04 08:24:36 [debug] 1775#0: *1 generic phase: 7
+2020/12/04 08:24:36 [debug] 1775#0: *1 generic phase: 8
+2020/12/04 08:24:36 [debug] 1775#0: *1 access phase: 9
+2020/12/04 08:24:36 [debug] 1775#0: *1 access phase: 10
+2020/12/04 08:24:36 [debug] 1775#0: *1 access phase: 11
+2020/12/04 08:24:36 [debug] 1775#0: *1 post access phase: 12
+2020/12/04 08:24:36 [debug] 1775#0: *1 http init upstream, client timer: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 epoll add event: fd:21 op:3 ev:80000005
+2020/12/04 08:24:36 [debug] 1775#0: *1 http script copy: "Host: "
+2020/12/04 08:24:36 [debug] 1775#0: *1 http script var: "127.0.0.1:8000"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http script copy: "
+"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http script copy: "Connection: close
+"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http script copy: ""
+2020/12/04 08:24:36 [debug] 1775#0: *1 http script copy: ""
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header: "User-Agent: curl/7.35.0"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header: "Accept: */*"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header:
+"GET /new/ HTTP/1.0
+Host: 127.0.0.1:8000
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http cleanup add: 0000000001943498
+2020/12/04 08:24:36 [debug] 1775#0: *1 get rr peer, try: 1
+2020/12/04 08:24:36 [debug] 1775#0: *1 socket 22
+2020/12/04 08:24:36 [debug] 1775#0: *1 epoll add connection: fd:22 ev:80000005
+2020/12/04 08:24:36 [debug] 1775#0: *1 connect to 127.0.0.1:8000, fd:22 #2
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream connect: -2
+2020/12/04 08:24:36 [debug] 1775#0: *1 posix_memalign: 000000000194D290:128 @16
+2020/12/04 08:24:36 [debug] 1775#0: *1 event timer add: 22: 60000:1607070336147
+2020/12/04 08:24:36 [debug] 1775#0: *1 http finalize request: -4, "/new/?" a:1, c:2
+2020/12/04 08:24:36 [debug] 1775#0: *1 http request count:2 blk:0
+2020/12/04 08:24:36 [debug] 1775#0: *1 post event 0000000001A3C048
+2020/12/04 08:24:36 [debug] 1775#0: *1 post event 0000000001A3C0B0
+2020/12/04 08:24:36 [debug] 1775#0: *1 delete posted event 0000000001A3C0B0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream request: "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream send request handler
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream send request
+2020/12/04 08:24:36 [debug] 1775#0: *1 chain writer buf fl:1 s:101
+2020/12/04 08:24:36 [debug] 1775#0: *1 chain writer in: 00000000019434D0
+2020/12/04 08:24:36 [debug] 1775#0: *1 writev: 101
+2020/12/04 08:24:36 [debug] 1775#0: *1 chain writer out: 0000000000000000
+2020/12/04 08:24:36 [debug] 1775#0: *1 event timer del: 22: 1607070336147
+2020/12/04 08:24:36 [debug] 1775#0: *1 event timer add: 22: 60000:1607070336219
+2020/12/04 08:24:36 [debug] 1775#0: *1 delete posted event 0000000001A3C048
+2020/12/04 08:24:36 [debug] 1775#0: *1 http run request: "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream check client, write event:1, "/new/"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/12/04 08:24:36 [debug] 1775#0: *1 post event 0000000001A288A0
+2020/12/04 08:24:36 [debug] 1775#0: *1 post event 0000000001A3C0B0
+2020/12/04 08:24:36 [debug] 1775#0: *1 delete posted event 0000000001A3C0B0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream request: "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream dummy handler
+2020/12/04 08:24:36 [debug] 1775#0: *1 delete posted event 0000000001A288A0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream request: "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream process header
+2020/12/04 08:24:36 [debug] 1775#0: *1 malloc: 0000000001943DB0:4096
+2020/12/04 08:24:36 [debug] 1775#0: *1 recv: fd:22 169 of 4096
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy status 200 "200 OK"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header: "Server: gunicorn/17.5"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header: "Date: Fri, 04 Dec 2020 08:24:36 GMT"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header: "Connection: close"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header: "X-Frame-Options: SAMEORIGIN"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header: "Content-Type: text/html; charset=utf-8"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy header done
+2020/12/04 08:24:36 [debug] 1775#0: *1 uploadprogress error-tracker error: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 xslt filter header
+2020/12/04 08:24:36 [debug] 1775#0: *1 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:24:36 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+
+2020/12/04 08:24:36 [debug] 1775#0: *1 write new buf t:1 f:0 0000000001943798, pos 0000000001943798, size: 207 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http write filter: l:0 f:0 s:207
+2020/12/04 08:24:36 [debug] 1775#0: *1 http cacheable: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http proxy filter init s:200 h:0 c:0 l:-1
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream process upstream
+2020/12/04 08:24:36 [debug] 1775#0: *1 pipe read upstream: 1
+2020/12/04 08:24:36 [debug] 1775#0: *1 pipe preread: 2
+2020/12/04 08:24:36 [debug] 1775#0: *1 readv: 1:3927
+2020/12/04 08:24:36 [debug] 1775#0: *1 pipe recv chain: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 pipe buf free s:0 t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 pipe length: -1
+2020/12/04 08:24:36 [debug] 1775#0: *1 input buf #0
+2020/12/04 08:24:36 [debug] 1775#0: *1 pipe write downstream: 1
+2020/12/04 08:24:36 [debug] 1775#0: *1 pipe write downstream flush in
+2020/12/04 08:24:36 [debug] 1775#0: *1 http output filter "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http copy filter: "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 image filter
+2020/12/04 08:24:36 [debug] 1775#0: *1 xslt filter body
+2020/12/04 08:24:36 [debug] 1775#0: *1 http postpone filter "/new/?" 00000000019439D0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http chunk: 2
+2020/12/04 08:24:36 [debug] 1775#0: *1 write old buf t:1 f:0 0000000001943798, pos 0000000001943798, size: 207 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 write new buf t:1 f:0 0000000001943AB8, pos 0000000001943AB8, size: 3 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 write new buf t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000004FAFBD, size: 2 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http write filter: l:0 f:0 s:214
+2020/12/04 08:24:36 [debug] 1775#0: *1 http copy filter: 0 "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 pipe write downstream done
+2020/12/04 08:24:36 [debug] 1775#0: *1 event timer: 22, old: 1607070336219, new: 1607070336411
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream exit: 0000000000000000
+2020/12/04 08:24:36 [debug] 1775#0: *1 finalize http upstream request: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 finalize http proxy request
+2020/12/04 08:24:36 [debug] 1775#0: *1 free rr peer 1 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 close http upstream connection: 22
+2020/12/04 08:24:36 [debug] 1775#0: *1 free: 000000000194D290, unused: 48
+2020/12/04 08:24:36 [debug] 1775#0: *1 event timer del: 22: 1607070336219
+2020/12/04 08:24:36 [debug] 1775#0: *1 reusable connection: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http upstream temp fd: -1
+2020/12/04 08:24:36 [debug] 1775#0: *1 http output filter "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http copy filter: "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 image filter
+2020/12/04 08:24:36 [debug] 1775#0: *1 xslt filter body
+2020/12/04 08:24:36 [debug] 1775#0: *1 http postpone filter "/new/?" 00007FFF013E9C80
+2020/12/04 08:24:36 [debug] 1775#0: *1 http chunk: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 write old buf t:1 f:0 0000000001943798, pos 0000000001943798, size: 207 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 write old buf t:1 f:0 0000000001943AB8, pos 0000000001943AB8, size: 3 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 write old buf t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 write old buf t:0 f:0 0000000000000000, pos 00000000004FAFBD, size: 2 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000004FAFBA, size: 5 file: 0, size: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 http write filter: l:1 f:0 s:219
+2020/12/04 08:24:36 [debug] 1775#0: *1 http write filter limit 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 writev: 219
+2020/12/04 08:24:36 [debug] 1775#0: *1 http write filter 0000000000000000
+2020/12/04 08:24:36 [debug] 1775#0: *1 http copy filter: 0 "/new/?"
+2020/12/04 08:24:36 [debug] 1775#0: *1 http finalize request: 0, "/new/?" a:1, c:1
+2020/12/04 08:24:36 [debug] 1775#0: *1 set http keepalive handler
+2020/12/04 08:24:36 [debug] 1775#0: *1 http close request
+2020/12/04 08:24:36 [debug] 1775#0: *1 http log handler
+2020/12/04 08:24:36 [debug] 1775#0: *1 free: 0000000001943DB0
+2020/12/04 08:24:36 [debug] 1775#0: *1 free: 000000000194C280, unused: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 free: 0000000001942DA0, unused: 260
+2020/12/04 08:24:36 [debug] 1775#0: *1 free: 0000000001A22810
+2020/12/04 08:24:36 [debug] 1775#0: *1 hc free: 0000000000000000 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 hc busy: 0000000000000000 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 tcp_nodelay
+2020/12/04 08:24:36 [debug] 1775#0: *1 reusable connection: 1
+2020/12/04 08:24:36 [debug] 1775#0: *1 event timer add: 21: 65000:1607070341411
+2020/12/04 08:24:36 [debug] 1775#0: *1 post event 0000000001A28838
+2020/12/04 08:24:36 [debug] 1775#0: *1 delete posted event 0000000001A28838
+2020/12/04 08:24:36 [debug] 1775#0: *1 http keepalive handler
+2020/12/04 08:24:36 [debug] 1775#0: *1 malloc: 0000000001A22810:1024
+2020/12/04 08:24:36 [debug] 1775#0: *1 recv: fd:21 0 of 1024
+2020/12/04 08:24:36 [info] 1775#0: *1 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:24:36 [debug] 1775#0: *1 close http connection: 21
+2020/12/04 08:24:36 [debug] 1775#0: *1 event timer del: 21: 1607070341411
+2020/12/04 08:24:36 [debug] 1775#0: *1 reusable connection: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 free: 0000000001A22810
+2020/12/04 08:24:36 [debug] 1775#0: *1 free: 000000000193E780, unused: 0
+2020/12/04 08:24:36 [debug] 1775#0: *1 free: 000000000193EA60, unused: 128
+2020/12/04 08:25:15 [debug] 1775#0: post event 0000000001A28700
+2020/12/04 08:25:15 [debug] 1775#0: delete posted event 0000000001A28700
+2020/12/04 08:25:15 [debug] 1775#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:25:15 [debug] 1775#0: posix_memalign: 000000000193E780:256 @16
+2020/12/04 08:25:15 [debug] 1775#0: *3 accept: 127.0.0.1 fd:21
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer add: 21: 60000:1607070375025
+2020/12/04 08:25:15 [debug] 1775#0: *3 reusable connection: 1
+2020/12/04 08:25:15 [debug] 1775#0: *3 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A28838
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A28838
+2020/12/04 08:25:15 [debug] 1775#0: *3 http wait request handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 posix_memalign: 000000000193EA60:256 @16
+2020/12/04 08:25:15 [debug] 1775#0: *3 malloc: 0000000001A22810:1024
+2020/12/04 08:25:15 [debug] 1775#0: *3 recv: fd:21 86 of 1024
+2020/12/04 08:25:15 [debug] 1775#0: *3 reusable connection: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 posix_memalign: 000000000194C280:4096 @16
+2020/12/04 08:25:15 [debug] 1775#0: *3 http process request line
+2020/12/04 08:25:15 [debug] 1775#0: *3 http request line: "GET /question/123/ HTTP/1.1"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http uri: "/question/123/"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http args: ""
+2020/12/04 08:25:15 [debug] 1775#0: *3 http exten: ""
+2020/12/04 08:25:15 [debug] 1775#0: *3 http process request header line
+2020/12/04 08:25:15 [debug] 1775#0: *3 posix_memalign: 0000000001942DA0:4096 @16
+2020/12/04 08:25:15 [debug] 1775#0: *3 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http header: "Host: 127.0.0.1"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http header: "Accept: */*"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http header done
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer del: 21: 1607070375025
+2020/12/04 08:25:15 [debug] 1775#0: *3 generic phase: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 rewrite phase: 1
+2020/12/04 08:25:15 [debug] 1775#0: *3 test location: "/"
+2020/12/04 08:25:15 [debug] 1775#0: *3 test location: "uploads/"
+2020/12/04 08:25:15 [debug] 1775#0: *3 test location: "hello/"
+2020/12/04 08:25:15 [debug] 1775#0: *3 test location: ~ "\w+\.\w+$"
+2020/12/04 08:25:15 [debug] 1775#0: *3 using configuration "/"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http cl:-1 max:1048576
+2020/12/04 08:25:15 [debug] 1775#0: *3 rewrite phase: 3
+2020/12/04 08:25:15 [debug] 1775#0: *3 rewrite phase: 4
+2020/12/04 08:25:15 [debug] 1775#0: *3 post rewrite phase: 5
+2020/12/04 08:25:15 [debug] 1775#0: *3 generic phase: 6
+2020/12/04 08:25:15 [debug] 1775#0: *3 generic phase: 7
+2020/12/04 08:25:15 [debug] 1775#0: *3 generic phase: 8
+2020/12/04 08:25:15 [debug] 1775#0: *3 access phase: 9
+2020/12/04 08:25:15 [debug] 1775#0: *3 access phase: 10
+2020/12/04 08:25:15 [debug] 1775#0: *3 access phase: 11
+2020/12/04 08:25:15 [debug] 1775#0: *3 post access phase: 12
+2020/12/04 08:25:15 [debug] 1775#0: *3 http init upstream, client timer: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 epoll add event: fd:21 op:3 ev:80000005
+2020/12/04 08:25:15 [debug] 1775#0: *3 http script copy: "Host: "
+2020/12/04 08:25:15 [debug] 1775#0: *3 http script var: "127.0.0.1:8000"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http script copy: "
+"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http script copy: "Connection: close
+"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http script copy: ""
+2020/12/04 08:25:15 [debug] 1775#0: *3 http script copy: ""
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header: "User-Agent: curl/7.35.0"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header: "Accept: */*"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header:
+"GET /question/123/ HTTP/1.0
+Host: 127.0.0.1:8000
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http cleanup add: 00000000019434A8
+2020/12/04 08:25:15 [debug] 1775#0: *3 get rr peer, try: 1
+2020/12/04 08:25:15 [debug] 1775#0: *3 socket 22
+2020/12/04 08:25:15 [debug] 1775#0: *3 epoll add connection: fd:22 ev:80000005
+2020/12/04 08:25:15 [debug] 1775#0: *3 connect to 127.0.0.1:8000, fd:22 #4
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream connect: -2
+2020/12/04 08:25:15 [debug] 1775#0: *3 posix_memalign: 000000000194D290:128 @16
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer add: 22: 60000:1607070375028
+2020/12/04 08:25:15 [debug] 1775#0: *3 http finalize request: -4, "/question/123/?" a:1, c:2
+2020/12/04 08:25:15 [debug] 1775#0: *3 http request count:2 blk:0
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A3C048
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A3C0B0
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A3C0B0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream request: "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream send request handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream send request
+2020/12/04 08:25:15 [debug] 1775#0: *3 chain writer buf fl:1 s:110
+2020/12/04 08:25:15 [debug] 1775#0: *3 chain writer in: 00000000019434E0
+2020/12/04 08:25:15 [debug] 1775#0: *3 writev: 110
+2020/12/04 08:25:15 [debug] 1775#0: *3 chain writer out: 0000000000000000
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer del: 22: 1607070375028
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer add: 22: 60000:1607070375028
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A3C048
+2020/12/04 08:25:15 [debug] 1775#0: *3 http run request: "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream check client, write event:1, "/question/123/"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A288A0
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A3C0B0
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A3C0B0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream request: "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream dummy handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A288A0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream request: "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream process header
+2020/12/04 08:25:15 [debug] 1775#0: *3 malloc: 0000000001943DB0:4096
+2020/12/04 08:25:15 [debug] 1775#0: *3 recv: fd:22 169 of 4096
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy status 200 "200 OK"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header: "Server: gunicorn/17.5"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header: "Date: Fri, 04 Dec 2020 08:25:15 GMT"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header: "Connection: close"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header: "X-Frame-Options: SAMEORIGIN"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header: "Content-Type: text/html; charset=utf-8"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy header done
+2020/12/04 08:25:15 [debug] 1775#0: *3 uploadprogress error-tracker error: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 xslt filter header
+2020/12/04 08:25:15 [debug] 1775#0: *3 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:25:15 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+
+2020/12/04 08:25:15 [debug] 1775#0: *3 write new buf t:1 f:0 00000000019437A8, pos 00000000019437A8, size: 207 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http write filter: l:0 f:0 s:207
+2020/12/04 08:25:15 [debug] 1775#0: *3 http cacheable: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http proxy filter init s:200 h:0 c:0 l:-1
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream process upstream
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe read upstream: 1
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe preread: 2
+2020/12/04 08:25:15 [debug] 1775#0: *3 readv: 1:3927
+2020/12/04 08:25:15 [debug] 1775#0: *3 readv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe recv chain: -2
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe buf free s:0 t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe length: -1
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe write downstream: 1
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe write busy: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe write: out:0000000000000000, f:0
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe read upstream: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe buf free s:0 t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe length: -1
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer: 22, old: 1607070375028, new: 1607070375086
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A288A0
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A3C0B0
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A3C0B0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream request: "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream dummy handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A288A0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream request: "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream process upstream
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe read upstream: 1
+2020/12/04 08:25:15 [debug] 1775#0: *3 readv: 1:3927
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe recv chain: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe buf free s:0 t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe length: -1
+2020/12/04 08:25:15 [debug] 1775#0: *3 input buf #0
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe write downstream: 1
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe write downstream flush in
+2020/12/04 08:25:15 [debug] 1775#0: *3 http output filter "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http copy filter: "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 image filter
+2020/12/04 08:25:15 [debug] 1775#0: *3 xslt filter body
+2020/12/04 08:25:15 [debug] 1775#0: *3 http postpone filter "/question/123/?" 00000000019439E0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http chunk: 2
+2020/12/04 08:25:15 [debug] 1775#0: *3 write old buf t:1 f:0 00000000019437A8, pos 00000000019437A8, size: 207 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 write new buf t:1 f:0 0000000001943AC8, pos 0000000001943AC8, size: 3 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 write new buf t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 write new buf t:0 f:0 0000000000000000, pos 00000000004FAFBD, size: 2 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http write filter: l:0 f:0 s:214
+2020/12/04 08:25:15 [debug] 1775#0: *3 http copy filter: 0 "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 pipe write downstream done
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer: 22, old: 1607070375028, new: 1607070375088
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream exit: 0000000000000000
+2020/12/04 08:25:15 [debug] 1775#0: *3 finalize http upstream request: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 finalize http proxy request
+2020/12/04 08:25:15 [debug] 1775#0: *3 free rr peer 1 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 close http upstream connection: 22
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 000000000194D290, unused: 48
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer del: 22: 1607070375028
+2020/12/04 08:25:15 [debug] 1775#0: *3 reusable connection: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http upstream temp fd: -1
+2020/12/04 08:25:15 [debug] 1775#0: *3 http output filter "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http copy filter: "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 image filter
+2020/12/04 08:25:15 [debug] 1775#0: *3 xslt filter body
+2020/12/04 08:25:15 [debug] 1775#0: *3 http postpone filter "/question/123/?" 00007FFF013E9CC0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http chunk: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 write old buf t:1 f:0 00000000019437A8, pos 00000000019437A8, size: 207 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 write old buf t:1 f:0 0000000001943AC8, pos 0000000001943AC8, size: 3 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 write old buf t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 write old buf t:0 f:0 0000000000000000, pos 00000000004FAFBD, size: 2 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 write new buf t:0 f:0 0000000000000000, pos 00000000004FAFBA, size: 5 file: 0, size: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 http write filter: l:1 f:0 s:219
+2020/12/04 08:25:15 [debug] 1775#0: *3 http write filter limit 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 writev: 219
+2020/12/04 08:25:15 [debug] 1775#0: *3 http write filter 0000000000000000
+2020/12/04 08:25:15 [debug] 1775#0: *3 http copy filter: 0 "/question/123/?"
+2020/12/04 08:25:15 [debug] 1775#0: *3 http finalize request: 0, "/question/123/?" a:1, c:1
+2020/12/04 08:25:15 [debug] 1775#0: *3 set http keepalive handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 http close request
+2020/12/04 08:25:15 [debug] 1775#0: *3 http log handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 0000000001943DB0
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 000000000194C280, unused: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 0000000001942DA0, unused: 235
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 0000000001A22810
+2020/12/04 08:25:15 [debug] 1775#0: *3 hc free: 0000000000000000 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 hc busy: 0000000000000000 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 tcp_nodelay
+2020/12/04 08:25:15 [debug] 1775#0: *3 reusable connection: 1
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer add: 21: 65000:1607070380088
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A28838
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A28838
+2020/12/04 08:25:15 [debug] 1775#0: *3 http keepalive handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 malloc: 0000000001A22810:1024
+2020/12/04 08:25:15 [debug] 1775#0: *3 recv: fd:21 -1 of 1024
+2020/12/04 08:25:15 [debug] 1775#0: *3 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 0000000001A22810
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A28838
+2020/12/04 08:25:15 [debug] 1775#0: *3 post event 0000000001A3C048
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A3C048
+2020/12/04 08:25:15 [debug] 1775#0: *3 http empty handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 delete posted event 0000000001A28838
+2020/12/04 08:25:15 [debug] 1775#0: *3 http keepalive handler
+2020/12/04 08:25:15 [debug] 1775#0: *3 malloc: 0000000001A22810:1024
+2020/12/04 08:25:15 [debug] 1775#0: *3 recv: fd:21 0 of 1024
+2020/12/04 08:25:15 [info] 1775#0: *3 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:25:15 [debug] 1775#0: *3 close http connection: 21
+2020/12/04 08:25:15 [debug] 1775#0: *3 event timer del: 21: 1607070380088
+2020/12/04 08:25:15 [debug] 1775#0: *3 reusable connection: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 0000000001A22810
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 000000000193E780, unused: 0
+2020/12/04 08:25:15 [debug] 1775#0: *3 free: 000000000193EA60, unused: 128
+2020/12/04 08:25:34 [debug] 1775#0: post event 0000000001A28700
+2020/12/04 08:25:34 [debug] 1775#0: delete posted event 0000000001A28700
+2020/12/04 08:25:34 [debug] 1775#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:25:34 [debug] 1775#0: posix_memalign: 000000000193E780:256 @16
+2020/12/04 08:25:34 [debug] 1775#0: *5 accept: 127.0.0.1 fd:21
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer add: 21: 60000:1607070394133
+2020/12/04 08:25:34 [debug] 1775#0: *5 reusable connection: 1
+2020/12/04 08:25:34 [debug] 1775#0: *5 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:25:34 [debug] 1775#0: *5 post event 0000000001A28838
+2020/12/04 08:25:34 [debug] 1775#0: *5 delete posted event 0000000001A28838
+2020/12/04 08:25:34 [debug] 1775#0: *5 http wait request handler
+2020/12/04 08:25:34 [debug] 1775#0: *5 posix_memalign: 000000000193EA60:256 @16
+2020/12/04 08:25:34 [debug] 1775#0: *5 malloc: 0000000001A22810:1024
+2020/12/04 08:25:34 [debug] 1775#0: *5 recv: fd:21 83 of 1024
+2020/12/04 08:25:34 [debug] 1775#0: *5 reusable connection: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 posix_memalign: 000000000194C280:4096 @16
+2020/12/04 08:25:34 [debug] 1775#0: *5 http process request line
+2020/12/04 08:25:34 [debug] 1775#0: *5 http request line: "GET /hello/?a=2 HTTP/1.1"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http uri: "/hello/"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http args: "a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http exten: ""
+2020/12/04 08:25:34 [debug] 1775#0: *5 http process request header line
+2020/12/04 08:25:34 [debug] 1775#0: *5 posix_memalign: 0000000001942DA0:4096 @16
+2020/12/04 08:25:34 [debug] 1775#0: *5 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http header: "Host: 127.0.0.1"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http header: "Accept: */*"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http header done
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer del: 21: 1607070394133
+2020/12/04 08:25:34 [debug] 1775#0: *5 generic phase: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 rewrite phase: 1
+2020/12/04 08:25:34 [debug] 1775#0: *5 test location: "/"
+2020/12/04 08:25:34 [debug] 1775#0: *5 test location: "uploads/"
+2020/12/04 08:25:34 [debug] 1775#0: *5 test location: "hello/"
+2020/12/04 08:25:34 [debug] 1775#0: *5 using configuration "/hello/"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http cl:-1 max:1048576
+2020/12/04 08:25:34 [debug] 1775#0: *5 rewrite phase: 3
+2020/12/04 08:25:34 [debug] 1775#0: *5 rewrite phase: 4
+2020/12/04 08:25:34 [debug] 1775#0: *5 post rewrite phase: 5
+2020/12/04 08:25:34 [debug] 1775#0: *5 generic phase: 6
+2020/12/04 08:25:34 [debug] 1775#0: *5 generic phase: 7
+2020/12/04 08:25:34 [debug] 1775#0: *5 generic phase: 8
+2020/12/04 08:25:34 [debug] 1775#0: *5 access phase: 9
+2020/12/04 08:25:34 [debug] 1775#0: *5 access phase: 10
+2020/12/04 08:25:34 [debug] 1775#0: *5 access phase: 11
+2020/12/04 08:25:34 [debug] 1775#0: *5 post access phase: 12
+2020/12/04 08:25:34 [debug] 1775#0: *5 http init upstream, client timer: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 epoll add event: fd:21 op:3 ev:80000005
+2020/12/04 08:25:34 [debug] 1775#0: *5 http script copy: "Host: "
+2020/12/04 08:25:34 [debug] 1775#0: *5 http script var: "127.0.0.1:8080"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http script copy: "
+"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http script copy: "Connection: close
+"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http script copy: ""
+2020/12/04 08:25:34 [debug] 1775#0: *5 http script copy: ""
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header: "User-Agent: curl/7.35.0"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header: "Accept: */*"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header:
+"GET /?a=2 HTTP/1.0
+Host: 127.0.0.1:8080
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http cleanup add: 0000000001943498
+2020/12/04 08:25:34 [debug] 1775#0: *5 get rr peer, try: 1
+2020/12/04 08:25:34 [debug] 1775#0: *5 socket 22
+2020/12/04 08:25:34 [debug] 1775#0: *5 epoll add connection: fd:22 ev:80000005
+2020/12/04 08:25:34 [debug] 1775#0: *5 connect to 127.0.0.1:8080, fd:22 #6
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream connect: -2
+2020/12/04 08:25:34 [debug] 1775#0: *5 posix_memalign: 000000000194D290:128 @16
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer add: 22: 60000:1607070394133
+2020/12/04 08:25:34 [debug] 1775#0: *5 http finalize request: -4, "/hello/?a=2" a:1, c:2
+2020/12/04 08:25:34 [debug] 1775#0: *5 http request count:2 blk:0
+2020/12/04 08:25:34 [debug] 1775#0: *5 post event 0000000001A3C048
+2020/12/04 08:25:34 [debug] 1775#0: *5 post event 0000000001A3C0B0
+2020/12/04 08:25:34 [debug] 1775#0: *5 delete posted event 0000000001A3C0B0
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream request: "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream send request handler
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream send request
+2020/12/04 08:25:34 [debug] 1775#0: *5 chain writer buf fl:1 s:101
+2020/12/04 08:25:34 [debug] 1775#0: *5 chain writer in: 00000000019434D0
+2020/12/04 08:25:34 [debug] 1775#0: *5 writev: 101
+2020/12/04 08:25:34 [debug] 1775#0: *5 chain writer out: 0000000000000000
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer del: 22: 1607070394133
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer add: 22: 60000:1607070394135
+2020/12/04 08:25:34 [debug] 1775#0: *5 delete posted event 0000000001A3C048
+2020/12/04 08:25:34 [debug] 1775#0: *5 http run request: "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream check client, write event:1, "/hello/"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/12/04 08:25:34 [debug] 1775#0: *5 post event 0000000001A288A0
+2020/12/04 08:25:34 [debug] 1775#0: *5 post event 0000000001A3C0B0
+2020/12/04 08:25:34 [debug] 1775#0: *5 delete posted event 0000000001A3C0B0
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream request: "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream dummy handler
+2020/12/04 08:25:34 [debug] 1775#0: *5 delete posted event 0000000001A288A0
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream request: "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream process header
+2020/12/04 08:25:34 [debug] 1775#0: *5 malloc: 0000000001943DB0:4096
+2020/12/04 08:25:34 [debug] 1775#0: *5 recv: fd:22 146 of 4096
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy status 200 "200 OK"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header: "Server: gunicorn/17.5"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header: "Date: Fri, 04 Dec 2020 08:25:34 GMT"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header: "Connection: close"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header: "Content-type: text/plain"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header: "Content-Length: 3"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy header done
+2020/12/04 08:25:34 [debug] 1775#0: *5 uploadprogress error-tracker error: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 xslt filter header
+2020/12/04 08:25:34 [debug] 1775#0: *5 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:25:34 GMT
+Content-Type: text/plain
+Content-Length: 3
+Connection: keep-alive
+
+2020/12/04 08:25:34 [debug] 1775#0: *5 write new buf t:1 f:0 0000000001943768, pos 0000000001943768, size: 155 file: 0, size: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 http write filter: l:0 f:0 s:155
+2020/12/04 08:25:34 [debug] 1775#0: *5 http cacheable: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 http proxy filter init s:200 h:0 c:0 l:3
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream process upstream
+2020/12/04 08:25:34 [debug] 1775#0: *5 pipe read upstream: 1
+2020/12/04 08:25:34 [debug] 1775#0: *5 pipe preread: 3
+2020/12/04 08:25:34 [debug] 1775#0: *5 readv: 1:3950
+2020/12/04 08:25:34 [debug] 1775#0: *5 pipe recv chain: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 pipe buf free s:0 t:1 f:0 0000000001943DB0, pos 0000000001943E3F, size: 3 file: 0, size: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 pipe length: 3
+2020/12/04 08:25:34 [debug] 1775#0: *5 input buf #0
+2020/12/04 08:25:34 [debug] 1775#0: *5 pipe write downstream: 1
+2020/12/04 08:25:34 [debug] 1775#0: *5 pipe write downstream flush in
+2020/12/04 08:25:34 [debug] 1775#0: *5 http output filter "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http copy filter: "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 image filter
+2020/12/04 08:25:34 [debug] 1775#0: *5 xslt filter body
+2020/12/04 08:25:34 [debug] 1775#0: *5 http postpone filter "/hello/?a=2" 0000000001943980
+2020/12/04 08:25:34 [debug] 1775#0: *5 write old buf t:1 f:0 0000000001943768, pos 0000000001943768, size: 155 file: 0, size: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 write new buf t:1 f:0 0000000001943DB0, pos 0000000001943E3F, size: 3 file: 0, size: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 http write filter: l:0 f:0 s:158
+2020/12/04 08:25:34 [debug] 1775#0: *5 http copy filter: 0 "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 pipe write downstream done
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer: 22, old: 1607070394135, new: 1607070394361
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream exit: 0000000000000000
+2020/12/04 08:25:34 [debug] 1775#0: *5 finalize http upstream request: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 finalize http proxy request
+2020/12/04 08:25:34 [debug] 1775#0: *5 free rr peer 1 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 close http upstream connection: 22
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 000000000194D290, unused: 48
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer del: 22: 1607070394135
+2020/12/04 08:25:34 [debug] 1775#0: *5 reusable connection: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 http upstream temp fd: -1
+2020/12/04 08:25:34 [debug] 1775#0: *5 http output filter "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http copy filter: "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 image filter
+2020/12/04 08:25:34 [debug] 1775#0: *5 xslt filter body
+2020/12/04 08:25:34 [debug] 1775#0: *5 http postpone filter "/hello/?a=2" 00007FFF013E9C80
+2020/12/04 08:25:34 [debug] 1775#0: *5 write old buf t:1 f:0 0000000001943768, pos 0000000001943768, size: 155 file: 0, size: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 write old buf t:1 f:0 0000000001943DB0, pos 0000000001943E3F, size: 3 file: 0, size: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 http write filter: l:1 f:0 s:158
+2020/12/04 08:25:34 [debug] 1775#0: *5 http write filter limit 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 writev: 158
+2020/12/04 08:25:34 [debug] 1775#0: *5 http write filter 0000000000000000
+2020/12/04 08:25:34 [debug] 1775#0: *5 http copy filter: 0 "/hello/?a=2"
+2020/12/04 08:25:34 [debug] 1775#0: *5 http finalize request: 0, "/hello/?a=2" a:1, c:1
+2020/12/04 08:25:34 [debug] 1775#0: *5 set http keepalive handler
+2020/12/04 08:25:34 [debug] 1775#0: *5 http close request
+2020/12/04 08:25:34 [debug] 1775#0: *5 http log handler
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 0000000001943DB0
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 000000000194C280, unused: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 0000000001942DA0, unused: 710
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 0000000001A22810
+2020/12/04 08:25:34 [debug] 1775#0: *5 hc free: 0000000000000000 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 hc busy: 0000000000000000 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 tcp_nodelay
+2020/12/04 08:25:34 [debug] 1775#0: *5 reusable connection: 1
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer add: 21: 65000:1607070399361
+2020/12/04 08:25:34 [debug] 1775#0: *5 post event 0000000001A28838
+2020/12/04 08:25:34 [debug] 1775#0: *5 delete posted event 0000000001A28838
+2020/12/04 08:25:34 [debug] 1775#0: *5 http keepalive handler
+2020/12/04 08:25:34 [debug] 1775#0: *5 malloc: 0000000001A22810:1024
+2020/12/04 08:25:34 [debug] 1775#0: *5 recv: fd:21 -1 of 1024
+2020/12/04 08:25:34 [debug] 1775#0: *5 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 0000000001A22810
+2020/12/04 08:25:34 [debug] 1775#0: *5 post event 0000000001A28838
+2020/12/04 08:25:34 [debug] 1775#0: *5 post event 0000000001A3C048
+2020/12/04 08:25:34 [debug] 1775#0: *5 delete posted event 0000000001A3C048
+2020/12/04 08:25:34 [debug] 1775#0: *5 http empty handler
+2020/12/04 08:25:34 [debug] 1775#0: *5 delete posted event 0000000001A28838
+2020/12/04 08:25:34 [debug] 1775#0: *5 http keepalive handler
+2020/12/04 08:25:34 [debug] 1775#0: *5 malloc: 0000000001A22810:1024
+2020/12/04 08:25:34 [debug] 1775#0: *5 recv: fd:21 0 of 1024
+2020/12/04 08:25:34 [info] 1775#0: *5 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:25:34 [debug] 1775#0: *5 close http connection: 21
+2020/12/04 08:25:34 [debug] 1775#0: *5 event timer del: 21: 1607070399361
+2020/12/04 08:25:34 [debug] 1775#0: *5 reusable connection: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 0000000001A22810
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 000000000193E780, unused: 0
+2020/12/04 08:25:34 [debug] 1775#0: *5 free: 000000000193EA60, unused: 128
+2020/12/04 08:26:01 [debug] 1775#0: post event 0000000001A28700
+2020/12/04 08:26:01 [debug] 1775#0: delete posted event 0000000001A28700
+2020/12/04 08:26:01 [debug] 1775#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:26:01 [debug] 1775#0: posix_memalign: 000000000193E780:256 @16
+2020/12/04 08:26:01 [debug] 1775#0: *7 accept: 127.0.0.1 fd:21
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer add: 21: 60000:1607070421259
+2020/12/04 08:26:01 [debug] 1775#0: *7 reusable connection: 1
+2020/12/04 08:26:01 [debug] 1775#0: *7 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:26:01 [debug] 1775#0: *7 post event 0000000001A28838
+2020/12/04 08:26:01 [debug] 1775#0: *7 delete posted event 0000000001A28838
+2020/12/04 08:26:01 [debug] 1775#0: *7 http wait request handler
+2020/12/04 08:26:01 [debug] 1775#0: *7 posix_memalign: 000000000193EA60:256 @16
+2020/12/04 08:26:01 [debug] 1775#0: *7 malloc: 0000000001A22810:1024
+2020/12/04 08:26:01 [debug] 1775#0: *7 recv: fd:21 83 of 1024
+2020/12/04 08:26:01 [debug] 1775#0: *7 reusable connection: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 posix_memalign: 000000000194C280:4096 @16
+2020/12/04 08:26:01 [debug] 1775#0: *7 http process request line
+2020/12/04 08:26:01 [debug] 1775#0: *7 http request line: "GET /hello/?a=2 HTTP/1.1"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http uri: "/hello/"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http args: "a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http exten: ""
+2020/12/04 08:26:01 [debug] 1775#0: *7 http process request header line
+2020/12/04 08:26:01 [debug] 1775#0: *7 posix_memalign: 0000000001942DA0:4096 @16
+2020/12/04 08:26:01 [debug] 1775#0: *7 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http header: "Host: 127.0.0.1"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http header: "Accept: */*"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http header done
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer del: 21: 1607070421259
+2020/12/04 08:26:01 [debug] 1775#0: *7 generic phase: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 rewrite phase: 1
+2020/12/04 08:26:01 [debug] 1775#0: *7 test location: "/"
+2020/12/04 08:26:01 [debug] 1775#0: *7 test location: "uploads/"
+2020/12/04 08:26:01 [debug] 1775#0: *7 test location: "hello/"
+2020/12/04 08:26:01 [debug] 1775#0: *7 using configuration "/hello/"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http cl:-1 max:1048576
+2020/12/04 08:26:01 [debug] 1775#0: *7 rewrite phase: 3
+2020/12/04 08:26:01 [debug] 1775#0: *7 rewrite phase: 4
+2020/12/04 08:26:01 [debug] 1775#0: *7 post rewrite phase: 5
+2020/12/04 08:26:01 [debug] 1775#0: *7 generic phase: 6
+2020/12/04 08:26:01 [debug] 1775#0: *7 generic phase: 7
+2020/12/04 08:26:01 [debug] 1775#0: *7 generic phase: 8
+2020/12/04 08:26:01 [debug] 1775#0: *7 access phase: 9
+2020/12/04 08:26:01 [debug] 1775#0: *7 access phase: 10
+2020/12/04 08:26:01 [debug] 1775#0: *7 access phase: 11
+2020/12/04 08:26:01 [debug] 1775#0: *7 post access phase: 12
+2020/12/04 08:26:01 [debug] 1775#0: *7 http init upstream, client timer: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 epoll add event: fd:21 op:3 ev:80000005
+2020/12/04 08:26:01 [debug] 1775#0: *7 http script copy: "Host: "
+2020/12/04 08:26:01 [debug] 1775#0: *7 http script var: "127.0.0.1:8080"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http script copy: "
+"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http script copy: "Connection: close
+"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http script copy: ""
+2020/12/04 08:26:01 [debug] 1775#0: *7 http script copy: ""
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header: "User-Agent: curl/7.35.0"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header: "Accept: */*"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header:
+"GET /?a=2 HTTP/1.0
+Host: 127.0.0.1:8080
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http cleanup add: 0000000001943498
+2020/12/04 08:26:01 [debug] 1775#0: *7 get rr peer, try: 1
+2020/12/04 08:26:01 [debug] 1775#0: *7 socket 22
+2020/12/04 08:26:01 [debug] 1775#0: *7 epoll add connection: fd:22 ev:80000005
+2020/12/04 08:26:01 [debug] 1775#0: *7 connect to 127.0.0.1:8080, fd:22 #8
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream connect: -2
+2020/12/04 08:26:01 [debug] 1775#0: *7 posix_memalign: 000000000194D290:128 @16
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer add: 22: 60000:1607070421267
+2020/12/04 08:26:01 [debug] 1775#0: *7 http finalize request: -4, "/hello/?a=2" a:1, c:2
+2020/12/04 08:26:01 [debug] 1775#0: *7 http request count:2 blk:0
+2020/12/04 08:26:01 [debug] 1775#0: *7 post event 0000000001A3C048
+2020/12/04 08:26:01 [debug] 1775#0: *7 post event 0000000001A3C0B0
+2020/12/04 08:26:01 [debug] 1775#0: *7 delete posted event 0000000001A3C0B0
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream request: "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream send request handler
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream send request
+2020/12/04 08:26:01 [debug] 1775#0: *7 chain writer buf fl:1 s:101
+2020/12/04 08:26:01 [debug] 1775#0: *7 chain writer in: 00000000019434D0
+2020/12/04 08:26:01 [debug] 1775#0: *7 writev: 101
+2020/12/04 08:26:01 [debug] 1775#0: *7 chain writer out: 0000000000000000
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer del: 22: 1607070421267
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer add: 22: 60000:1607070421279
+2020/12/04 08:26:01 [debug] 1775#0: *7 delete posted event 0000000001A3C048
+2020/12/04 08:26:01 [debug] 1775#0: *7 http run request: "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream check client, write event:1, "/hello/"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/12/04 08:26:01 [debug] 1775#0: *7 post event 0000000001A288A0
+2020/12/04 08:26:01 [debug] 1775#0: *7 post event 0000000001A3C0B0
+2020/12/04 08:26:01 [debug] 1775#0: *7 delete posted event 0000000001A3C0B0
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream request: "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream dummy handler
+2020/12/04 08:26:01 [debug] 1775#0: *7 delete posted event 0000000001A288A0
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream request: "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream process header
+2020/12/04 08:26:01 [debug] 1775#0: *7 malloc: 0000000001943DB0:4096
+2020/12/04 08:26:01 [debug] 1775#0: *7 recv: fd:22 146 of 4096
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy status 200 "200 OK"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header: "Server: gunicorn/17.5"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header: "Date: Fri, 04 Dec 2020 08:26:01 GMT"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header: "Connection: close"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header: "Content-type: text/plain"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header: "Content-Length: 3"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy header done
+2020/12/04 08:26:01 [debug] 1775#0: *7 uploadprogress error-tracker error: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 xslt filter header
+2020/12/04 08:26:01 [debug] 1775#0: *7 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:26:01 GMT
+Content-Type: text/plain
+Content-Length: 3
+Connection: keep-alive
+
+2020/12/04 08:26:01 [debug] 1775#0: *7 write new buf t:1 f:0 0000000001943768, pos 0000000001943768, size: 155 file: 0, size: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 http write filter: l:0 f:0 s:155
+2020/12/04 08:26:01 [debug] 1775#0: *7 http cacheable: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 http proxy filter init s:200 h:0 c:0 l:3
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream process upstream
+2020/12/04 08:26:01 [debug] 1775#0: *7 pipe read upstream: 1
+2020/12/04 08:26:01 [debug] 1775#0: *7 pipe preread: 3
+2020/12/04 08:26:01 [debug] 1775#0: *7 readv: 1:3950
+2020/12/04 08:26:01 [debug] 1775#0: *7 pipe recv chain: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 pipe buf free s:0 t:1 f:0 0000000001943DB0, pos 0000000001943E3F, size: 3 file: 0, size: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 pipe length: 3
+2020/12/04 08:26:01 [debug] 1775#0: *7 input buf #0
+2020/12/04 08:26:01 [debug] 1775#0: *7 pipe write downstream: 1
+2020/12/04 08:26:01 [debug] 1775#0: *7 pipe write downstream flush in
+2020/12/04 08:26:01 [debug] 1775#0: *7 http output filter "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http copy filter: "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 image filter
+2020/12/04 08:26:01 [debug] 1775#0: *7 xslt filter body
+2020/12/04 08:26:01 [debug] 1775#0: *7 http postpone filter "/hello/?a=2" 0000000001943980
+2020/12/04 08:26:01 [debug] 1775#0: *7 write old buf t:1 f:0 0000000001943768, pos 0000000001943768, size: 155 file: 0, size: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 write new buf t:1 f:0 0000000001943DB0, pos 0000000001943E3F, size: 3 file: 0, size: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 http write filter: l:0 f:0 s:158
+2020/12/04 08:26:01 [debug] 1775#0: *7 http copy filter: 0 "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 pipe write downstream done
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer: 22, old: 1607070421279, new: 1607070421283
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream exit: 0000000000000000
+2020/12/04 08:26:01 [debug] 1775#0: *7 finalize http upstream request: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 finalize http proxy request
+2020/12/04 08:26:01 [debug] 1775#0: *7 free rr peer 1 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 close http upstream connection: 22
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 000000000194D290, unused: 48
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer del: 22: 1607070421279
+2020/12/04 08:26:01 [debug] 1775#0: *7 reusable connection: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 http upstream temp fd: -1
+2020/12/04 08:26:01 [debug] 1775#0: *7 http output filter "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http copy filter: "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 image filter
+2020/12/04 08:26:01 [debug] 1775#0: *7 xslt filter body
+2020/12/04 08:26:01 [debug] 1775#0: *7 http postpone filter "/hello/?a=2" 00007FFF013E9C80
+2020/12/04 08:26:01 [debug] 1775#0: *7 write old buf t:1 f:0 0000000001943768, pos 0000000001943768, size: 155 file: 0, size: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 write old buf t:1 f:0 0000000001943DB0, pos 0000000001943E3F, size: 3 file: 0, size: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 http write filter: l:1 f:0 s:158
+2020/12/04 08:26:01 [debug] 1775#0: *7 http write filter limit 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 writev: 158
+2020/12/04 08:26:01 [debug] 1775#0: *7 http write filter 0000000000000000
+2020/12/04 08:26:01 [debug] 1775#0: *7 http copy filter: 0 "/hello/?a=2"
+2020/12/04 08:26:01 [debug] 1775#0: *7 http finalize request: 0, "/hello/?a=2" a:1, c:1
+2020/12/04 08:26:01 [debug] 1775#0: *7 set http keepalive handler
+2020/12/04 08:26:01 [debug] 1775#0: *7 http close request
+2020/12/04 08:26:01 [debug] 1775#0: *7 http log handler
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 0000000001943DB0
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 000000000194C280, unused: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 0000000001942DA0, unused: 710
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 0000000001A22810
+2020/12/04 08:26:01 [debug] 1775#0: *7 hc free: 0000000000000000 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 hc busy: 0000000000000000 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 tcp_nodelay
+2020/12/04 08:26:01 [debug] 1775#0: *7 reusable connection: 1
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer add: 21: 65000:1607070426283
+2020/12/04 08:26:01 [debug] 1775#0: *7 post event 0000000001A28838
+2020/12/04 08:26:01 [debug] 1775#0: *7 delete posted event 0000000001A28838
+2020/12/04 08:26:01 [debug] 1775#0: *7 http keepalive handler
+2020/12/04 08:26:01 [debug] 1775#0: *7 malloc: 0000000001A22810:1024
+2020/12/04 08:26:01 [debug] 1775#0: *7 recv: fd:21 -1 of 1024
+2020/12/04 08:26:01 [debug] 1775#0: *7 recv() not ready (11: Resource temporarily unavailable)
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 0000000001A22810
+2020/12/04 08:26:01 [debug] 1775#0: *7 post event 0000000001A28838
+2020/12/04 08:26:01 [debug] 1775#0: *7 post event 0000000001A3C048
+2020/12/04 08:26:01 [debug] 1775#0: *7 delete posted event 0000000001A3C048
+2020/12/04 08:26:01 [debug] 1775#0: *7 http empty handler
+2020/12/04 08:26:01 [debug] 1775#0: *7 delete posted event 0000000001A28838
+2020/12/04 08:26:01 [debug] 1775#0: *7 http keepalive handler
+2020/12/04 08:26:01 [debug] 1775#0: *7 malloc: 0000000001A22810:1024
+2020/12/04 08:26:01 [debug] 1775#0: *7 recv: fd:21 0 of 1024
+2020/12/04 08:26:01 [info] 1775#0: *7 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:26:01 [debug] 1775#0: *7 close http connection: 21
+2020/12/04 08:26:01 [debug] 1775#0: *7 event timer del: 21: 1607070426283
+2020/12/04 08:26:01 [debug] 1775#0: *7 reusable connection: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 0000000001A22810
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 000000000193E780, unused: 0
+2020/12/04 08:26:01 [debug] 1775#0: *7 free: 000000000193EA60, unused: 128
+2020/12/04 08:26:27 [debug] 1775#0: post event 0000000001A28700
+2020/12/04 08:26:27 [debug] 1775#0: delete posted event 0000000001A28700
+2020/12/04 08:26:27 [debug] 1775#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:26:27 [debug] 1775#0: posix_memalign: 000000000193E780:256 @16
+2020/12/04 08:26:27 [debug] 1775#0: *9 accept: 127.0.0.1 fd:21
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer add: 21: 60000:1607070447378
+2020/12/04 08:26:27 [debug] 1775#0: *9 reusable connection: 1
+2020/12/04 08:26:27 [debug] 1775#0: *9 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:26:27 [debug] 1775#0: *9 post event 0000000001A28838
+2020/12/04 08:26:27 [debug] 1775#0: *9 delete posted event 0000000001A28838
+2020/12/04 08:26:27 [debug] 1775#0: *9 http wait request handler
+2020/12/04 08:26:27 [debug] 1775#0: *9 posix_memalign: 000000000193EA60:256 @16
+2020/12/04 08:26:27 [debug] 1775#0: *9 malloc: 0000000001A22810:1024
+2020/12/04 08:26:27 [debug] 1775#0: *9 recv: fd:21 88 of 1024
+2020/12/04 08:26:27 [debug] 1775#0: *9 reusable connection: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 posix_memalign: 000000000194C280:4096 @16
+2020/12/04 08:26:27 [debug] 1775#0: *9 http process request line
+2020/12/04 08:26:27 [debug] 1775#0: *9 http request line: "GET /question/dd123/ HTTP/1.1"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http uri: "/question/dd123/"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http args: ""
+2020/12/04 08:26:27 [debug] 1775#0: *9 http exten: ""
+2020/12/04 08:26:27 [debug] 1775#0: *9 http process request header line
+2020/12/04 08:26:27 [debug] 1775#0: *9 posix_memalign: 0000000001942DA0:4096 @16
+2020/12/04 08:26:27 [debug] 1775#0: *9 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http header: "Host: 127.0.0.1"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http header: "Accept: */*"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http header done
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer del: 21: 1607070447378
+2020/12/04 08:26:27 [debug] 1775#0: *9 generic phase: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 rewrite phase: 1
+2020/12/04 08:26:27 [debug] 1775#0: *9 test location: "/"
+2020/12/04 08:26:27 [debug] 1775#0: *9 test location: "uploads/"
+2020/12/04 08:26:27 [debug] 1775#0: *9 test location: "hello/"
+2020/12/04 08:26:27 [debug] 1775#0: *9 test location: ~ "\w+\.\w+$"
+2020/12/04 08:26:27 [debug] 1775#0: *9 using configuration "/"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http cl:-1 max:1048576
+2020/12/04 08:26:27 [debug] 1775#0: *9 rewrite phase: 3
+2020/12/04 08:26:27 [debug] 1775#0: *9 rewrite phase: 4
+2020/12/04 08:26:27 [debug] 1775#0: *9 post rewrite phase: 5
+2020/12/04 08:26:27 [debug] 1775#0: *9 generic phase: 6
+2020/12/04 08:26:27 [debug] 1775#0: *9 generic phase: 7
+2020/12/04 08:26:27 [debug] 1775#0: *9 generic phase: 8
+2020/12/04 08:26:27 [debug] 1775#0: *9 access phase: 9
+2020/12/04 08:26:27 [debug] 1775#0: *9 access phase: 10
+2020/12/04 08:26:27 [debug] 1775#0: *9 access phase: 11
+2020/12/04 08:26:27 [debug] 1775#0: *9 post access phase: 12
+2020/12/04 08:26:27 [debug] 1775#0: *9 http init upstream, client timer: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 epoll add event: fd:21 op:3 ev:80000005
+2020/12/04 08:26:27 [debug] 1775#0: *9 http script copy: "Host: "
+2020/12/04 08:26:27 [debug] 1775#0: *9 http script var: "127.0.0.1:8000"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http script copy: "
+"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http script copy: "Connection: close
+"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http script copy: ""
+2020/12/04 08:26:27 [debug] 1775#0: *9 http script copy: ""
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header: "User-Agent: curl/7.35.0"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header: "Accept: */*"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header:
+"GET /question/dd123/ HTTP/1.0
+Host: 127.0.0.1:8000
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http cleanup add: 00000000019434A8
+2020/12/04 08:26:27 [debug] 1775#0: *9 get rr peer, try: 1
+2020/12/04 08:26:27 [debug] 1775#0: *9 socket 22
+2020/12/04 08:26:27 [debug] 1775#0: *9 epoll add connection: fd:22 ev:80000005
+2020/12/04 08:26:27 [debug] 1775#0: *9 connect to 127.0.0.1:8000, fd:22 #10
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream connect: -2
+2020/12/04 08:26:27 [debug] 1775#0: *9 posix_memalign: 000000000194D290:128 @16
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer add: 22: 60000:1607070447425
+2020/12/04 08:26:27 [debug] 1775#0: *9 http finalize request: -4, "/question/dd123/?" a:1, c:2
+2020/12/04 08:26:27 [debug] 1775#0: *9 http request count:2 blk:0
+2020/12/04 08:26:27 [debug] 1778#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:26:27 [debug] 1775#0: epoll del event: fd:8 op:2 ev:00000000
+2020/12/04 08:26:27 [debug] 1775#0: *9 http run request: "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream check client, write event:1, "/question/dd123/"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream request: "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream send request handler
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream send request
+2020/12/04 08:26:27 [debug] 1775#0: *9 chain writer buf fl:1 s:112
+2020/12/04 08:26:27 [debug] 1775#0: *9 chain writer in: 00000000019434E0
+2020/12/04 08:26:27 [debug] 1775#0: *9 writev: 112
+2020/12/04 08:26:27 [debug] 1775#0: *9 chain writer out: 0000000000000000
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer del: 22: 1607070447425
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer add: 22: 60000:1607070447501
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream request: "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream process header
+2020/12/04 08:26:27 [debug] 1775#0: *9 malloc: 0000000001943DB0:4096
+2020/12/04 08:26:27 [debug] 1775#0: *9 recv: fd:22 169 of 4096
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy status 200 "200 OK"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header: "Server: gunicorn/17.5"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header: "Date: Fri, 04 Dec 2020 08:26:27 GMT"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header: "Connection: close"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header: "X-Frame-Options: SAMEORIGIN"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header: "Content-Type: text/html; charset=utf-8"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy header done
+2020/12/04 08:26:27 [debug] 1775#0: *9 uploadprogress error-tracker error: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 xslt filter header
+2020/12/04 08:26:27 [debug] 1775#0: *9 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:26:27 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+
+2020/12/04 08:26:27 [debug] 1775#0: *9 write new buf t:1 f:0 00000000019437A8, pos 00000000019437A8, size: 207 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 http write filter: l:0 f:0 s:207
+2020/12/04 08:26:27 [debug] 1775#0: *9 http cacheable: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 http proxy filter init s:200 h:0 c:0 l:-1
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream process upstream
+2020/12/04 08:26:27 [debug] 1775#0: *9 pipe read upstream: 1
+2020/12/04 08:26:27 [debug] 1775#0: *9 pipe preread: 2
+2020/12/04 08:26:27 [debug] 1775#0: *9 readv: 1:3927
+2020/12/04 08:26:27 [debug] 1775#0: *9 pipe recv chain: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 pipe buf free s:0 t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 pipe length: -1
+2020/12/04 08:26:27 [debug] 1775#0: *9 input buf #0
+2020/12/04 08:26:27 [debug] 1775#0: *9 pipe write downstream: 1
+2020/12/04 08:26:27 [debug] 1775#0: *9 pipe write downstream flush in
+2020/12/04 08:26:27 [debug] 1775#0: *9 http output filter "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http copy filter: "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 image filter
+2020/12/04 08:26:27 [debug] 1775#0: *9 xslt filter body
+2020/12/04 08:26:27 [debug] 1775#0: *9 http postpone filter "/question/dd123/?" 00000000019439E0
+2020/12/04 08:26:27 [debug] 1775#0: *9 http chunk: 2
+2020/12/04 08:26:27 [debug] 1775#0: *9 write old buf t:1 f:0 00000000019437A8, pos 00000000019437A8, size: 207 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 write new buf t:1 f:0 0000000001943AC8, pos 0000000001943AC8, size: 3 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 write new buf t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 write new buf t:0 f:0 0000000000000000, pos 00000000004FAFBD, size: 2 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 http write filter: l:0 f:0 s:214
+2020/12/04 08:26:27 [debug] 1775#0: *9 http copy filter: 0 "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 pipe write downstream done
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer: 22, old: 1607070447501, new: 1607070447519
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream exit: 0000000000000000
+2020/12/04 08:26:27 [debug] 1775#0: *9 finalize http upstream request: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 finalize http proxy request
+2020/12/04 08:26:27 [debug] 1775#0: *9 free rr peer 1 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 close http upstream connection: 22
+2020/12/04 08:26:27 [debug] 1775#0: *9 free: 000000000194D290, unused: 48
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer del: 22: 1607070447501
+2020/12/04 08:26:27 [debug] 1775#0: *9 reusable connection: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 http upstream temp fd: -1
+2020/12/04 08:26:27 [debug] 1775#0: *9 http output filter "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http copy filter: "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 image filter
+2020/12/04 08:26:27 [debug] 1775#0: *9 xslt filter body
+2020/12/04 08:26:27 [debug] 1775#0: *9 http postpone filter "/question/dd123/?" 00007FFF013E9C00
+2020/12/04 08:26:27 [debug] 1775#0: *9 http chunk: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 write old buf t:1 f:0 00000000019437A8, pos 00000000019437A8, size: 207 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 write old buf t:1 f:0 0000000001943AC8, pos 0000000001943AC8, size: 3 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 write old buf t:1 f:0 0000000001943DB0, pos 0000000001943E57, size: 2 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 write old buf t:0 f:0 0000000000000000, pos 00000000004FAFBD, size: 2 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 write new buf t:0 f:0 0000000000000000, pos 00000000004FAFBA, size: 5 file: 0, size: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 http write filter: l:1 f:0 s:219
+2020/12/04 08:26:27 [debug] 1775#0: *9 http write filter limit 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 writev: 219
+2020/12/04 08:26:27 [debug] 1775#0: *9 http write filter 0000000000000000
+2020/12/04 08:26:27 [debug] 1775#0: *9 http copy filter: 0 "/question/dd123/?"
+2020/12/04 08:26:27 [debug] 1775#0: *9 http finalize request: 0, "/question/dd123/?" a:1, c:1
+2020/12/04 08:26:27 [debug] 1775#0: *9 set http keepalive handler
+2020/12/04 08:26:27 [debug] 1775#0: *9 http close request
+2020/12/04 08:26:27 [debug] 1775#0: *9 http log handler
+2020/12/04 08:26:27 [debug] 1775#0: *9 free: 0000000001943DB0
+2020/12/04 08:26:27 [debug] 1775#0: *9 free: 000000000194C280, unused: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 free: 0000000001942DA0, unused: 233
+2020/12/04 08:26:27 [debug] 1775#0: *9 free: 0000000001A22810
+2020/12/04 08:26:27 [debug] 1775#0: *9 hc free: 0000000000000000 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 hc busy: 0000000000000000 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 tcp_nodelay
+2020/12/04 08:26:27 [debug] 1775#0: *9 reusable connection: 1
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer add: 21: 65000:1607070452519
+2020/12/04 08:26:27 [debug] 1775#0: *9 post event 0000000001A28838
+2020/12/04 08:26:27 [debug] 1775#0: *9 delete posted event 0000000001A28838
+2020/12/04 08:26:27 [debug] 1775#0: *9 http keepalive handler
+2020/12/04 08:26:27 [debug] 1775#0: *9 malloc: 0000000001A22810:1024
+2020/12/04 08:26:27 [debug] 1775#0: *9 recv: fd:21 0 of 1024
+2020/12/04 08:26:27 [info] 1775#0: *9 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:26:27 [debug] 1775#0: *9 close http connection: 21
+2020/12/04 08:26:27 [debug] 1775#0: *9 event timer del: 21: 1607070452519
+2020/12/04 08:26:27 [debug] 1775#0: *9 reusable connection: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 free: 0000000001A22810
+2020/12/04 08:26:27 [debug] 1775#0: *9 free: 000000000193E780, unused: 0
+2020/12/04 08:26:27 [debug] 1775#0: *9 free: 000000000193EA60, unused: 128
+2020/12/04 08:32:05 [debug] 1978#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:32:35 [debug] 1978#0: post event 0000000000CF7730
+2020/12/04 08:32:35 [debug] 1978#0: delete posted event 0000000000CF7730
+2020/12/04 08:32:35 [debug] 1978#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:32:35 [debug] 1978#0: posix_memalign: 0000000000C0D780:256 @16
+2020/12/04 08:32:35 [debug] 1978#0: *1 accept: 127.0.0.1 fd:21
+2020/12/04 08:32:35 [debug] 1978#0: *1 event timer add: 21: 60000:1607070815907
+2020/12/04 08:32:35 [debug] 1978#0: *1 reusable connection: 1
+2020/12/04 08:32:35 [debug] 1978#0: *1 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:32:36 [debug] 1978#0: *1 post event 0000000000CF7868
+2020/12/04 08:32:36 [debug] 1978#0: *1 delete posted event 0000000000CF7868
+2020/12/04 08:32:36 [debug] 1978#0: *1 http wait request handler
+2020/12/04 08:32:36 [debug] 1978#0: *1 posix_memalign: 0000000000C0DA60:256 @16
+2020/12/04 08:32:36 [debug] 1978#0: *1 malloc: 0000000000CF1840:1024
+2020/12/04 08:32:36 [debug] 1978#0: *1 recv: fd:21 86 of 1024
+2020/12/04 08:32:36 [debug] 1978#0: *1 reusable connection: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 posix_memalign: 0000000000C1B280:4096 @16
+2020/12/04 08:32:36 [debug] 1978#0: *1 http process request line
+2020/12/04 08:32:36 [debug] 1978#0: *1 http request line: "GET /question/123/ HTTP/1.1"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http uri: "/question/123/"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http args: ""
+2020/12/04 08:32:36 [debug] 1978#0: *1 http exten: ""
+2020/12/04 08:32:36 [debug] 1978#0: *1 http process request header line
+2020/12/04 08:32:36 [debug] 1978#0: *1 posix_memalign: 0000000000C11DA0:4096 @16
+2020/12/04 08:32:36 [debug] 1978#0: *1 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http header: "Host: 127.0.0.1"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http header: "Accept: */*"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http header done
+2020/12/04 08:32:36 [debug] 1978#0: *1 event timer del: 21: 1607070815907
+2020/12/04 08:32:36 [debug] 1978#0: *1 generic phase: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 rewrite phase: 1
+2020/12/04 08:32:36 [debug] 1978#0: *1 test location: "/"
+2020/12/04 08:32:36 [debug] 1978#0: *1 test location: "uploads/"
+2020/12/04 08:32:36 [debug] 1978#0: *1 test location: "hello/"
+2020/12/04 08:32:36 [debug] 1978#0: *1 test location: ~ "\w+\.\w+$"
+2020/12/04 08:32:36 [debug] 1978#0: *1 using configuration "/"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http cl:-1 max:1048576
+2020/12/04 08:32:36 [debug] 1978#0: *1 rewrite phase: 3
+2020/12/04 08:32:36 [debug] 1978#0: *1 rewrite phase: 4
+2020/12/04 08:32:36 [debug] 1978#0: *1 post rewrite phase: 5
+2020/12/04 08:32:36 [debug] 1978#0: *1 generic phase: 6
+2020/12/04 08:32:36 [debug] 1978#0: *1 generic phase: 7
+2020/12/04 08:32:36 [debug] 1978#0: *1 generic phase: 8
+2020/12/04 08:32:36 [debug] 1978#0: *1 access phase: 9
+2020/12/04 08:32:36 [debug] 1978#0: *1 access phase: 10
+2020/12/04 08:32:36 [debug] 1978#0: *1 access phase: 11
+2020/12/04 08:32:36 [debug] 1978#0: *1 post access phase: 12
+2020/12/04 08:32:36 [debug] 1978#0: *1 http init upstream, client timer: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 epoll add event: fd:21 op:3 ev:80000005
+2020/12/04 08:32:36 [debug] 1978#0: *1 http script copy: "Host: "
+2020/12/04 08:32:36 [debug] 1978#0: *1 http script var: "127.0.0.1:8000"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http script copy: "
+"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http script copy: "Connection: close
+"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http script copy: ""
+2020/12/04 08:32:36 [debug] 1978#0: *1 http script copy: ""
+2020/12/04 08:32:36 [debug] 1978#0: *1 http proxy header: "User-Agent: curl/7.35.0"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http proxy header: "Accept: */*"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http proxy header:
+"GET /question/123/ HTTP/1.0
+Host: 127.0.0.1:8000
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http cleanup add: 0000000000C124A8
+2020/12/04 08:32:36 [debug] 1978#0: *1 get rr peer, try: 1
+2020/12/04 08:32:36 [debug] 1978#0: *1 socket 22
+2020/12/04 08:32:36 [debug] 1978#0: *1 epoll add connection: fd:22 ev:80000005
+2020/12/04 08:32:36 [debug] 1978#0: *1 connect to 127.0.0.1:8000, fd:22 #2
+2020/12/04 08:32:36 [debug] 1978#0: *1 http upstream connect: -2
+2020/12/04 08:32:36 [debug] 1978#0: *1 posix_memalign: 0000000000C1C290:128 @16
+2020/12/04 08:32:36 [debug] 1978#0: *1 event timer add: 22: 60000:1607070816142
+2020/12/04 08:32:36 [debug] 1978#0: *1 http finalize request: -4, "/question/123/?" a:1, c:2
+2020/12/04 08:32:36 [debug] 1978#0: *1 http request count:2 blk:0
+2020/12/04 08:32:36 [debug] 1978#0: *1 post event 0000000000D0B078
+2020/12/04 08:32:36 [debug] 1978#0: *1 post event 0000000000CF78D0
+2020/12/04 08:32:36 [debug] 1978#0: *1 post event 0000000000D0B0E0
+2020/12/04 08:32:36 [debug] 1978#0: *1 delete posted event 0000000000D0B0E0
+2020/12/04 08:32:36 [debug] 1978#0: *1 http upstream request: "/question/123/?"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http upstream send request handler
+2020/12/04 08:32:36 [debug] 1978#0: *1 http upstream send request
+2020/12/04 08:32:36 [error] 1978#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /question/123/ HTTP/1.1", upstream: "http://127.0.0.1:8000/question/123/", host: "127.0.0.1"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http next upstream, 2
+2020/12/04 08:32:36 [debug] 1978#0: *1 free rr peer 1 4
+2020/12/04 08:32:36 [debug] 1978#0: *1 finalize http upstream request: 502
+2020/12/04 08:32:36 [debug] 1978#0: *1 finalize http proxy request
+2020/12/04 08:32:36 [debug] 1978#0: *1 close http upstream connection: 22
+2020/12/04 08:32:36 [debug] 1978#0: *1 free: 0000000000C1C290, unused: 48
+2020/12/04 08:32:36 [debug] 1978#0: *1 event timer del: 22: 1607070816142
+2020/12/04 08:32:36 [debug] 1978#0: *1 delete posted event 0000000000CF78D0
+2020/12/04 08:32:36 [debug] 1978#0: *1 reusable connection: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 http finalize request: 502, "/question/123/?" a:1, c:1
+2020/12/04 08:32:36 [debug] 1978#0: *1 http special response: 502, "/question/123/?"
+2020/12/04 08:32:36 [debug] 1978#0: *1 uploadprogress error-tracker error: 502
+2020/12/04 08:32:36 [debug] 1978#0: *1 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:32:36 [debug] 1978#0: *1 xslt filter header
+2020/12/04 08:32:36 [debug] 1978#0: *1 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:32:36 GMT
+Content-Type: text/html
+Content-Length: 181
+Connection: keep-alive
+
+2020/12/04 08:32:36 [debug] 1978#0: *1 write new buf t:1 f:0 0000000000C12530, pos 0000000000C12530, size: 165 file: 0, size: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 http write filter: l:0 f:0 s:165
+2020/12/04 08:32:36 [debug] 1978#0: *1 http output filter "/question/123/?"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http copy filter: "/question/123/?"
+2020/12/04 08:32:36 [debug] 1978#0: *1 image filter
+2020/12/04 08:32:36 [debug] 1978#0: *1 xslt filter body
+2020/12/04 08:32:36 [debug] 1978#0: *1 http postpone filter "/question/123/?" 0000000000C12700
+2020/12/04 08:32:36 [debug] 1978#0: *1 write old buf t:1 f:0 0000000000C12530, pos 0000000000C12530, size: 165 file: 0, size: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000007368A0, size: 120 file: 0, size: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 http write filter: l:1 f:0 s:346
+2020/12/04 08:32:36 [debug] 1978#0: *1 http write filter limit 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 writev: 346
+2020/12/04 08:32:36 [debug] 1978#0: *1 http write filter 0000000000000000
+2020/12/04 08:32:36 [debug] 1978#0: *1 http copy filter: 0 "/question/123/?"
+2020/12/04 08:32:36 [debug] 1978#0: *1 http finalize request: 0, "/question/123/?" a:1, c:1
+2020/12/04 08:32:36 [debug] 1978#0: *1 set http keepalive handler
+2020/12/04 08:32:36 [debug] 1978#0: *1 http close request
+2020/12/04 08:32:36 [debug] 1978#0: *1 http log handler
+2020/12/04 08:32:36 [debug] 1978#0: *1 free: 0000000000C1B280, unused: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 free: 0000000000C11DA0, unused: 1499
+2020/12/04 08:32:36 [debug] 1978#0: *1 free: 0000000000CF1840
+2020/12/04 08:32:36 [debug] 1978#0: *1 hc free: 0000000000000000 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 hc busy: 0000000000000000 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 tcp_nodelay
+2020/12/04 08:32:36 [debug] 1978#0: *1 reusable connection: 1
+2020/12/04 08:32:36 [debug] 1978#0: *1 event timer add: 21: 65000:1607070821207
+2020/12/04 08:32:36 [debug] 1978#0: *1 post event 0000000000CF7868
+2020/12/04 08:32:36 [debug] 1978#0: *1 delete posted event 0000000000CF7868
+2020/12/04 08:32:36 [debug] 1978#0: *1 http keepalive handler
+2020/12/04 08:32:36 [debug] 1978#0: *1 malloc: 0000000000CF1840:1024
+2020/12/04 08:32:36 [debug] 1978#0: *1 recv: fd:21 0 of 1024
+2020/12/04 08:32:36 [info] 1978#0: *1 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:32:36 [debug] 1978#0: *1 close http connection: 21
+2020/12/04 08:32:36 [debug] 1978#0: *1 event timer del: 21: 1607070821207
+2020/12/04 08:32:36 [debug] 1978#0: *1 delete posted event 0000000000D0B078
+2020/12/04 08:32:36 [debug] 1978#0: *1 reusable connection: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 free: 0000000000CF1840
+2020/12/04 08:32:36 [debug] 1978#0: *1 free: 0000000000C0D780, unused: 0
+2020/12/04 08:32:36 [debug] 1978#0: *1 free: 0000000000C0DA60, unused: 128
+2020/12/04 08:33:22 [debug] 2135#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:33:35 [debug] 2135#0: post event 0000000001EF4700
+2020/12/04 08:33:35 [debug] 2135#0: delete posted event 0000000001EF4700
+2020/12/04 08:33:35 [debug] 2135#0: accept on 0.0.0.0:80, ready: 0
+2020/12/04 08:33:35 [debug] 2135#0: posix_memalign: 0000000001E0A780:256 @16
+2020/12/04 08:33:35 [debug] 2135#0: *1 accept: 127.0.0.1 fd:21
+2020/12/04 08:33:35 [debug] 2135#0: *1 event timer add: 21: 60000:1607070875376
+2020/12/04 08:33:35 [debug] 2135#0: *1 reusable connection: 1
+2020/12/04 08:33:35 [debug] 2135#0: *1 epoll add event: fd:21 op:1 ev:80000001
+2020/12/04 08:33:35 [debug] 2135#0: *1 post event 0000000001EF4838
+2020/12/04 08:33:35 [debug] 2135#0: *1 delete posted event 0000000001EF4838
+2020/12/04 08:33:35 [debug] 2135#0: *1 http wait request handler
+2020/12/04 08:33:35 [debug] 2135#0: *1 posix_memalign: 0000000001E0AA60:256 @16
+2020/12/04 08:33:35 [debug] 2135#0: *1 malloc: 0000000001EEE810:1024
+2020/12/04 08:33:35 [debug] 2135#0: *1 recv: fd:21 86 of 1024
+2020/12/04 08:33:35 [debug] 2135#0: *1 reusable connection: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 posix_memalign: 0000000001E18280:4096 @16
+2020/12/04 08:33:35 [debug] 2135#0: *1 http process request line
+2020/12/04 08:33:35 [debug] 2135#0: *1 http request line: "GET /question/123/ HTTP/1.1"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http uri: "/question/123/"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http args: ""
+2020/12/04 08:33:35 [debug] 2135#0: *1 http exten: ""
+2020/12/04 08:33:35 [debug] 2135#0: *1 http process request header line
+2020/12/04 08:33:35 [debug] 2135#0: *1 posix_memalign: 0000000001E0EDA0:4096 @16
+2020/12/04 08:33:35 [debug] 2135#0: *1 http header: "User-Agent: curl/7.35.0"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http header: "Host: 127.0.0.1"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http header: "Accept: */*"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http header done
+2020/12/04 08:33:35 [debug] 2135#0: *1 event timer del: 21: 1607070875376
+2020/12/04 08:33:35 [debug] 2135#0: *1 generic phase: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 rewrite phase: 1
+2020/12/04 08:33:35 [debug] 2135#0: *1 test location: "/"
+2020/12/04 08:33:35 [debug] 2135#0: *1 test location: "uploads/"
+2020/12/04 08:33:35 [debug] 2135#0: *1 test location: "hello/"
+2020/12/04 08:33:35 [debug] 2135#0: *1 test location: ~ "\w+\.\w+$"
+2020/12/04 08:33:35 [debug] 2135#0: *1 using configuration "/"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http cl:-1 max:1048576
+2020/12/04 08:33:35 [debug] 2135#0: *1 rewrite phase: 3
+2020/12/04 08:33:35 [debug] 2135#0: *1 rewrite phase: 4
+2020/12/04 08:33:35 [debug] 2135#0: *1 post rewrite phase: 5
+2020/12/04 08:33:35 [debug] 2135#0: *1 generic phase: 6
+2020/12/04 08:33:35 [debug] 2135#0: *1 generic phase: 7
+2020/12/04 08:33:35 [debug] 2135#0: *1 generic phase: 8
+2020/12/04 08:33:35 [debug] 2135#0: *1 access phase: 9
+2020/12/04 08:33:35 [debug] 2135#0: *1 access phase: 10
+2020/12/04 08:33:35 [debug] 2135#0: *1 access phase: 11
+2020/12/04 08:33:35 [debug] 2135#0: *1 post access phase: 12
+2020/12/04 08:33:35 [debug] 2135#0: *1 http init upstream, client timer: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 epoll add event: fd:21 op:3 ev:80000005
+2020/12/04 08:33:35 [debug] 2135#0: *1 http script copy: "Host: "
+2020/12/04 08:33:35 [debug] 2135#0: *1 http script var: "127.0.0.1:8000"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http script copy: "
+"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http script copy: "Connection: close
+"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http script copy: ""
+2020/12/04 08:33:35 [debug] 2135#0: *1 http script copy: ""
+2020/12/04 08:33:35 [debug] 2135#0: *1 http proxy header: "User-Agent: curl/7.35.0"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http proxy header: "Accept: */*"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http proxy header:
+"GET /question/123/ HTTP/1.0
+Host: 127.0.0.1:8000
+Connection: close
+User-Agent: curl/7.35.0
+Accept: */*
+
+"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http cleanup add: 0000000001E0F4A8
+2020/12/04 08:33:35 [debug] 2135#0: *1 get rr peer, try: 1
+2020/12/04 08:33:35 [debug] 2135#0: *1 socket 22
+2020/12/04 08:33:35 [debug] 2135#0: *1 epoll add connection: fd:22 ev:80000005
+2020/12/04 08:33:35 [debug] 2135#0: *1 connect to 127.0.0.1:8000, fd:22 #2
+2020/12/04 08:33:35 [debug] 2135#0: *1 http upstream connect: -2
+2020/12/04 08:33:35 [debug] 2135#0: *1 posix_memalign: 0000000001E19290:128 @16
+2020/12/04 08:33:35 [debug] 2135#0: *1 event timer add: 22: 60000:1607070875513
+2020/12/04 08:33:35 [debug] 2135#0: *1 http finalize request: -4, "/question/123/?" a:1, c:2
+2020/12/04 08:33:35 [debug] 2135#0: *1 http request count:2 blk:0
+2020/12/04 08:33:35 [debug] 2135#0: *1 post event 0000000001F08048
+2020/12/04 08:33:35 [debug] 2135#0: *1 post event 0000000001EF48A0
+2020/12/04 08:33:35 [debug] 2135#0: *1 post event 0000000001F080B0
+2020/12/04 08:33:35 [debug] 2135#0: *1 delete posted event 0000000001F080B0
+2020/12/04 08:33:35 [debug] 2135#0: *1 http upstream request: "/question/123/?"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http upstream send request handler
+2020/12/04 08:33:35 [debug] 2135#0: *1 http upstream send request
+2020/12/04 08:33:35 [error] 2135#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /question/123/ HTTP/1.1", upstream: "http://127.0.0.1:8000/question/123/", host: "127.0.0.1"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http next upstream, 2
+2020/12/04 08:33:35 [debug] 2135#0: *1 free rr peer 1 4
+2020/12/04 08:33:35 [debug] 2135#0: *1 finalize http upstream request: 502
+2020/12/04 08:33:35 [debug] 2135#0: *1 finalize http proxy request
+2020/12/04 08:33:35 [debug] 2135#0: *1 close http upstream connection: 22
+2020/12/04 08:33:35 [debug] 2135#0: *1 free: 0000000001E19290, unused: 48
+2020/12/04 08:33:35 [debug] 2135#0: *1 event timer del: 22: 1607070875513
+2020/12/04 08:33:35 [debug] 2135#0: *1 delete posted event 0000000001EF48A0
+2020/12/04 08:33:35 [debug] 2135#0: *1 reusable connection: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 http finalize request: 502, "/question/123/?" a:1, c:1
+2020/12/04 08:33:35 [debug] 2135#0: *1 http special response: 502, "/question/123/?"
+2020/12/04 08:33:35 [debug] 2135#0: *1 uploadprogress error-tracker error: 502
+2020/12/04 08:33:35 [debug] 2135#0: *1 uploadprogress error-tracker not tracking in this location
+2020/12/04 08:33:35 [debug] 2135#0: *1 xslt filter header
+2020/12/04 08:33:35 [debug] 2135#0: *1 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 04 Dec 2020 08:33:35 GMT
+Content-Type: text/html
+Content-Length: 181
+Connection: keep-alive
+
+2020/12/04 08:33:35 [debug] 2135#0: *1 write new buf t:1 f:0 0000000001E0F530, pos 0000000001E0F530, size: 165 file: 0, size: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 http write filter: l:0 f:0 s:165
+2020/12/04 08:33:35 [debug] 2135#0: *1 http output filter "/question/123/?"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http copy filter: "/question/123/?"
+2020/12/04 08:33:35 [debug] 2135#0: *1 image filter
+2020/12/04 08:33:35 [debug] 2135#0: *1 xslt filter body
+2020/12/04 08:33:35 [debug] 2135#0: *1 http postpone filter "/question/123/?" 0000000001E0F700
+2020/12/04 08:33:35 [debug] 2135#0: *1 write old buf t:1 f:0 0000000001E0F530, pos 0000000001E0F530, size: 165 file: 0, size: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000007368A0, size: 120 file: 0, size: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000737B80, size: 61 file: 0, size: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 http write filter: l:1 f:0 s:346
+2020/12/04 08:33:35 [debug] 2135#0: *1 http write filter limit 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 writev: 346
+2020/12/04 08:33:35 [debug] 2135#0: *1 http write filter 0000000000000000
+2020/12/04 08:33:35 [debug] 2135#0: *1 http copy filter: 0 "/question/123/?"
+2020/12/04 08:33:35 [debug] 2135#0: *1 http finalize request: 0, "/question/123/?" a:1, c:1
+2020/12/04 08:33:35 [debug] 2135#0: *1 set http keepalive handler
+2020/12/04 08:33:35 [debug] 2135#0: *1 http close request
+2020/12/04 08:33:35 [debug] 2135#0: *1 http log handler
+2020/12/04 08:33:35 [debug] 2135#0: *1 free: 0000000001E18280, unused: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 free: 0000000001E0EDA0, unused: 1499
+2020/12/04 08:33:35 [debug] 2135#0: *1 free: 0000000001EEE810
+2020/12/04 08:33:35 [debug] 2135#0: *1 hc free: 0000000000000000 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 hc busy: 0000000000000000 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 tcp_nodelay
+2020/12/04 08:33:35 [debug] 2135#0: *1 reusable connection: 1
+2020/12/04 08:33:35 [debug] 2135#0: *1 event timer add: 21: 65000:1607070880580
+2020/12/04 08:33:35 [debug] 2135#0: *1 post event 0000000001EF4838
+2020/12/04 08:33:35 [debug] 2135#0: *1 delete posted event 0000000001EF4838
+2020/12/04 08:33:35 [debug] 2135#0: *1 http keepalive handler
+2020/12/04 08:33:35 [debug] 2135#0: *1 malloc: 0000000001EEE810:1024
+2020/12/04 08:33:35 [debug] 2135#0: *1 recv: fd:21 0 of 1024
+2020/12/04 08:33:35 [info] 2135#0: *1 client 127.0.0.1 closed keepalive connection
+2020/12/04 08:33:35 [debug] 2135#0: *1 close http connection: 21
+2020/12/04 08:33:35 [debug] 2135#0: *1 event timer del: 21: 1607070880580
+2020/12/04 08:33:35 [debug] 2135#0: *1 delete posted event 0000000001F08048
+2020/12/04 08:33:35 [debug] 2135#0: *1 reusable connection: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 free: 0000000001EEE810
+2020/12/04 08:33:35 [debug] 2135#0: *1 free: 0000000001E0A780, unused: 0
+2020/12/04 08:33:35 [debug] 2135#0: *1 free: 0000000001E0AA60, unused: 128
+2020/12/04 08:34:55 [debug] 2295#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:34:55 [debug] 2295#0: epoll del event: fd:8 op:2 ev:00000000
+2020/12/04 08:34:55 [debug] 2296#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:35:23 [debug] 2378#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:37:15 [debug] 2539#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:38:08 [debug] 2699#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:45:08 [debug] 2862#0: epoll add event: fd:8 op:1 ev:00000001
+2020/12/04 08:58:58 [debug] 3086#0: epoll add event: fd:8 op:1 ev:00000001
