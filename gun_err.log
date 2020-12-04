@@ -1125,3 +1125,2341 @@ Exception KeyError: KeyError(139654771631936,) in <module 'threading' from '/usr
 2020-12-04 08:59:01 [3181] [INFO] Booting worker with pid: 3181
 2020-12-04 08:59:01 [3187] [INFO] Booting worker with pid: 3187
 2020-12-04 08:59:17 [3153] [DEBUG] GET /question/123/
+2020-12-04 09:08:42 [112] [INFO] Starting gunicorn 17.5
+2020-12-04 09:08:42 [112] [DEBUG] Arbiter booted
+2020-12-04 09:08:42 [112] [INFO] Listening at: http://0.0.0.0:8000 (112)
+2020-12-04 09:08:42 [112] [INFO] Using worker: sync
+2020-12-04 09:08:42 [127] [INFO] Booting worker with pid: 127
+2020-12-04 09:08:42 [129] [INFO] Booting worker with pid: 129
+2020-12-04 09:08:42 [131] [INFO] Booting worker with pid: 131
+2020-12-04 09:08:42 [132] [INFO] Booting worker with pid: 132
+2020-12-04 09:08:42 [135] [INFO] Booting worker with pid: 135
+2020-12-04 09:08:42 [136] [INFO] Booting worker with pid: 136
+2020-12-04 09:08:42 [138] [INFO] Booting worker with pid: 138
+2020-12-04 09:08:42 [140] [INFO] Booting worker with pid: 140
+2020-12-04 09:08:42 [141] [INFO] Booting worker with pid: 141
+2020-12-04 09:08:42 [143] [INFO] Booting worker with pid: 143
+2020-12-04 09:08:42 [145] [INFO] Booting worker with pid: 145
+2020-12-04 09:08:43 [148] [INFO] Booting worker with pid: 148
+2020-12-04 09:08:43 [150] [INFO] Booting worker with pid: 150
+2020-12-04 09:08:43 [151] [INFO] Booting worker with pid: 151
+2020-12-04 09:08:43 [153] [INFO] Booting worker with pid: 153
+2020-12-04 09:08:43 [155] [INFO] Booting worker with pid: 155
+2020-12-04 09:08:51 [148] [DEBUG] GET /
+Invalid HTTP_HOST header: '10.42.167.69:8000'. You may need to add u'10.42.167.69' to ALLOWED_HOSTS.
+2020-12-04 09:09:54 [138] [DEBUG] GET /question/123/
+2020-12-04 09:10:02 [138] [DEBUG] GET /new/
+2020-12-04 09:10:07 [138] [DEBUG] GET /lll/
+Not Found: /lll/
+2020-12-04 09:10:29 [148] [DEBUG] GET /lll/
+Not Found: /lll/
+2020-12-04 09:12:12 [150] [DEBUG] GET /lll/
+Not Found: /lll/
+2020-12-04 09:12:22 [132] [DEBUG] GET /lll/
+Not Found: /lll/
+2020-12-04 09:12:30 [112] [INFO] Handling signal: term
+2020-12-04 09:12:30 [132] [INFO] Worker exiting (pid: 132)
+2020-12-04 09:12:30 [150] [INFO] Worker exiting (pid: 150)
+2020-12-04 09:12:30 [138] [INFO] Worker exiting (pid: 138)
+2020-12-04 09:12:30 [148] [INFO] Worker exiting (pid: 148)
+2020-12-04 09:12:30 [129] [INFO] Worker exiting (pid: 129)
+2020-12-04 09:12:30 [135] [INFO] Worker exiting (pid: 135)
+2020-12-04 09:12:30 [140] [INFO] Worker exiting (pid: 140)
+2020-12-04 09:12:30 [136] [INFO] Worker exiting (pid: 136)
+2020-12-04 09:12:30 [131] [INFO] Worker exiting (pid: 131)
+2020-12-04 09:12:30 [127] [INFO] Worker exiting (pid: 127)
+2020-12-04 09:12:30 [141] [INFO] Worker exiting (pid: 141)
+2020-12-04 09:12:30 [143] [INFO] Worker exiting (pid: 143)
+2020-12-04 09:12:30 [145] [INFO] Worker exiting (pid: 145)
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: SystemExit(0,) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2020-12-04 09:12:30 [112] [INFO] Shutting down: Master
+2020-12-04 09:13:02 [684] [INFO] Starting gunicorn 17.5
+2020-12-04 09:13:02 [684] [DEBUG] Arbiter booted
+2020-12-04 09:13:02 [684] [INFO] Listening at: http://0.0.0.0:8000 (684)
+2020-12-04 09:13:02 [684] [INFO] Using worker: sync
+2020-12-04 09:13:02 [699] [INFO] Booting worker with pid: 699
+2020-12-04 09:13:02 [700] [INFO] Booting worker with pid: 700
+2020-12-04 09:13:02 [702] [INFO] Booting worker with pid: 702
+2020-12-04 09:13:02 [704] [INFO] Booting worker with pid: 704
+2020-12-04 09:13:02 [705] [INFO] Booting worker with pid: 705
+2020-12-04 09:13:02 [708] [INFO] Booting worker with pid: 708
+2020-12-04 09:13:02 [710] [INFO] Booting worker with pid: 710
+2020-12-04 09:13:02 [711] [INFO] Booting worker with pid: 711
+2020-12-04 09:13:02 [713] [INFO] Booting worker with pid: 713
+2020-12-04 09:13:02 [715] [INFO] Booting worker with pid: 715
+2020-12-04 09:13:02 [716] [INFO] Booting worker with pid: 716
+2020-12-04 09:13:03 [719] [INFO] Booting worker with pid: 719
+2020-12-04 09:13:03 [721] [INFO] Booting worker with pid: 721
+2020-12-04 09:13:03 [723] [INFO] Booting worker with pid: 723
+2020-12-04 09:13:03 [726] [INFO] Booting worker with pid: 726
+2020-12-04 09:13:03 [728] [INFO] Booting worker with pid: 728
+2020-12-04 09:13:10 [700] [DEBUG] GET /lll/
+2020-12-04 09:16:46 [700] [DEBUG] GET /dsfs
+2020-12-04 09:17:15 [704] [DEBUG] GET /
+2020-12-04 09:17:28 [726] [DEBUG] GET /
+2020-12-04 09:17:49 [699] [DEBUG] GET /new/
+2020-12-04 09:18:22 [684] [INFO] Handling signal: term
+2020-12-04 09:18:22 [700] [INFO] Worker exiting (pid: 700)
+2020-12-04 09:18:22 [699] [INFO] Worker exiting (pid: 699)
+2020-12-04 09:18:22 [704] [INFO] Worker exiting (pid: 704)
+2020-12-04 09:18:22 [726] [INFO] Worker exiting (pid: 726)
+2020-12-04 09:18:22 [719] [INFO] Worker exiting (pid: 719)
+2020-12-04 09:18:22 [702] [INFO] Worker exiting (pid: 702)
+2020-12-04 09:18:22 [728] [INFO] Worker exiting (pid: 728)
+2020-12-04 09:18:22 [708] [INFO] Worker exiting (pid: 708)
+2020-12-04 09:18:22 [713] [INFO] Worker exiting (pid: 713)
+2020-12-04 09:18:22 [705] [INFO] Worker exiting (pid: 705)
+2020-12-04 09:18:22 [710] [INFO] Worker exiting (pid: 710)
+2020-12-04 09:18:22 [711] [INFO] Worker exiting (pid: 711)
+2020-12-04 09:18:22 [723] [INFO] Worker exiting (pid: 723)
+2020-12-04 09:18:22 [715] [INFO] Worker exiting (pid: 715)
+2020-12-04 09:18:22 [721] [INFO] Worker exiting (pid: 721)
+2020-12-04 09:18:22 [716] [INFO] Worker exiting (pid: 716)
+2020-12-04 09:18:22 [684] [INFO] Shutting down: Master
+2020-12-04 09:18:24 [849] [INFO] Starting gunicorn 17.5
+2020-12-04 09:18:24 [849] [DEBUG] Arbiter booted
+2020-12-04 09:18:24 [849] [INFO] Listening at: http://0.0.0.0:8000 (849)
+2020-12-04 09:18:24 [849] [INFO] Using worker: sync
+2020-12-04 09:18:24 [864] [INFO] Booting worker with pid: 864
+2020-12-04 09:18:24 [866] [INFO] Booting worker with pid: 866
+2020-12-04 09:18:24 [867] [INFO] Booting worker with pid: 867
+2020-12-04 09:18:24 [870] [INFO] Booting worker with pid: 870
+2020-12-04 09:18:24 [873] [INFO] Booting worker with pid: 873
+2020-12-04 09:18:24 [875] [INFO] Booting worker with pid: 875
+2020-12-04 09:18:24 [877] [INFO] Booting worker with pid: 877
+2020-12-04 09:18:24 [879] [INFO] Booting worker with pid: 879
+2020-12-04 09:18:24 [881] [INFO] Booting worker with pid: 881
+2020-12-04 09:18:24 [882] [INFO] Booting worker with pid: 882
+2020-12-04 09:18:24 [883] [INFO] Booting worker with pid: 883
+2020-12-04 09:18:24 [886] [INFO] Booting worker with pid: 886
+2020-12-04 09:18:24 [889] [INFO] Booting worker with pid: 889
+2020-12-04 09:18:24 [891] [INFO] Booting worker with pid: 891
+2020-12-04 09:18:25 [892] [INFO] Booting worker with pid: 892
+2020-12-04 09:18:25 [894] [INFO] Booting worker with pid: 894
+2020-12-04 09:18:32 [864] [DEBUG] GET /new/
+2020-12-04 09:18:39 [889] [DEBUG] GET /
+2020-12-04 09:18:42 [889] [DEBUG] GET /
+2020-12-04 09:18:45 [886] [DEBUG] GET /new
+2020-12-04 09:18:54 [886] [DEBUG] GET /new
+2020-12-04 09:19:09 [883] [DEBUG] GET /new/
+2020-12-04 09:19:14 [873] [DEBUG] GET /newd/
+Not Found: /newd/
+2020-12-04 09:19:28 [889] [DEBUG] GET /new/
+2020-12-04 09:20:15 [849] [INFO] Handling signal: term
+2020-12-04 09:20:15 [873] [INFO] Worker exiting (pid: 873)
+2020-12-04 09:20:15 [883] [INFO] Worker exiting (pid: 883)
+2020-12-04 09:20:15 [889] [INFO] Worker exiting (pid: 889)
+2020-12-04 09:20:15 [864] [INFO] Worker exiting (pid: 864)
+2020-12-04 09:20:15 [886] [INFO] Worker exiting (pid: 886)
+2020-12-04 09:20:15 [891] [INFO] Worker exiting (pid: 891)
+2020-12-04 09:20:15 [892] [INFO] Worker exiting (pid: 892)
+2020-12-04 09:20:15 [894] [INFO] Worker exiting (pid: 894)
+2020-12-04 09:20:15 [866] [INFO] Worker exiting (pid: 866)
+2020-12-04 09:20:15 [867] [INFO] Worker exiting (pid: 867)
+2020-12-04 09:20:15 [870] [INFO] Worker exiting (pid: 870)
+2020-12-04 09:20:15 [882] [INFO] Worker exiting (pid: 882)
+2020-12-04 09:20:15 [877] [INFO] Worker exiting (pid: 877)
+2020-12-04 09:20:15 [881] [INFO] Worker exiting (pid: 881)
+2020-12-04 09:20:15 [879] [INFO] Worker exiting (pid: 879)
+2020-12-04 09:20:15 [875] [INFO] Worker exiting (pid: 875)
+2020-12-04 09:20:15 [849] [INFO] Shutting down: Master
+2020-12-04 09:20:16 [1013] [INFO] Starting gunicorn 17.5
+2020-12-04 09:20:16 [1013] [DEBUG] Arbiter booted
+2020-12-04 09:20:16 [1013] [INFO] Listening at: http://0.0.0.0:8000 (1013)
+2020-12-04 09:20:16 [1013] [INFO] Using worker: sync
+2020-12-04 09:20:16 [1027] [INFO] Booting worker with pid: 1027
+2020-12-04 09:20:17 [1031] [INFO] Booting worker with pid: 1031
+2020-12-04 09:20:17 [1032] [INFO] Booting worker with pid: 1032
+2020-12-04 09:20:17 [1034] [INFO] Booting worker with pid: 1034
+2020-12-04 09:20:17 [1036] [INFO] Booting worker with pid: 1036
+2020-12-04 09:20:17 [1039] [INFO] Booting worker with pid: 1039
+2020-12-04 09:20:17 [1041] [INFO] Booting worker with pid: 1041
+2020-12-04 09:20:17 [1042] [INFO] Booting worker with pid: 1042
+2020-12-04 09:20:17 [1045] [INFO] Booting worker with pid: 1045
+2020-12-04 09:20:17 [1046] [INFO] Booting worker with pid: 1046
+2020-12-04 09:20:17 [1049] [INFO] Booting worker with pid: 1049
+2020-12-04 09:20:17 [1050] [INFO] Booting worker with pid: 1050
+2020-12-04 09:20:17 [1052] [INFO] Booting worker with pid: 1052
+2020-12-04 09:20:18 [1054] [INFO] Booting worker with pid: 1054
+2020-12-04 09:20:18 [1056] [INFO] Booting worker with pid: 1056
+2020-12-04 09:20:18 [1058] [INFO] Booting worker with pid: 1058
+2020-12-04 09:20:25 [1058] [DEBUG] GET /new/
+2020-12-04 09:20:51 [1056] [DEBUG] GET /new/
+2020-12-04 09:21:27 [1049] [DEBUG] GET /new/
+2020-12-04 09:22:38 [1013] [INFO] Handling signal: term
+2020-12-04 09:22:38 [1058] [INFO] Worker exiting (pid: 1058)
+2020-12-04 09:22:38 [1054] [INFO] Worker exiting (pid: 1054)
+2020-12-04 09:22:38 [1049] [INFO] Worker exiting (pid: 1049)
+2020-12-04 09:22:38 [1050] [INFO] Worker exiting (pid: 1050)
+2020-12-04 09:22:38 [1056] [INFO] Worker exiting (pid: 1056)
+2020-12-04 09:22:38 [1052] [INFO] Worker exiting (pid: 1052)
+2020-12-04 09:22:38 [1027] [INFO] Worker exiting (pid: 1027)
+2020-12-04 09:22:38 [1046] [INFO] Worker exiting (pid: 1046)
+2020-12-04 09:22:38 [1039] [INFO] Worker exiting (pid: 1039)
+2020-12-04 09:22:38 [1031] [INFO] Worker exiting (pid: 1031)
+2020-12-04 09:22:38 [1041] [INFO] Worker exiting (pid: 1041)
+2020-12-04 09:22:38 [1045] [INFO] Worker exiting (pid: 1045)
+2020-12-04 09:22:38 [1032] [INFO] Worker exiting (pid: 1032)
+2020-12-04 09:22:38 [1036] [INFO] Worker exiting (pid: 1036)
+2020-12-04 09:22:38 [1042] [INFO] Worker exiting (pid: 1042)
+2020-12-04 09:22:38 [1034] [INFO] Worker exiting (pid: 1034)
+2020-12-04 09:22:38 [1013] [INFO] Shutting down: Master
+2020-12-04 09:22:40 [1177] [INFO] Starting gunicorn 17.5
+2020-12-04 09:22:40 [1177] [DEBUG] Arbiter booted
+2020-12-04 09:22:40 [1177] [INFO] Listening at: http://0.0.0.0:8000 (1177)
+2020-12-04 09:22:40 [1177] [INFO] Using worker: sync
+2020-12-04 09:22:40 [1191] [INFO] Booting worker with pid: 1191
+2020-12-04 09:22:40 [1195] [INFO] Booting worker with pid: 1195
+2020-12-04 09:22:40 [1197] [INFO] Booting worker with pid: 1197
+2020-12-04 09:22:40 [1201] [INFO] Booting worker with pid: 1201
+2020-12-04 09:22:40 [1203] [INFO] Booting worker with pid: 1203
+2020-12-04 09:22:40 [1205] [INFO] Booting worker with pid: 1205
+2020-12-04 09:22:40 [1207] [INFO] Booting worker with pid: 1207
+2020-12-04 09:22:41 [1210] [INFO] Booting worker with pid: 1210
+2020-12-04 09:22:41 [1213] [INFO] Booting worker with pid: 1213
+2020-12-04 09:22:41 [1215] [INFO] Booting worker with pid: 1215
+2020-12-04 09:22:41 [1216] [INFO] Booting worker with pid: 1216
+2020-12-04 09:22:41 [1218] [INFO] Booting worker with pid: 1218
+2020-12-04 09:22:41 [1219] [INFO] Booting worker with pid: 1219
+2020-12-04 09:22:41 [1220] [INFO] Booting worker with pid: 1220
+2020-12-04 09:22:41 [1221] [INFO] Booting worker with pid: 1221
+2020-12-04 09:22:41 [1222] [INFO] Booting worker with pid: 1222
+2020-12-04 09:22:49 [1216] [DEBUG] GET /new/
+2020-12-04 09:22:52 [1216] [DEBUG] GET /newrr/
+Not Found: /newrr/
+2020-12-04 09:23:00 [1207] [DEBUG] GET /
+Invalid HTTP_HOST header: '10.42.167.69:8000'. You may need to add u'10.42.167.69' to ALLOWED_HOSTS.
+2020-12-04 09:27:28 [1177] [INFO] Handling signal: term
+2020-12-04 09:27:28 [1216] [INFO] Worker exiting (pid: 1216)
+2020-12-04 09:27:28 [1207] [INFO] Worker exiting (pid: 1207)
+2020-12-04 09:27:28 [1203] [INFO] Worker exiting (pid: 1203)
+2020-12-04 09:27:28 [1219] [INFO] Worker exiting (pid: 1219)
+2020-12-04 09:27:28 [1222] [INFO] Worker exiting (pid: 1222)
+2020-12-04 09:27:28 [1205] [INFO] Worker exiting (pid: 1205)
+2020-12-04 09:27:28 [1197] [INFO] Worker exiting (pid: 1197)
+Exception SystemExit: Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: Exception SystemExit(0,)SystemExit in : 0 in Exception Exception KeyErrorSystemExit: : KeyError(140100053186368,)0 in  in <module 'threading' from '/usr/lib/python2.7/threading.pyc'><module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+ ignored
+<module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+<module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Error in atexit._run_exitfuncs:
+Exception SystemExit: 0 in Exception KeyError: KeyError(140100053186368,) in  ignored
+<module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Error in atexit._run_exitfuncs:Error in atexit._run_exitfuncs:
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2020-12-04 09:27:28 [1177] [INFO] Shutting down: Master
+2020-12-04 09:32:34 [1457] [INFO] Starting gunicorn 17.5
+2020-12-04 09:32:34 [1457] [DEBUG] Arbiter booted
+2020-12-04 09:32:34 [1457] [INFO] Listening at: http://0.0.0.0:8000 (1457)
+2020-12-04 09:32:34 [1457] [INFO] Using worker: sync
+2020-12-04 09:32:34 [1472] [INFO] Booting worker with pid: 1472
+2020-12-04 09:32:34 [1473] [INFO] Booting worker with pid: 1473
+2020-12-04 09:32:34 [1474] [INFO] Booting worker with pid: 1474
+2020-12-04 09:32:34 [1477] [INFO] Booting worker with pid: 1477
+2020-12-04 09:32:34 [1479] [INFO] Booting worker with pid: 1479
+2020-12-04 09:32:34 [1480] [INFO] Booting worker with pid: 1480
+2020-12-04 09:32:34 [1483] [INFO] Booting worker with pid: 1483
+2020-12-04 09:32:34 [1484] [INFO] Booting worker with pid: 1484
+2020-12-04 09:32:34 [1487] [INFO] Booting worker with pid: 1487
+2020-12-04 09:32:34 [1489] [INFO] Booting worker with pid: 1489
+2020-12-04 09:32:34 [1491] [INFO] Booting worker with pid: 1491
+2020-12-04 09:32:35 [1495] [INFO] Booting worker with pid: 1495
+2020-12-04 09:32:35 [1497] [INFO] Booting worker with pid: 1497
+2020-12-04 09:32:35 [1498] [INFO] Booting worker with pid: 1498
+2020-12-04 09:32:35 [1500] [INFO] Booting worker with pid: 1500
+2020-12-04 09:32:35 [1502] [INFO] Booting worker with pid: 1502
+2020-12-04 09:32:40 [1489] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1489] [INFO] Worker exiting (pid: 1489)
+2020-12-04 09:32:40 [1497] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1497] [INFO] Worker exiting (pid: 1497)
+2020-12-04 09:32:40 [1487] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1487] [INFO] Worker exiting (pid: 1487)
+2020-12-04 09:32:40 [1495] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1495] [INFO] Worker exiting (pid: 1495)
+2020-12-04 09:32:40 [1502] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1491] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1498] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1502] [INFO] Worker exiting (pid: 1502)
+2020-12-04 09:32:40 [1498] [INFO] Worker exiting (pid: 1498)
+2020-12-04 09:32:40 [1491] [INFO] Worker exiting (pid: 1491)
+2020-12-04 09:32:40 [1500] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1500] [INFO] Worker exiting (pid: 1500)
+2020-12-04 09:32:40 [1483] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1483] [INFO] Worker exiting (pid: 1483)
+2020-12-04 09:32:40 [1479] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1477] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1480] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1479] [INFO] Worker exiting (pid: 1479)
+2020-12-04 09:32:40 [1480] [INFO] Worker exiting (pid: 1480)
+2020-12-04 09:32:40 [1477] [INFO] Worker exiting (pid: 1477)
+2020-12-04 09:32:40 [1473] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1473] [INFO] Worker exiting (pid: 1473)
+2020-12-04 09:32:40 [1484] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1474] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1474] [INFO] Worker exiting (pid: 1474)
+2020-12-04 09:32:40 [1472] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 40
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:32:40 [1472] [INFO] Worker exiting (pid: 1472)
+2020-12-04 09:32:40 [1484] [INFO] Worker exiting (pid: 1484)
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 9, in <module>
+    load_entry_point('gunicorn==17.5', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 42, in run
+    WSGIApplication("%(prog)s [OPTIONS] APP_MODULE").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 144, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 196, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 291, in halt
+    self.stop()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 334, in stop
+    self.reap_workers()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 430, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2020-12-04 09:33:59 [1652] [INFO] Starting gunicorn 17.5
+2020-12-04 09:33:59 [1652] [DEBUG] Arbiter booted
+2020-12-04 09:33:59 [1652] [INFO] Listening at: http://0.0.0.0:8000 (1652)
+2020-12-04 09:33:59 [1652] [INFO] Using worker: sync
+2020-12-04 09:33:59 [1666] [INFO] Booting worker with pid: 1666
+2020-12-04 09:33:59 [1668] [INFO] Booting worker with pid: 1668
+2020-12-04 09:33:59 [1670] [INFO] Booting worker with pid: 1670
+2020-12-04 09:33:59 [1673] [INFO] Booting worker with pid: 1673
+2020-12-04 09:33:59 [1674] [INFO] Booting worker with pid: 1674
+2020-12-04 09:33:59 [1675] [INFO] Booting worker with pid: 1675
+2020-12-04 09:34:00 [1677] [INFO] Booting worker with pid: 1677
+2020-12-04 09:34:00 [1678] [INFO] Booting worker with pid: 1678
+2020-12-04 09:34:00 [1680] [INFO] Booting worker with pid: 1680
+2020-12-04 09:34:00 [1683] [INFO] Booting worker with pid: 1683
+2020-12-04 09:34:00 [1686] [INFO] Booting worker with pid: 1686
+2020-12-04 09:34:00 [1687] [INFO] Booting worker with pid: 1687
+2020-12-04 09:34:00 [1689] [INFO] Booting worker with pid: 1689
+2020-12-04 09:34:00 [1692] [INFO] Booting worker with pid: 1692
+2020-12-04 09:34:00 [1695] [INFO] Booting worker with pid: 1695
+2020-12-04 09:34:00 [1696] [INFO] Booting worker with pid: 1696
+2020-12-04 09:34:05 [1689] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1677] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1689] [INFO] Worker exiting (pid: 1689)
+2020-12-04 09:34:05 [1695] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1680] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1695] [INFO] Worker exiting (pid: 1695)
+2020-12-04 09:34:05 [1680] [INFO] Worker exiting (pid: 1680)
+2020-12-04 09:34:05 [1687] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1687] [INFO] Worker exiting (pid: 1687)
+2020-12-04 09:34:05 [1686] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1683] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1683] [INFO] Worker exiting (pid: 1683)
+2020-12-04 09:34:05 [1686] [INFO] Worker exiting (pid: 1686)
+2020-12-04 09:34:05 [1696] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1696] [INFO] Worker exiting (pid: 1696)
+2020-12-04 09:34:05 [1692] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1692] [INFO] Worker exiting (pid: 1692)
+2020-12-04 09:34:05 [1677] [INFO] Worker exiting (pid: 1677)
+2020-12-04 09:34:05 [1674] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1674] [INFO] Worker exiting (pid: 1674)
+2020-12-04 09:34:05 [1673] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1673] [INFO] Worker exiting (pid: 1673)
+2020-12-04 09:34:05 [1668] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1668] [INFO] Worker exiting (pid: 1668)
+2020-12-04 09:34:05 [1670] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1678] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1678] [INFO] Worker exiting (pid: 1678)
+2020-12-04 09:34:05 [1670] [INFO] Worker exiting (pid: 1670)
+2020-12-04 09:34:05 [1666] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1666] [INFO] Worker exiting (pid: 1666)
+2020-12-04 09:34:05 [1675] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 97, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 50
+    ,
+    ^
+SyntaxError: invalid syntax
+2020-12-04 09:34:05 [1675] [INFO] Worker exiting (pid: 1675)
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 9, in <module>
+    load_entry_point('gunicorn==17.5', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 42, in run
+    WSGIApplication("%(prog)s [OPTIONS] APP_MODULE").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 144, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 196, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 291, in halt
+    self.stop()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 334, in stop
+    self.reap_workers()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 430, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2020-12-04 09:35:18 [1847] [INFO] Starting gunicorn 17.5
+2020-12-04 09:35:18 [1847] [DEBUG] Arbiter booted
+2020-12-04 09:35:18 [1847] [INFO] Listening at: http://0.0.0.0:8000 (1847)
+2020-12-04 09:35:18 [1847] [INFO] Using worker: sync
+2020-12-04 09:35:18 [1861] [INFO] Booting worker with pid: 1861
+2020-12-04 09:35:18 [1863] [INFO] Booting worker with pid: 1863
+2020-12-04 09:35:18 [1866] [INFO] Booting worker with pid: 1866
+2020-12-04 09:35:18 [1867] [INFO] Booting worker with pid: 1867
+2020-12-04 09:35:18 [1869] [INFO] Booting worker with pid: 1869
+2020-12-04 09:35:18 [1871] [INFO] Booting worker with pid: 1871
+2020-12-04 09:35:18 [1872] [INFO] Booting worker with pid: 1872
+2020-12-04 09:35:19 [1875] [INFO] Booting worker with pid: 1875
+2020-12-04 09:35:19 [1876] [INFO] Booting worker with pid: 1876
+2020-12-04 09:35:19 [1878] [INFO] Booting worker with pid: 1878
+2020-12-04 09:35:19 [1881] [INFO] Booting worker with pid: 1881
+2020-12-04 09:35:19 [1882] [INFO] Booting worker with pid: 1882
+2020-12-04 09:35:19 [1884] [INFO] Booting worker with pid: 1884
+2020-12-04 09:35:19 [1886] [INFO] Booting worker with pid: 1886
+2020-12-04 09:35:19 [1890] [INFO] Booting worker with pid: 1890
+2020-12-04 09:35:19 [1889] [INFO] Booting worker with pid: 1889
+2020-12-04 09:35:49 [1884] [DEBUG] GET /
+Invalid HTTP_HOST header: '10.42.167.69:8000'. You may need to add u'10.42.167.69' to ALLOWED_HOSTS.
+2020-12-04 09:36:06 [1847] [INFO] Handling signal: term
+2020-12-04 09:36:06 [1884] [INFO] Worker exiting (pid: 1884)
+2020-12-04 09:36:06 [1886] [INFO] Worker exiting (pid: 1886)
+2020-12-04 09:36:06 [1867] [INFO] Worker exiting (pid: 1867)
+2020-12-04 09:36:06 [1890] [INFO] Worker exiting (pid: 1890)
+2020-12-04 09:36:06 [1863] [INFO] Worker exiting (pid: 1863)
+2020-12-04 09:36:06 [1861] [INFO] Worker exiting (pid: 1861)
+2020-12-04 09:36:06 [1869] [INFO] Worker exiting (pid: 1869)
+2020-12-04 09:36:06 [1889] [INFO] Worker exiting (pid: 1889)
+2020-12-04 09:36:06 [1872] [INFO] Worker exiting (pid: 1872)
+2020-12-04 09:36:06 [1876] [INFO] Worker exiting (pid: 1876)
+2020-12-04 09:36:06 [1875] [INFO] Worker exiting (pid: 1875)
+2020-12-04 09:36:06 [1866] [INFO] Worker exiting (pid: 1866)
+2020-12-04 09:36:06 [1871] [INFO] Worker exiting (pid: 1871)
+2020-12-04 09:36:06 [1878] [INFO] Worker exiting (pid: 1878)
+2020-12-04 09:36:06 [1881] [INFO] Worker exiting (pid: 1881)
+2020-12-04 09:36:06 [1882] [INFO] Worker exiting (pid: 1882)
+2020-12-04 09:36:06 [1847] [INFO] Shutting down: Master
+2020-12-04 09:36:07 [2041] [INFO] Starting gunicorn 17.5
+2020-12-04 09:36:07 [2041] [DEBUG] Arbiter booted
+2020-12-04 09:36:07 [2041] [INFO] Listening at: http://0.0.0.0:8000 (2041)
+2020-12-04 09:36:07 [2041] [INFO] Using worker: sync
+2020-12-04 09:36:07 [2056] [INFO] Booting worker with pid: 2056
+2020-12-04 09:36:07 [2058] [INFO] Booting worker with pid: 2058
+2020-12-04 09:36:08 [2060] [INFO] Booting worker with pid: 2060
+2020-12-04 09:36:08 [2063] [INFO] Booting worker with pid: 2063
+2020-12-04 09:36:08 [2066] [INFO] Booting worker with pid: 2066
+2020-12-04 09:36:08 [2068] [INFO] Booting worker with pid: 2068
+2020-12-04 09:36:08 [2069] [INFO] Booting worker with pid: 2069
+2020-12-04 09:36:08 [2072] [INFO] Booting worker with pid: 2072
+2020-12-04 09:36:08 [2074] [INFO] Booting worker with pid: 2074
+2020-12-04 09:36:08 [2075] [INFO] Booting worker with pid: 2075
+2020-12-04 09:36:08 [2078] [INFO] Booting worker with pid: 2078
+2020-12-04 09:36:08 [2080] [INFO] Booting worker with pid: 2080
+2020-12-04 09:36:08 [2082] [INFO] Booting worker with pid: 2082
+2020-12-04 09:36:09 [2083] [INFO] Booting worker with pid: 2083
+2020-12-04 09:36:09 [2085] [INFO] Booting worker with pid: 2085
+2020-12-04 09:36:09 [2086] [INFO] Booting worker with pid: 2086
+2020-12-04 09:38:08 [2041] [INFO] Handling signal: term
+2020-12-04 09:38:08 [2080] [INFO] Worker exiting (pid: 2080)
+2020-12-04 09:38:08 [2083] [INFO] Worker exiting (pid: 2083)
+2020-12-04 09:38:08 [2086] [INFO] Worker exiting (pid: 2086)
+2020-12-04 09:38:08 [2056] [INFO] Worker exiting (pid: 2056)
+2020-12-04 09:38:08 [2082] [INFO] Worker exiting (pid: 2082)
+2020-12-04 09:38:08 [2069] [INFO] Worker exiting (pid: 2069)
+2020-12-04 09:38:08 [2060] [INFO] Worker exiting (pid: 2060)
+2020-12-04 09:38:08 [2078] [INFO] Worker exiting (pid: 2078)
+2020-12-04 09:38:08 [2058] [INFO] Worker exiting (pid: 2058)
+2020-12-04 09:38:08 [2063] [INFO] Worker exiting (pid: 2063)
+2020-12-04 09:38:08 [2072] [INFO] Worker exiting (pid: 2072)
+2020-12-04 09:38:08 [2068] [INFO] Worker exiting (pid: 2068)
+2020-12-04 09:38:08 [2085] [INFO] Worker exiting (pid: 2085)
+2020-12-04 09:38:08 [2066] [INFO] Worker exiting (pid: 2066)
+2020-12-04 09:38:08 [2074] [INFO] Worker exiting (pid: 2074)
+2020-12-04 09:38:08 [2075] [INFO] Worker exiting (pid: 2075)
+2020-12-04 09:38:09 [2041] [INFO] Shutting down: Master
+2020-12-04 09:38:10 [2198] [INFO] Starting gunicorn 17.5
+2020-12-04 09:38:10 [2198] [DEBUG] Arbiter booted
+2020-12-04 09:38:10 [2198] [INFO] Listening at: http://0.0.0.0:8000 (2198)
+2020-12-04 09:38:10 [2198] [INFO] Using worker: sync
+2020-12-04 09:38:10 [2212] [INFO] Booting worker with pid: 2212
+2020-12-04 09:38:10 [2213] [INFO] Booting worker with pid: 2213
+2020-12-04 09:38:11 [2215] [INFO] Booting worker with pid: 2215
+2020-12-04 09:38:11 [2218] [INFO] Booting worker with pid: 2218
+2020-12-04 09:38:11 [2220] [INFO] Booting worker with pid: 2220
+2020-12-04 09:38:11 [2222] [INFO] Booting worker with pid: 2222
+2020-12-04 09:38:11 [2223] [INFO] Booting worker with pid: 2223
+2020-12-04 09:38:11 [2225] [INFO] Booting worker with pid: 2225
+2020-12-04 09:38:11 [2227] [INFO] Booting worker with pid: 2227
+2020-12-04 09:38:11 [2229] [INFO] Booting worker with pid: 2229
+2020-12-04 09:38:11 [2231] [INFO] Booting worker with pid: 2231
+2020-12-04 09:38:11 [2233] [INFO] Booting worker with pid: 2233
+2020-12-04 09:38:11 [2235] [INFO] Booting worker with pid: 2235
+2020-12-04 09:38:11 [2237] [INFO] Booting worker with pid: 2237
+2020-12-04 09:38:11 [2239] [INFO] Booting worker with pid: 2239
+2020-12-04 09:38:11 [2240] [INFO] Booting worker with pid: 2240
+2020-12-04 09:38:20 [2239] [DEBUG] GET /
+2020-12-04 09:38:20 [2225] [DEBUG] GET /
+2020-12-04 09:38:20 [2225] [DEBUG] GET /login/
+2020-12-04 09:38:20 [2225] [DEBUG] GET /signup/
+2020-12-04 09:38:20 [2215] [DEBUG] GET /question/321/
+2020-12-04 09:38:20 [2225] [DEBUG] GET /question/77/
+2020-12-04 09:38:20 [2218] [DEBUG] GET /ask/
+2020-12-04 09:38:20 [2222] [DEBUG] GET /popular/
+2020-12-04 09:38:21 [2222] [DEBUG] GET /new/
+2020-12-04 09:38:21 [2218] [DEBUG] GET /blablabla/
+Not Found: /blablabla/
+2020-12-04 09:38:21 [2222] [DEBUG] GET /
