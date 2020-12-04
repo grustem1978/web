@@ -3463,3 +3463,45 @@ Invalid HTTP_HOST header: '10.42.167.69:8000'. You may need to add u'10.42.167.6
 2020-12-04 09:38:21 [2218] [DEBUG] GET /blablabla/
 Not Found: /blablabla/
 2020-12-04 09:38:21 [2222] [DEBUG] GET /
+2020-12-04 09:40:42 [2222] [DEBUG] GET /ggs/
+Not Found: /ggs/
+2020-12-04 09:41:12 [2198] [INFO] Handling signal: term
+2020-12-04 09:41:12 [2218] [INFO] Worker exiting (pid: 2218)
+2020-12-04 09:41:12 [2239] [INFO] Worker exiting (pid: 2239)
+2020-12-04 09:41:12 [2225] [INFO] Worker exiting (pid: 2225)
+2020-12-04 09:41:12 [2222] [INFO] Worker exiting (pid: 2222)
+2020-12-04 09:41:12 [2215] [INFO] Worker exiting (pid: 2215)
+2020-12-04 09:41:12 [2240] [INFO] Worker exiting (pid: 2240)
+2020-12-04 09:41:12 [2213] [INFO] Worker exiting (pid: 2213)
+2020-12-04 09:41:12 [2212] [INFO] Worker exiting (pid: 2212)
+2020-12-04 09:41:12 [2223] [INFO] Worker exiting (pid: 2223)
+2020-12-04 09:41:12 [2231] [INFO] Worker exiting (pid: 2231)
+2020-12-04 09:41:12 [2233] [INFO] Worker exiting (pid: 2233)
+2020-12-04 09:41:12 [2237] [INFO] Worker exiting (pid: 2237)
+2020-12-04 09:41:12 [2229] [INFO] Worker exiting (pid: 2229)
+2020-12-04 09:41:12 [2220] [INFO] Worker exiting (pid: 2220)
+2020-12-04 09:41:12 [2227] [INFO] Worker exiting (pid: 2227)
+2020-12-04 09:41:12 [2235] [INFO] Worker exiting (pid: 2235)
+2020-12-04 09:41:12 [2198] [INFO] Shutting down: Master
+2020-12-04 09:41:14 [2403] [INFO] Starting gunicorn 17.5
+2020-12-04 09:41:14 [2403] [DEBUG] Arbiter booted
+2020-12-04 09:41:14 [2403] [INFO] Listening at: http://0.0.0.0:8000 (2403)
+2020-12-04 09:41:14 [2403] [INFO] Using worker: sync
+2020-12-04 09:41:14 [2417] [INFO] Booting worker with pid: 2417
+2020-12-04 09:41:14 [2419] [INFO] Booting worker with pid: 2419
+2020-12-04 09:41:14 [2422] [INFO] Booting worker with pid: 2422
+2020-12-04 09:41:14 [2424] [INFO] Booting worker with pid: 2424
+2020-12-04 09:41:14 [2426] [INFO] Booting worker with pid: 2426
+2020-12-04 09:41:14 [2427] [INFO] Booting worker with pid: 2427
+2020-12-04 09:41:14 [2429] [INFO] Booting worker with pid: 2429
+2020-12-04 09:41:14 [2431] [INFO] Booting worker with pid: 2431
+2020-12-04 09:41:14 [2432] [INFO] Booting worker with pid: 2432
+2020-12-04 09:41:14 [2434] [INFO] Booting worker with pid: 2434
+2020-12-04 09:41:14 [2436] [INFO] Booting worker with pid: 2436
+2020-12-04 09:41:15 [2437] [INFO] Booting worker with pid: 2437
+2020-12-04 09:41:15 [2440] [INFO] Booting worker with pid: 2440
+2020-12-04 09:41:15 [2441] [INFO] Booting worker with pid: 2441
+2020-12-04 09:41:15 [2444] [INFO] Booting worker with pid: 2444
+2020-12-04 09:41:15 [2446] [INFO] Booting worker with pid: 2446
+2020-12-04 09:41:23 [2434] [DEBUG] GET /ggs/
+2020-12-04 09:41:34 [2434] [DEBUG] GET /new/
