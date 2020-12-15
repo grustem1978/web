@@ -13,17 +13,13 @@ class QuestionManager(models.Manager):
 
 
 
-
-
-
-
 class Question(models.Model):
   objects = QuestionManager() 
   title = models.CharField(max_length=255)
   text = models.TextField()
   added_ad = models.DateTimeField(blank = True, auto_now_add=True)
   rating = models.IntegerField(default=0)
-  author = models.ForeignKey(User)
+  author = models.ForeignKey(User, default= 'x')
   likes = models.ManyToManyField(User, related_name='likes_set')
   def __unicode__(self):
     return self.title
@@ -40,7 +36,7 @@ class Answer(models.Model):
   text = models.TextField()
   added_ad = models.DateTimeField(blank = True, auto_now_add=True)
   question = models.ForeignKey(Question)
-  author = models.ForeignKey(User)
+  author = models.ForeignKey(User, default= 'x')
   def __unicode__(self):
     return self.text
 #  def get_absolute_url(self):
