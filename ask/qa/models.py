@@ -11,8 +11,6 @@ class QuestionManager(models.Manager):
   def popular(self): 
     return self.order_by('-rating')
 
-
-
 class Question(models.Model):
   objects = QuestionManager() 
   title = models.CharField(max_length=255)
@@ -26,7 +24,6 @@ class Question(models.Model):
   class Meta:
     db_table = 'questions'
     ordering = ['-added_at']
-
 
 
 class Answer(models.Model): 
